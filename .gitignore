@@ -23,3 +23,5 @@ Thumbs.db
 
 # Vercel 本地关联信息
 .vercel/
+.vercel_python_packages/
+.vercel
