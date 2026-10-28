@@ -1,0 +1,2400 @@
+{
+  "source": "NightreignQuickRef ordinary, deep-night, and in-game deep-night entries",
+  "matched_effect_ids": 397,
+  "mappings": {
+    "8000000": {
+      "name_zh": "提升血量上限",
+      "category_zh": "能力值",
+      "explanation_zh": "生命值上限+10% / +15%",
+      "stackability_zh": "可叠加"
+    },
+    "8010000": {
+      "name_zh": "提升专注值上限",
+      "category_zh": "能力值",
+      "explanation_zh": "专注值上限+10% / +15%",
+      "stackability_zh": "可叠加"
+    },
+    "8010100": {
+      "name_zh": "减少专注值消耗",
+      "category_zh": "能力值",
+      "explanation_zh": "专注值消耗-10% / -15%",
+      "stackability_zh": "可叠加"
+    },
+    "8020000": {
+      "name_zh": "提升精力上限",
+      "category_zh": "能力值",
+      "explanation_zh": "精力值上限+10% / +15%",
+      "stackability_zh": "可叠加"
+    },
+    "8020200": {
+      "name_zh": "提升精力恢复速度",
+      "category_zh": "能力值",
+      "explanation_zh": "精力回复速度+4点/秒 / +6点/秒",
+      "stackability_zh": "可叠加"
+    },
+    "8100000": {
+      "name_zh": "提升物理攻击力",
+      "category_zh": "攻击力",
+      "explanation_zh": "造成的物理属性伤害+6% / +9%",
+      "stackability_zh": "可叠加"
+    },
+    "8100100": {
+      "name_zh": "提升魔力属性攻击力",
+      "category_zh": "攻击力",
+      "explanation_zh": "造成的魔力属性伤害+6% / +9% / +12%",
+      "stackability_zh": "可叠加"
+    },
+    "8100200": {
+      "name_zh": "提升火属性攻击力",
+      "category_zh": "攻击力",
+      "explanation_zh": "造成的火属性伤害+6% / +9% / +12%",
+      "stackability_zh": "可叠加"
+    },
+    "8100300": {
+      "name_zh": "提升雷属性攻击力",
+      "category_zh": "攻击力",
+      "explanation_zh": "造成的雷属性伤害+6% / +9% / +12%",
+      "stackability_zh": "可叠加"
+    },
+    "8100400": {
+      "name_zh": "提升圣属性攻击力",
+      "category_zh": "攻击力",
+      "explanation_zh": "造成的圣属性伤害+6% / +9% / +12%",
+      "stackability_zh": "可叠加"
+    },
+    "8110000": {
+      "name_zh": "附加异常状态中毒",
+      "category_zh": "附加异常状态",
+      "explanation_zh": "附加中毒值18 / 23 / 30",
+      "stackability_zh": "不可叠加"
+    },
+    "8110100": {
+      "name_zh": "附加异常状态出血",
+      "category_zh": "附加异常状态",
+      "explanation_zh": "附加出血值18 / 23 / 30",
+      "stackability_zh": "不可叠加"
+    },
+    "8110200": {
+      "name_zh": "附加异常状态催眠",
+      "category_zh": "附加异常状态",
+      "explanation_zh": "附加睡眠值18 / 23 / 30",
+      "stackability_zh": "不可叠加"
+    },
+    "8110400": {
+      "name_zh": "附加异常状态腐败",
+      "category_zh": "附加异常状态",
+      "explanation_zh": "附加腐败值18 / 23 / 30",
+      "stackability_zh": "不可叠加"
+    },
+    "8110500": {
+      "name_zh": "附加异常状态冻伤",
+      "category_zh": "附加异常状态",
+      "explanation_zh": "附加冻伤值18 / 23 / 30",
+      "stackability_zh": "不可叠加"
+    },
+    "8110700": {
+      "name_zh": "武器变为火属性",
+      "category_zh": "武器属性",
+      "explanation_zh": "降低物理攻击力25 / 30 / 35 / 26，并增加火属性攻击力25 / 30 / 35 / 26",
+      "stackability_zh": "不可叠加"
+    },
+    "8110800": {
+      "name_zh": "武器变为魔力属性",
+      "category_zh": "武器属性",
+      "explanation_zh": "降低物理攻击力25 / 30 / 35 / 26，并增加魔力属性攻击力25 / 30 / 35 / 26",
+      "stackability_zh": "不可叠加"
+    },
+    "8110900": {
+      "name_zh": "武器变为雷属性",
+      "category_zh": "武器属性",
+      "explanation_zh": "降低物理攻击力25 / 30 / 35 / 26，并增加雷属性攻击力25 / 30 / 35 / 26",
+      "stackability_zh": "不可叠加"
+    },
+    "8111000": {
+      "name_zh": "武器变为圣属性",
+      "category_zh": "武器属性",
+      "explanation_zh": "降低物理攻击力25 / 30 / 35 / 26，并增加圣属性攻击力25 / 30 / 35 / 26",
+      "stackability_zh": "不可叠加"
+    },
+    "8120000": {
+      "name_zh": "提升让敌人失去平衡的能力",
+      "category_zh": "攻击力",
+      "explanation_zh": "造成的削韧+10% / +15%",
+      "stackability_zh": "可叠加"
+    },
+    "8130000": {
+      "name_zh": "强化致命一击",
+      "category_zh": "攻击力",
+      "explanation_zh": "致命一击造成的伤害+12% / +18% / +24%",
+      "stackability_zh": "可叠加"
+    },
+    "8140000": {
+      "name_zh": "提升瓦解防御的能力",
+      "category_zh": "攻击力",
+      "explanation_zh": "攻击举盾防御的敌人时，敌人消耗的精力值+30% / +45% / +60%",
+      "stackability_zh": "可叠加"
+    },
+    "8200000": {
+      "name_zh": "提升物理减伤率",
+      "category_zh": "减伤率",
+      "explanation_zh": "受到的物理属性伤害-12% / -18%",
+      "stackability_zh": "可叠加"
+    },
+    "8200100": {
+      "name_zh": "提升魔力属性减伤率",
+      "category_zh": "减伤率",
+      "explanation_zh": "受到的魔力属性伤害-12% / -16% / -20%",
+      "stackability_zh": "可叠加"
+    },
+    "8200200": {
+      "name_zh": "提升火属性减伤率",
+      "category_zh": "减伤率",
+      "explanation_zh": "受到的火属性伤害-12% / -16% / -20%",
+      "stackability_zh": "可叠加"
+    },
+    "8200300": {
+      "name_zh": "提升雷属性减伤率",
+      "category_zh": "减伤率",
+      "explanation_zh": "受到的雷属性伤害-12% / -16% / -20%",
+      "stackability_zh": "可叠加"
+    },
+    "8200400": {
+      "name_zh": "提升圣属性减伤率",
+      "category_zh": "减伤率",
+      "explanation_zh": "受到的圣属性伤害-12% / -16% / -20%",
+      "stackability_zh": "可叠加"
+    },
+    "8200500": {
+      "name_zh": "提升物理以外的减伤率",
+      "category_zh": "减伤率",
+      "explanation_zh": "减少受到的除物理外伤害-12% / -18%",
+      "stackability_zh": "可叠加"
+    },
+    "8210000": {
+      "name_zh": "提升对中毒的抵抗力",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "中毒异常耐受上限+57 / +75 / +112点",
+      "stackability_zh": "可叠加"
+    },
+    "8210100": {
+      "name_zh": "提升对出血的抵抗力",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "出血异常耐受上限+57 / +75 / +112点",
+      "stackability_zh": "可叠加"
+    },
+    "8210200": {
+      "name_zh": "提升对催眠的抵抗力",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "催眠异常耐受上限+57 / +75 / +112点",
+      "stackability_zh": "可叠加"
+    },
+    "8210300": {
+      "name_zh": "提升对骤死的抵抗力",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "骤死异常耐受上限+57 / +75 / +112点",
+      "stackability_zh": "可叠加"
+    },
+    "8210400": {
+      "name_zh": "提升对腐败的抵抗力",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "腐败异常耐受上限+57 / +75 / +112点",
+      "stackability_zh": "可叠加"
+    },
+    "8210500": {
+      "name_zh": "提升对冻伤的抵抗力",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "冻伤异常耐受上限+57 / +75 / +112点",
+      "stackability_zh": "可叠加"
+    },
+    "8210600": {
+      "name_zh": "提升对发狂的抵抗力",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "发狂异常耐受上限+57 / +75 / +112点",
+      "stackability_zh": "可叠加"
+    },
+    "8220000": {
+      "name_zh": "提升防御强度",
+      "category_zh": "能力值",
+      "explanation_zh": "防御时，最终损失的精力值-10%",
+      "stackability_zh": "可叠加"
+    },
+    "8220001": {
+      "name_zh": "提升防御强度＋１",
+      "category_zh": "能力值",
+      "explanation_zh": "防御时，最终损失的精力值-15%",
+      "stackability_zh": "可叠加"
+    },
+    "8220002": {
+      "name_zh": "提升防御强度＋２",
+      "category_zh": "能力值",
+      "explanation_zh": "防御时，最终损失的精力值-20%",
+      "stackability_zh": "可叠加"
+    },
+    "8230000": {
+      "name_zh": "提升强韧度",
+      "category_zh": "能力值",
+      "explanation_zh": "受到的韧性伤害-25% / -38%",
+      "stackability_zh": "可叠加"
+    },
+    "8300000": {
+      "name_zh": "提升双手共持时的攻击力",
+      "category_zh": "攻击力",
+      "explanation_zh": "双手共持武器时造成的伤害+7% / +10% / +13%",
+      "stackability_zh": "可叠加"
+    },
+    "8300100": {
+      "name_zh": "提升双手共持时，造成失去平衡的能力",
+      "category_zh": "攻击力",
+      "explanation_zh": "双手共持武器时造成的韧性伤害+5% / +6% / +7%",
+      "stackability_zh": "可叠加"
+    },
+    "8310000": {
+      "name_zh": "提升双手各持时的攻击力",
+      "category_zh": "攻击力",
+      "explanation_zh": "双手各持武器时造成的伤害+7% / +10% / +13%",
+      "stackability_zh": "可叠加"
+    },
+    "8310100": {
+      "name_zh": "提升双手各持时，造成失去平衡的能力",
+      "category_zh": "攻击力",
+      "explanation_zh": "双手各持武器时造成的韧性伤害+5% / +6% / +7%",
+      "stackability_zh": "可叠加"
+    },
+    "8320000": {
+      "name_zh": "强化连续攻击的最后攻击",
+      "category_zh": "攻击力",
+      "explanation_zh": "连续攻击的最后攻击伤害+21% / +26% / +31%",
+      "stackability_zh": "可叠加"
+    },
+    "8320100": {
+      "name_zh": "强化蓄力攻击",
+      "category_zh": "攻击力",
+      "explanation_zh": "蓄力攻击的伤害+6% / +9% / +12%",
+      "stackability_zh": "可叠加"
+    },
+    "8320300": {
+      "name_zh": "强化跳跃攻击",
+      "category_zh": "攻击力",
+      "explanation_zh": "跳跃攻击造成的伤害+14% / +17% / +20%",
+      "stackability_zh": "可叠加"
+    },
+    "8320400": {
+      "name_zh": "蓄力攻击时，提升减伤率",
+      "category_zh": "减伤率",
+      "explanation_zh": "∘ 使用蓄力攻击时，产生一个10秒增益状态，受到的伤害-24% / -32% / -40%;\n∘ 持续时间内再次蓄力攻击命中，可刷新持续时间;\n∘ 三种级别叠加时，最高减伤率计算：\n      1. 总承受伤害比例 = (1-24%)×(1-32%)×(1-40%) = 31.008%\n      2. 最高减伤率 = 1 - 总承受伤害比例 = 68.992%",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "8330000": {
+      "name_zh": "强化魔法",
+      "category_zh": "强化",
+      "explanation_zh": "魔法造成的伤害+5% / +8% / +11% (只要用魔法杖打出的都算）",
+      "stackability_zh": "可叠加"
+    },
+    "8330100": {
+      "name_zh": "强化祷告",
+      "category_zh": "强化",
+      "explanation_zh": "祷告造成的伤害+5% / +8% / +11%",
+      "stackability_zh": "可叠加"
+    },
+    "8330200": {
+      "name_zh": "强化魔法的蓄力施展",
+      "category_zh": "强化",
+      "explanation_zh": "蓄力魔法的伤害+9% / +13% / +18%",
+      "stackability_zh": "可叠加"
+    },
+    "8330300": {
+      "name_zh": "强化祷告的蓄力执行",
+      "category_zh": "强化",
+      "explanation_zh": "蓄力祷告的伤害+9% / +13% / +18%",
+      "stackability_zh": "可叠加"
+    },
+    "8330400": {
+      "name_zh": "缩短魔法、祷告的咏唱时间",
+      "category_zh": "强化",
+      "explanation_zh": "增加相当于30 / 60点灵巧所带来的施法速度",
+      "stackability_zh": "可叠加"
+    },
+    "8330500": {
+      "name_zh": "延长魔法、祷告的有效时间",
+      "category_zh": "强化",
+      "explanation_zh": "延长魔法、祷告的有效时间(延长佩戴时长的200%，向下取整)",
+      "stackability_zh": "可叠加"
+    },
+    "8330600": {
+      "name_zh": "减少魔法、祷告专注值消耗",
+      "category_zh": "强化",
+      "explanation_zh": "魔法、祷告专注值消耗-10% / -15% / -20%",
+      "stackability_zh": "可叠加"
+    },
+    "8330700": {
+      "name_zh": "龙飨祷告对武器附加增伤【龙】",
+      "category_zh": "强化",
+      "explanation_zh": "使用龙飨祷告会对武器施加45秒\"龙特攻\"附魔，对古龙造成1.2倍伤害，对普通龙造成1.3倍伤害",
+      "stackability_zh": "未知"
+    },
+    "8330900": {
+      "name_zh": "咏唱魔法、祷告时，提升减伤率",
+      "category_zh": "减伤率",
+      "explanation_zh": "∘ 咏唱魔法、祷告时，受到的伤害-18% / -24% / -30%；\n∘ 施法动作期间维持减伤，结束还会维持0.5s;\n∘ 三种级别叠加时，最高减伤率计算：\n      1. 总承受伤害比例 = (1-18%)×(1-24%)×(1-30%) = 43.624%\n      2. 最高减伤率 = 1 - 总承受伤害比例 = 56.376%",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "8340000": {
+      "name_zh": "强化射击",
+      "category_zh": "强化",
+      "explanation_zh": "箭矢造成的伤害+7% / +10% / +14%",
+      "stackability_zh": "可叠加"
+    },
+    "8340100": {
+      "name_zh": "降低射击时，伤害随距离递减的影响",
+      "category_zh": "强化",
+      "explanation_zh": "弓弩基础射程距离+30% / +40% / +50%（基础射程为50)",
+      "stackability_zh": "可叠加"
+    },
+    "8350000": {
+      "name_zh": "提升战技攻击力",
+      "category_zh": "攻击力",
+      "explanation_zh": "战技造成的伤害+15% / +18% / +21%",
+      "stackability_zh": "可叠加"
+    },
+    "8350200": {
+      "name_zh": "减少战技专注值消耗",
+      "category_zh": "强化",
+      "explanation_zh": "战技专注值消耗-12% / -18% / -24%",
+      "stackability_zh": "可叠加"
+    },
+    "8350400": {
+      "name_zh": "格挡时，发动黄金式奉还",
+      "category_zh": "强化",
+      "explanation_zh": "能以格挡消除魔法、祷告，再释放光芒球",
+      "stackability_zh": "不可叠加"
+    },
+    "8360000": {
+      "name_zh": "强化自然累积绝招量表",
+      "category_zh": "技艺/绝招",
+      "explanation_zh": "绝招量表累积速率+6%",
+      "stackability_zh": "可叠加"
+    },
+    "8370000": {
+      "name_zh": "缩短技艺的冷却时间",
+      "category_zh": "技艺/绝招",
+      "explanation_zh": "技艺冷却时间-10%",
+      "stackability_zh": "可叠加"
+    },
+    "8380000": {
+      "name_zh": "强化咆哮与吐息",
+      "category_zh": "强化",
+      "explanation_zh": "增加15%吐息和咆哮造成的伤害",
+      "stackability_zh": "可叠加"
+    },
+    "8390000": {
+      "name_zh": "强化投掷壶",
+      "category_zh": "强化",
+      "explanation_zh": "增加20%投掷壶造成的伤害",
+      "stackability_zh": "可叠加"
+    },
+    "8400000": {
+      "name_zh": "强化调香术",
+      "category_zh": "强化",
+      "explanation_zh": "增加15%调香类道具造成的伤害",
+      "stackability_zh": "可叠加"
+    },
+    "8410000": {
+      "name_zh": "强化闪避能力",
+      "category_zh": "强化",
+      "explanation_zh": "增加闪避动作无敌帧",
+      "stackability_zh": "不可叠加"
+    },
+    "8410100": {
+      "name_zh": "闪避时，在周围降下落雷",
+      "category_zh": "额外效果",
+      "explanation_zh": "翻滚、后跃闪避时，能在周围降下落雷(每发55.8雷，削韧2)",
+      "stackability_zh": "不可叠加"
+    },
+    "8420000": {
+      "name_zh": "强化防御反击",
+      "category_zh": "强化",
+      "explanation_zh": "防御反击造成的伤害+17% / +20% / +23%",
+      "stackability_zh": "可叠加"
+    },
+    "8420100": {
+      "name_zh": "防御反击时，触发圣属性攻击",
+      "category_zh": "额外效果",
+      "explanation_zh": "使出防御反击时，能引发圣属性的爆炸(100.2圣，击退冲击力7，削韧7)",
+      "stackability_zh": "不可叠加"
+    },
+    "8420200": {
+      "name_zh": "防御反击时，触发召唤攻击",
+      "category_zh": "额外效果",
+      "explanation_zh": "使出防御反击时，能召唤因死迷途者攻击(三个骷髅每个63魔，削韧5x3)",
+      "stackability_zh": "不可叠加"
+    },
+    "8430000": {
+      "name_zh": "强化突刺反击",
+      "category_zh": "强化",
+      "explanation_zh": "触发突刺反击时，额外造成物理伤害+10% / +15% / +20%",
+      "stackability_zh": "未知"
+    },
+    "8440000": {
+      "name_zh": "提升圣杯瓶恢复量",
+      "category_zh": "恢复",
+      "explanation_zh": "红露滴圣杯瓶恢复量+20% / +30%",
+      "stackability_zh": "可叠加"
+    },
+    "8440200": {
+      "name_zh": "使用圣杯瓶时，改为缓慢恢复",
+      "category_zh": "恢复",
+      "explanation_zh": "立刻恢复10%(受恢复量buff加成)；后续恢复1%/0.1s，持续8s(不受恢复量buff加成)",
+      "stackability_zh": "不可叠加"
+    },
+    "8450000": {
+      "name_zh": "急速冲刺时，喷出熔岩",
+      "category_zh": "额外效果",
+      "explanation_zh": "能在急速冲刺的起点喷出熔岩",
+      "stackability_zh": "不可叠加"
+    },
+    "8450100": {
+      "name_zh": "急速冲刺时，刮起冰风暴",
+      "category_zh": "额外效果",
+      "explanation_zh": "能在急速冲刺的起点刮起冰风暴(每次19.2魔＋5冰冻值，削韧每次2)",
+      "stackability_zh": "不可叠加"
+    },
+    "8460000": {
+      "name_zh": "慢步移动时，形成黑暗消除自身存在",
+      "category_zh": "额外效果",
+      "explanation_zh": "慢步移动时，身影会变得难以辨认，也会消除脚步声",
+      "stackability_zh": "不可叠加"
+    },
+    "8460100": {
+      "name_zh": "慢步移动时，剧烈燃烧周围",
+      "category_zh": "额外效果",
+      "explanation_zh": "慢步移动时，能引发剧烈自燃，连同周围一起燃烧(每次86.4火，削韧每次9.25)",
+      "stackability_zh": "不可叠加"
+    },
+    "8460200": {
+      "name_zh": "慢步移动时，迸发剧烈癫火",
+      "category_zh": "额外效果",
+      "explanation_zh": "慢步移动时，能迸发剧烈黄色癫火(每发64.2火+20发狂值，削韧每发5)",
+      "stackability_zh": "不可叠加"
+    },
+    "8460300": {
+      "name_zh": "慢步移动时，释放咒魂",
+      "category_zh": "额外效果",
+      "explanation_zh": "慢步移动时，能释放穷追不舍的咒魂(爆炸33圣，削韧15，生成12个咒魂，每个21圣，削韧1)",
+      "stackability_zh": "不可叠加"
+    },
+    "8460400": {
+      "name_zh": "慢步移动时，降下磅礡的星雨",
+      "category_zh": "额外效果",
+      "explanation_zh": "慢步移动时，能在空中召唤出黑暗星云，降下磅礡的星雨(每发9魔，削韧每发0.5)",
+      "stackability_zh": "不可叠加"
+    },
+    "8460500": {
+      "name_zh": "慢步移动时，召唤红落雷",
+      "category_zh": "额外效果",
+      "explanation_zh": "慢步移动时，能在周围召唤红落雷(每发36雷，削韧每发5)",
+      "stackability_zh": "不可叠加"
+    },
+    "8500000": {
+      "name_zh": "打倒敌人时，增加获得的卢恩",
+      "category_zh": "能力值",
+      "explanation_zh": "获得的卢恩+10%，仅对击杀奖励有效",
+      "stackability_zh": "可叠加"
+    },
+    "8510000": {
+      "name_zh": "提升观察力",
+      "category_zh": "能力值",
+      "explanation_zh": "观察力+20",
+      "stackability_zh": "可叠加"
+    },
+    "8520000": {
+      "name_zh": "敌人比较不会攻击自己",
+      "category_zh": "能力值",
+      "explanation_zh": "仇恨增益-300 / -450 / -600",
+      "stackability_zh": "可叠加"
+    },
+    "8530000": {
+      "name_zh": "一定时间间隔内，形成多支辉剑",
+      "category_zh": "额外效果",
+      "explanation_zh": "辉剑会先后形成，自动攻击敌人(生成5只辉剑，每发36魔，削韧1x5)",
+      "stackability_zh": "不可叠加"
+    },
+    "8530100": {
+      "name_zh": "一定时间间隔内，形成大量辉剑",
+      "category_zh": "额外效果",
+      "explanation_zh": "辉剑会先后形成，自动攻击敌人(生成9只辉剑，每发28.8魔，削韧1×9)",
+      "stackability_zh": "不可叠加"
+    },
+    "8530200": {
+      "name_zh": "一定时间间隔内，形成巨大辉剑",
+      "category_zh": "额外效果",
+      "explanation_zh": "辉剑会先后形成，自动攻击敌人(生成3只大辉剑，每发60魔，削韧10.175×3)",
+      "stackability_zh": "不可叠加"
+    },
+    "8540000": {
+      "name_zh": "持续恢复血量",
+      "category_zh": "恢复",
+      "explanation_zh": "每秒恢复1点生命值",
+      "stackability_zh": "未知"
+    },
+    "8600100": {
+      "name_zh": "攻击时，恢复血量",
+      "category_zh": "恢复",
+      "explanation_zh": "每次攻击固定回复4点生命值",
+      "stackability_zh": "未知"
+    },
+    "8600200": {
+      "name_zh": "攻击时，恢复专注值",
+      "category_zh": "恢复",
+      "explanation_zh": "每次攻击固定回复1点专注值",
+      "stackability_zh": "未知"
+    },
+    "8600300": {
+      "name_zh": "攻击时，敌人偶尔会骤死",
+      "category_zh": "额外效果",
+      "explanation_zh": "攻击命中的敌人，偶尔会无关血量多寡立刻死亡",
+      "stackability_zh": "不可叠加"
+    },
+    "8610000": {
+      "name_zh": "连续攻击时，恢复血量",
+      "category_zh": "恢复",
+      "explanation_zh": "连续攻击回复血量，回复最大生命值的3%，内置4秒冷却时间(累积32连击值，提升减伤率同品质词条不叠加)",
+      "stackability_zh": "可叠加"
+    },
+    "8610100": {
+      "name_zh": "连续攻击时，恢复专注值",
+      "category_zh": "恢复",
+      "explanation_zh": "连续攻击回复专注值，回复最大专注值的10%，内置4秒冷却时间(累积32连击值，提升减伤率同品质词条不叠加)",
+      "stackability_zh": "可叠加"
+    },
+    "8610300": {
+      "name_zh": "蓄力攻击时，追加魔力属性攻击",
+      "category_zh": "额外效果",
+      "explanation_zh": "蓄力攻击时，追加75点基础魔力属性伤害，1点削韧，3号冲击力",
+      "stackability_zh": "不可叠加"
+    },
+    "8610400": {
+      "name_zh": "蓄力攻击时，追加火属性攻击",
+      "category_zh": "额外效果",
+      "explanation_zh": "蓄力攻击时，追加75点基础火属性伤害，1点削韧，3号冲击力",
+      "stackability_zh": "不可叠加"
+    },
+    "8610500": {
+      "name_zh": "蓄力攻击时，追加雷属性攻击",
+      "category_zh": "额外效果",
+      "explanation_zh": "蓄力攻击时，追加75点基础雷属性伤害，1点削韧，3号冲击力",
+      "stackability_zh": "不可叠加"
+    },
+    "8610600": {
+      "name_zh": "蓄力攻击时，追加圣属性攻击",
+      "category_zh": "额外效果",
+      "explanation_zh": "蓄力攻击时，追加75点基础圣属性伤害，1点削韧，3号冲击力",
+      "stackability_zh": "不可叠加"
+    },
+    "8610700": {
+      "name_zh": "连续攻击时，仅限一次提升减伤率",
+      "category_zh": "减伤率",
+      "explanation_zh": "∘ 连续攻击时，触发仅一次的减伤效果，受到的伤害-38% / -48% / -60%；\n∘ 持续30秒(每累积32连击值且未受到伤害，可刷新持续时间)；\n∘ 三种级别叠加时，最高减伤率计算：\n      1. 总承受伤害比例 = (1-38%)×(1-48%)×(1-60%) = 12.896%\n      2. 最高减伤率 = 1 - 总承受伤害比例 = 87.104%",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "8620000": {
+      "name_zh": "受到损伤时，恢复专注值",
+      "category_zh": "恢复",
+      "explanation_zh": "每次受到伤害回复2点专注值",
+      "stackability_zh": "未知"
+    },
+    "8620100": {
+      "name_zh": "受到损伤时，提升减伤率",
+      "category_zh": "减伤率",
+      "explanation_zh": "∘ 每次受到伤害，触发减伤效果，受到的伤害-21% / -28% / -36%，持续10秒;\n∘ 持续时间内再次受到损伤，可刷新持续时间；\n∘ 三种级别叠加时，最高减伤率计算：\n      1. 总承受伤害比例 = (1-21%)×(1-28%)×(1-36%) = 31.008%\n      2. 最高减伤率 = 1 - 总承受伤害比例 = 68.992%",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "8630000": {
+      "name_zh": "打倒敌人时，恢复血量",
+      "category_zh": "恢复",
+      "explanation_zh": "击杀一名敌人后，固定回复20点生命值",
+      "stackability_zh": "未知"
+    },
+    "8630100": {
+      "name_zh": "打倒敌人时，恢复专注值",
+      "category_zh": "恢复",
+      "explanation_zh": "击杀一名敌人后，固定回复最大专注值的4%",
+      "stackability_zh": "未知"
+    },
+    "8630200": {
+      "name_zh": "打倒多名敌人时，释放咒魂",
+      "category_zh": "额外效果",
+      "explanation_zh": "打倒多名敌人时，能释放穷追不舍的咒魂",
+      "stackability_zh": "不可叠加"
+    },
+    "8630300": {
+      "name_zh": "打倒多名敌人时，形成魅惑烟雾",
+      "category_zh": "额外效果",
+      "explanation_zh": "打倒多名敌人时，能形成魅惑烟雾",
+      "stackability_zh": "不可叠加"
+    },
+    "8630400": {
+      "name_zh": "打倒多名敌人时，召唤怨魂",
+      "category_zh": "额外效果",
+      "explanation_zh": "打倒多名敌人时，能召唤穷追不舍的怨魂群",
+      "stackability_zh": "不可叠加"
+    },
+    "8630500": {
+      "name_zh": "打倒多名敌人时，形成熔岩",
+      "category_zh": "额外效果",
+      "explanation_zh": "打倒多名敌人时，能形成滚烫熔岩",
+      "stackability_zh": "不可叠加"
+    },
+    "8630600": {
+      "name_zh": "打倒多名敌人时，形成寒气冻雾",
+      "category_zh": "额外效果",
+      "explanation_zh": "打倒多名敌人时，能形成寒气冻雾",
+      "stackability_zh": "不可叠加"
+    },
+    "8630700": {
+      "name_zh": "打倒多名敌人时，降下落雷",
+      "category_zh": "额外效果",
+      "explanation_zh": "打倒多名敌人时，能降下落雷",
+      "stackability_zh": "不可叠加"
+    },
+    "8630800": {
+      "name_zh": "打倒多名敌人时，形成黄金冲击波",
+      "category_zh": "额外效果",
+      "explanation_zh": "打倒多名敌人时，能形成黄金冲击波",
+      "stackability_zh": "不可叠加"
+    },
+    "8640000": {
+      "name_zh": "致命一击时，恢复血量",
+      "category_zh": "恢复",
+      "explanation_zh": "致命一击回复血量，回复最大生命值的18%",
+      "stackability_zh": "未知"
+    },
+    "8640100": {
+      "name_zh": "致命一击时，恢复专注值",
+      "category_zh": "恢复",
+      "explanation_zh": "致命一击回复专注值，回复最大专注值的10%",
+      "stackability_zh": "未知"
+    },
+    "8640200": {
+      "name_zh": "致命一击时，增加对敌人的伤害",
+      "category_zh": "攻击力",
+      "explanation_zh": "致命一击后使敌人受到伤害增加15%，持续30秒(致命一击的第—击吃不到加伤)",
+      "stackability_zh": "未知"
+    },
+    "8650000": {
+      "name_zh": "防御成功时，恢复血量",
+      "category_zh": "恢复",
+      "explanation_zh": "固定回复10点生命值",
+      "stackability_zh": "未知"
+    },
+    "8650100": {
+      "name_zh": "防御成功时，恢复专注值",
+      "category_zh": "恢复",
+      "explanation_zh": "固定回复2点专注值",
+      "stackability_zh": "未知"
+    },
+    "8652000": {
+      "name_zh": "防御成功时，提升强韧度",
+      "category_zh": "能力值",
+      "explanation_zh": "受到的韧性伤害-12%，持续10秒",
+      "stackability_zh": "未知"
+    },
+    "8652100": {
+      "name_zh": "防御成功时，提升减伤率",
+      "category_zh": "减伤率",
+      "explanation_zh": "∘ 受到的伤害-14% / -19% / -24%，持续10秒；\n∘ 防御成功指的是非空精破防；\n∘ 持续时间内再次防御成功可刷新持续时间；\n∘ 三种级别叠加时，最高减伤率计算：\n      1. 总承受伤害比例 = (1-14%)×(1-19%)×(1-24%) = 52.9416%\n      2. 最高减伤率 = 1 - 总承受伤害比例 = 47.0584%",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "8660000": {
+      "name_zh": "血量偏低时，提升攻击力",
+      "category_zh": "攻击力",
+      "explanation_zh": "生命值小于40%时，造成的伤害+13% / +17% / +21%",
+      "stackability_zh": "可叠加"
+    },
+    "8660101": {
+      "name_zh": "血量偏低时，提升减伤率",
+      "category_zh": "减伤率",
+      "explanation_zh": "生命值小于40%时，受到的伤害-23% / -30% / -37%",
+      "stackability_zh": "可叠加"
+    },
+    "8660200": {
+      "name_zh": "致命一击时，附加异常状态出血",
+      "category_zh": "附加异常状态",
+      "explanation_zh": "使用致命一击后右手武器附魔18物理攻击力及50点出血值，持续65秒",
+      "stackability_zh": "不可叠加"
+    },
+    "8660300": {
+      "name_zh": "血量偏低时，展开圣域",
+      "category_zh": "额外效果",
+      "explanation_zh": "血量低于40%时使用圣域，法阵内減伤率提升20%，每秒恢复10生命值，法阵持续35秒",
+      "stackability_zh": "不可叠加"
+    },
+    "8670000": {
+      "name_zh": "血量全满时，提升攻击力",
+      "category_zh": "攻击力",
+      "explanation_zh": "生命值为100%时，造成的伤害+7% / +10.5% / +14%",
+      "stackability_zh": "可叠加"
+    },
+    "8670101": {
+      "name_zh": "血量全满时，提升减伤率",
+      "category_zh": "减伤率",
+      "explanation_zh": "生命值为100%时，受到的伤害-24% / -32% / -40%",
+      "stackability_zh": "可叠加"
+    },
+    "8690000": {
+      "name_zh": "陷入中毒时，形成毒性烟雾",
+      "category_zh": "额外效果",
+      "explanation_zh": "陷入中毒时，释放中毒值为200点的毒性烟雾",
+      "stackability_zh": "不可叠加"
+    },
+    "8690100": {
+      "name_zh": "陷入发狂时，释放癫火",
+      "category_zh": "额外效果",
+      "explanation_zh": "陷入发狂时，释放癫火，每束癫火附带90点发狂值，造成125点基础火属性伤害，5点削韧，2号冲击力",
+      "stackability_zh": "不可叠加"
+    },
+    "8690200": {
+      "name_zh": "陷入猩红腐败时，形成腐败烟雾",
+      "category_zh": "额外效果",
+      "explanation_zh": "陷入中毒时，释放腐败值为200点的腐败烟雾",
+      "stackability_zh": "不可叠加"
+    },
+    "8690300": {
+      "name_zh": "陷入冻伤时，形成寒气冻雾",
+      "category_zh": "额外效果",
+      "explanation_zh": "陷入冻伤时，释放冻伤值为300点的寒气冻雾",
+      "stackability_zh": "不可叠加"
+    },
+    "8690400": {
+      "name_zh": "陷入催眠时，形成催眠烟雾",
+      "category_zh": "额外效果",
+      "explanation_zh": "陷入催眠时，释放睡眠值为29点的催眠烟雾",
+      "stackability_zh": "不可叠加"
+    },
+    "9021400": {
+      "name_zh": "夜与火的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "发动战技后，能附加魔力或火属性攻击力",
+      "stackability_zh": "无"
+    },
+    "9030900": {
+      "name_zh": "暗月的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "攻击时，能降低敌人的魔力属性减伤率",
+      "stackability_zh": "无"
+    },
+    "9031000": {
+      "name_zh": "无上庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "使出蓄力攻击时，能释放光波",
+      "stackability_zh": "无"
+    },
+    "9031400": {
+      "name_zh": "亵渎的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "打倒敌人时，能恢复血量",
+      "stackability_zh": "无"
+    },
+    "9031500": {
+      "name_zh": "玛雷家的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "打倒敌人时，能提升攻击力",
+      "stackability_zh": "无"
+    },
+    "9031700": {
+      "name_zh": "黄金律法的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "使出蓄力攻击时，能治愈所有异常状态，并消除暂时性的效果",
+      "stackability_zh": "无"
+    },
+    "9040200": {
+      "name_zh": "命定之死的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "攻击时，在极短的时间内：些微、持续减少血量",
+      "stackability_zh": "无"
+    },
+    "9040500": {
+      "name_zh": "碎星的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "双手各持一把武器，在连续攻击的第一记攻击，能形成拉近敌人的重力波",
+      "stackability_zh": "无"
+    },
+    "9040800": {
+      "name_zh": "毁灭的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "使出蓄力攻击时，能形成重力波",
+      "stackability_zh": "无"
+    },
+    "9041000": {
+      "name_zh": "复仇的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "打倒敌人时，能提升所有的能力值；此效果能叠加",
+      "stackability_zh": "无"
+    },
+    "9060400": {
+      "name_zh": "龙王的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "跳跃重攻击会产生变化：自己化为雷云，再用缠绕雷电的剑身贯穿敌人",
+      "stackability_zh": "无"
+    },
+    "9071000": {
+      "name_zh": "绝望的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "攻击命中的敌人，较容易无关血量多寡立刻死亡",
+      "stackability_zh": "无"
+    },
+    "9081000": {
+      "name_zh": "恶兆王的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "使出致命一击时，能引发火焰爆炸",
+      "stackability_zh": "无"
+    },
+    "9090200": {
+      "name_zh": "战无不胜的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "受到损伤时，能通过攻击恢复部分血量",
+      "stackability_zh": "无"
+    },
+    "9111500": {
+      "name_zh": "女王的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "使出蓄力攻击时，能形成圣属性的冲击波",
+      "stackability_zh": "无"
+    },
+    "9122000": {
+      "name_zh": "亵渎的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "打倒敌人时，能恢复血量",
+      "stackability_zh": "无"
+    },
+    "9130300": {
+      "name_zh": "黑暗的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "攻击时，偶尔会形成星云：星云会在短时间内爆炸消失",
+      "stackability_zh": "无"
+    },
+    "9150400": {
+      "name_zh": "黄金一族的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "使出蓄力攻击时，能产生冲击波，也能撼动地面",
+      "stackability_zh": "无"
+    },
+    "9151100": {
+      "name_zh": "祖灵的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "攻击时，偶尔会暂时降低周围敌人的减伤率",
+      "stackability_zh": "无"
+    },
+    "9160900": {
+      "name_zh": "大古龙的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "蓄力发动战技后，能附加雷属性攻击力",
+      "stackability_zh": "无"
+    },
+    "9170100": {
+      "name_zh": "鲜血君王的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "周围人物陷入异常状态出血时，能提升攻击力",
+      "stackability_zh": "无"
+    },
+    "9200600": {
+      "name_zh": "巨人的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "发动战技后，能在周围燃起接连形成的火焰柱",
+      "stackability_zh": "无"
+    },
+    "9210600": {
+      "name_zh": "飞龙的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "使出致命一击时，能释放龙焰",
+      "stackability_zh": "无"
+    },
+    "9230500": {
+      "name_zh": "初始之王的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "使出蓄力攻击时，能提升攻击力",
+      "stackability_zh": "无"
+    },
+    "9330900": {
+      "name_zh": "满月的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "在咏唱魔法、祷告时，能消除敌人的法，再借力形成辉剑",
+      "stackability_zh": "无"
+    },
+    "9420000": {
+      "name_zh": "将军的庇佑",
+      "category_zh": "庇佑",
+      "explanation_zh": "重攻击时，能一次射出多支箭",
+      "stackability_zh": "无"
+    },
+    "9990100": {
+      "name_zh": "追踪者的不甘",
+      "category_zh": "不甘",
+      "explanation_zh": "+3力气 +3灵巧",
+      "stackability_zh": "同种不甘不可叠加"
+    },
+    "9990200": {
+      "name_zh": "守护者的不甘",
+      "category_zh": "不甘",
+      "explanation_zh": "+3生命力 +3耐力",
+      "stackability_zh": "同种不甘不可叠加"
+    },
+    "9990300": {
+      "name_zh": "铁之眼的不甘",
+      "category_zh": "不甘",
+      "explanation_zh": "+3耐力 +3灵巧",
+      "stackability_zh": "同种不甘不可叠加"
+    },
+    "9990400": {
+      "name_zh": "女爵的不甘",
+      "category_zh": "不甘",
+      "explanation_zh": "+3灵巧 +3智力",
+      "stackability_zh": "同种不甘不可叠加"
+    },
+    "9990500": {
+      "name_zh": "无赖的不甘",
+      "category_zh": "不甘",
+      "explanation_zh": "+3生命力 +3力气",
+      "stackability_zh": "同种不甘不可叠加"
+    },
+    "9990600": {
+      "name_zh": "复仇者的不甘",
+      "category_zh": "不甘",
+      "explanation_zh": "+3信仰 +3感应",
+      "stackability_zh": "同种不甘不可叠加"
+    },
+    "9990700": {
+      "name_zh": "隐士的不甘",
+      "category_zh": "不甘",
+      "explanation_zh": "+3集中力 +3智力",
+      "stackability_zh": "同种不甘不可叠加"
+    },
+    "9990800": {
+      "name_zh": "执行者的不甘",
+      "category_zh": "不甘",
+      "explanation_zh": "+3灵巧 +3感应",
+      "stackability_zh": "同种不甘不可叠加"
+    },
+    "9990900": {
+      "name_zh": "学者的不甘",
+      "category_zh": "不甘",
+      "explanation_zh": "+3智力 +3感应",
+      "stackability_zh": "同种不甘不可叠加"
+    },
+    "9991000": {
+      "name_zh": "送葬者的不甘",
+      "category_zh": "不甘",
+      "explanation_zh": "+3力气 +3信仰",
+      "stackability_zh": "同种不甘不可叠加"
+    },
+    "6001400": {
+      "name_zh": "提升物理攻击力＋３",
+      "category_zh": "攻击力",
+      "explanation_zh": "物理攻击力+10.5%",
+      "stackability_zh": "可叠加"
+    },
+    "6001401": {
+      "name_zh": "提升物理攻击力＋４",
+      "category_zh": "攻击力",
+      "explanation_zh": "物理攻击力+12%",
+      "stackability_zh": "可叠加"
+    },
+    "6001500": {
+      "name_zh": "提升魔力属性攻击力＋３",
+      "category_zh": "攻击力",
+      "explanation_zh": "魔力属性攻击力+10.5%",
+      "stackability_zh": "可叠加"
+    },
+    "6001501": {
+      "name_zh": "提升魔力属性攻击力＋４",
+      "category_zh": "攻击力",
+      "explanation_zh": "魔力属性攻击力+12%",
+      "stackability_zh": "可叠加"
+    },
+    "6001600": {
+      "name_zh": "提升火属性攻击力＋３",
+      "category_zh": "攻击力",
+      "explanation_zh": "火属性攻击力+10.5%",
+      "stackability_zh": "可叠加"
+    },
+    "6001601": {
+      "name_zh": "提升火属性攻击力＋４",
+      "category_zh": "攻击力",
+      "explanation_zh": "火属性攻击力+12%",
+      "stackability_zh": "可叠加"
+    },
+    "6001700": {
+      "name_zh": "提升雷属性攻击力＋３",
+      "category_zh": "攻击力",
+      "explanation_zh": "雷属性攻击力+10.5%",
+      "stackability_zh": "可叠加"
+    },
+    "6001701": {
+      "name_zh": "提升雷属性攻击力＋４",
+      "category_zh": "攻击力",
+      "explanation_zh": "雷属性攻击力+12%",
+      "stackability_zh": "可叠加"
+    },
+    "6001800": {
+      "name_zh": "提升圣属性攻击力＋３",
+      "category_zh": "攻击力",
+      "explanation_zh": "圣属性攻击力+10.5%",
+      "stackability_zh": "可叠加"
+    },
+    "6001801": {
+      "name_zh": "提升圣属性攻击力＋４",
+      "category_zh": "攻击力",
+      "explanation_zh": "圣属性攻击力+12%",
+      "stackability_zh": "可叠加"
+    },
+    "6002600": {
+      "name_zh": "提升魔力属性减伤率＋１",
+      "category_zh": "减伤率",
+      "explanation_zh": "减少受到魔力属性伤害-15%",
+      "stackability_zh": "可叠加"
+    },
+    "6002601": {
+      "name_zh": "提升魔力属性减伤率＋２",
+      "category_zh": "减伤率",
+      "explanation_zh": "减少受到魔力属性伤害-16%",
+      "stackability_zh": "可叠加"
+    },
+    "6002700": {
+      "name_zh": "提升火属性减伤率＋１",
+      "category_zh": "减伤率",
+      "explanation_zh": "减少受到火属性伤害-15%",
+      "stackability_zh": "可叠加"
+    },
+    "6002701": {
+      "name_zh": "提升火属性减伤率＋２",
+      "category_zh": "减伤率",
+      "explanation_zh": "减少受到火属性伤害-16%",
+      "stackability_zh": "可叠加"
+    },
+    "6002800": {
+      "name_zh": "提升雷属性减伤率＋１",
+      "category_zh": "减伤率",
+      "explanation_zh": "减少受到雷属性伤害-15%",
+      "stackability_zh": "可叠加"
+    },
+    "6002801": {
+      "name_zh": "提升雷属性减伤率＋２",
+      "category_zh": "减伤率",
+      "explanation_zh": "减少受到雷属性伤害-16%",
+      "stackability_zh": "可叠加"
+    },
+    "6002900": {
+      "name_zh": "提升圣属性减伤率＋１",
+      "category_zh": "减伤率",
+      "explanation_zh": "减少受到圣属性伤害-15%",
+      "stackability_zh": "可叠加"
+    },
+    "6002901": {
+      "name_zh": "提升圣属性减伤率＋２",
+      "category_zh": "减伤率",
+      "explanation_zh": "减少受到圣属性伤害-16%",
+      "stackability_zh": "可叠加"
+    },
+    "6003000": {
+      "name_zh": "提升对中毒的抵抗力＋１",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "+110点中毒异常耐受上限",
+      "stackability_zh": "可叠加"
+    },
+    "6003001": {
+      "name_zh": "提升对中毒的抵抗力＋２",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "+130点中毒异常耐受上限",
+      "stackability_zh": "可叠加"
+    },
+    "6003100": {
+      "name_zh": "提升对出血的抵抗力＋１",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "+110点出血异常耐受上限",
+      "stackability_zh": "可叠加"
+    },
+    "6003101": {
+      "name_zh": "提升对出血的抵抗力＋２",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "+130点出血异常耐受上限",
+      "stackability_zh": "可叠加"
+    },
+    "6003200": {
+      "name_zh": "提升对催眠的抵抗力＋１",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "+110点催眠异常耐受上限",
+      "stackability_zh": "可叠加"
+    },
+    "6003201": {
+      "name_zh": "提升对催眠的抵抗力＋２",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "+130点催眠异常耐受上限",
+      "stackability_zh": "可叠加"
+    },
+    "6003300": {
+      "name_zh": "提升对骤死的抵抗力＋１",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "+110点死亡异常耐受上限",
+      "stackability_zh": "可叠加"
+    },
+    "6003301": {
+      "name_zh": "提升对骤死的抵抗力＋２",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "+130点死亡异常耐受上限",
+      "stackability_zh": "可叠加"
+    },
+    "6003400": {
+      "name_zh": "提升对腐败的抵抗力＋１",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "+110点猩红腐败异常耐受上限",
+      "stackability_zh": "可叠加"
+    },
+    "6003401": {
+      "name_zh": "提升对腐败的抵抗力＋２",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "+130点猩红腐败异常耐受上限",
+      "stackability_zh": "可叠加"
+    },
+    "6003500": {
+      "name_zh": "提升对冻伤的抵抗力＋１",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "+110点冻伤异常耐受上限",
+      "stackability_zh": "可叠加"
+    },
+    "6003501": {
+      "name_zh": "提升对冻伤的抵抗力＋２",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "+130点冻伤异常耐受上限",
+      "stackability_zh": "可叠加"
+    },
+    "6003600": {
+      "name_zh": "提升对发狂的抵抗力＋１",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "+110点发狂异常耐受上限",
+      "stackability_zh": "可叠加"
+    },
+    "6003601": {
+      "name_zh": "提升对发狂的抵抗力＋２",
+      "category_zh": "对异常状态的抵抗力",
+      "explanation_zh": "+130点发狂异常耐受上限",
+      "stackability_zh": "可叠加"
+    },
+    "6005600": {
+      "name_zh": "受到损伤的当下，能通过攻击恢复部分血量＋１",
+      "category_zh": "恢复",
+      "explanation_zh": "最近一次被攻击的4s内，可通过攻击恢复这部分虚血每次攻击的恢复量=武器基础回血量×动作回血倍率×1.25",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6005601": {
+      "name_zh": "受到损伤的当下，能通过攻击恢复部分血量＋２",
+      "category_zh": "恢复",
+      "explanation_zh": "最近一次被攻击的4s内，可通过攻击恢复这部分虚血每次攻击的恢复量=武器基础回血量×动作回血倍率×1.35",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6030200": {
+      "name_zh": "食用苔药等等道具时，能恢复血量＋１",
+      "category_zh": "恢复",
+      "explanation_zh": "使用对应道具后立即回复80点生命值，然后每秒回复最大生命值的0.5%+1，持续20秒",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6030600": {
+      "name_zh": "防御成功时，能累积绝招量表＋１",
+      "category_zh": "技艺/绝招",
+      "explanation_zh": "绝招量表+1.5",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6030800": {
+      "name_zh": "使出致命一击时，加快累积绝招量表＋１",
+      "category_zh": "技艺/绝招",
+      "explanation_zh": "绝招量表+6.5",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6030900": {
+      "name_zh": "涂抹油脂类道具时，能额外提升物理攻击力＋１",
+      "category_zh": "攻击力",
+      "explanation_zh": "30秒内，增加物理伤害+17%",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6030901": {
+      "name_zh": "涂抹油脂类道具时，能额外提升物理攻击力＋２",
+      "category_zh": "攻击力",
+      "explanation_zh": "30秒内，增加物理伤害+20%",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6035100": {
+      "name_zh": "使出致命一击时，能提升精力的恢复速度＋１",
+      "category_zh": "恢复",
+      "explanation_zh": "15秒内，精力回复速度+17点/秒",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6040100": {
+      "name_zh": "强化防御反击＋１",
+      "category_zh": "攻击力",
+      "explanation_zh": "防御反击造成的伤害+25%",
+      "stackability_zh": "可叠加"
+    },
+    "6040101": {
+      "name_zh": "强化防御反击＋２",
+      "category_zh": "攻击力",
+      "explanation_zh": "防御反击造成的伤害+29%",
+      "stackability_zh": "可叠加"
+    },
+    "6040300": {
+      "name_zh": "提升投掷壶的攻击力＋１",
+      "category_zh": "攻击力",
+      "explanation_zh": "投掷壶造成的伤害+30%",
+      "stackability_zh": "可叠加"
+    },
+    "6040400": {
+      "name_zh": "提升投掷小刀的攻击力＋１",
+      "category_zh": "攻击力",
+      "explanation_zh": "投掷小刀造成的伤害+30%",
+      "stackability_zh": "可叠加"
+    },
+    "6040500": {
+      "name_zh": "提升使用辉石、重力石道具的攻击力＋１",
+      "category_zh": "攻击力",
+      "explanation_zh": "投掷辉石、重力石造成的伤害+30%",
+      "stackability_zh": "可叠加"
+    },
+    "6043100": {
+      "name_zh": "强化调香术＋１",
+      "category_zh": "攻击力",
+      "explanation_zh": "调香术造成的伤害+18%",
+      "stackability_zh": "可叠加"
+    },
+    "6060300": {
+      "name_zh": "每次打倒大教堂的强敌，能提升血量上限",
+      "category_zh": "能力值",
+      "explanation_zh": "每次生命值上限+5%",
+      "stackability_zh": "不可叠加"
+    },
+    "6060400": {
+      "name_zh": "每次打倒小型要塞的强敌，能增加获得的卢恩、提升观察力",
+      "category_zh": "能力值",
+      "explanation_zh": "每次获得的卢恩+5.5%，仅对击杀奖励有效，观察力+16",
+      "stackability_zh": "不可叠加"
+    },
+    "6060500": {
+      "name_zh": "每次打倒遗迹的强敌，能提升感应",
+      "category_zh": "能力值",
+      "explanation_zh": "每次感应+4",
+      "stackability_zh": "不可叠加"
+    },
+    "6060600": {
+      "name_zh": "每次打倒大型营地的强敌，能提升精力上限",
+      "category_zh": "能力值",
+      "explanation_zh": "每次精力值上限+7.5%",
+      "stackability_zh": "不可叠加"
+    },
+    "6090000": {
+      "name_zh": "提升打倒敌人时，绝招量表的累积量＋１",
+      "category_zh": "技艺/绝招",
+      "explanation_zh": "绝招量表+6.5",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6160000": {
+      "name_zh": "突刺反击成功时，能恢复血量＋１",
+      "category_zh": "恢复",
+      "explanation_zh": "触发突刺反击时，回复人物最大生命值的3.3%",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6260000": {
+      "name_zh": "对陷入中毒的敌人，能强化攻击＋１",
+      "category_zh": "行动",
+      "explanation_zh": "对中毒的敌人造成的伤害+16%",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6260001": {
+      "name_zh": "对陷入中毒的敌人，能强化攻击＋２",
+      "category_zh": "行动",
+      "explanation_zh": "对中毒的敌人造成的伤害+20%",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6260300": {
+      "name_zh": "对陷入猩红腐败的敌人，能强化攻击＋１",
+      "category_zh": "行动",
+      "explanation_zh": "对猩红腐败的敌人造成的伤害+16%",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6260301": {
+      "name_zh": "对陷入猩红腐败的敌人，能强化攻击＋２",
+      "category_zh": "行动",
+      "explanation_zh": "对猩红腐败的敌人造成的伤害+20%",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6260400": {
+      "name_zh": "对陷入冻伤的敌人，能强化攻击＋１",
+      "category_zh": "行动",
+      "explanation_zh": "对冻伤的敌人造成的伤害+16%",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6260401": {
+      "name_zh": "对陷入冻伤的敌人，能强化攻击＋２",
+      "category_zh": "行动",
+      "explanation_zh": "对冻伤的敌人造成的伤害+20%",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6500000": {
+      "name_zh": "【追踪者】技艺会附加引发异常状态出血的效果",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "钩出附带60点出血值，钩回附带55点出血值",
+      "stackability_zh": "不可叠加"
+    },
+    "6500100": {
+      "name_zh": "【守护者】发动技艺时，能提升周围我方人物的减伤率",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "30秒内，受到的伤害-18%",
+      "stackability_zh": "不可叠加"
+    },
+    "6500200": {
+      "name_zh": "【铁之眼】技艺会附加引发异常状态中毒的效果; 对上陷入中毒的敌人，能给予大伤害",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "附带 70 点中毒值，如果目标已经中毒，扣除敌人最大生命值的 0.25% + 250; 中毒：40秒内，每秒扣除敌人最大生命值的 0.1% + 10",
+      "stackability_zh": "不可叠加"
+    },
+    "6500300": {
+      "name_zh": "【女爵】发动技艺时，能进入短暂无敌状态",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "产生12帧（0.4秒）无敌帧",
+      "stackability_zh": "不可叠加"
+    },
+    "6500400": {
+      "name_zh": "【无赖】技艺命中敌人时，能降低对方的攻击力",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "13s 内，敌人造成的伤害-13%",
+      "stackability_zh": "不可叠加"
+    },
+    "6500500": {
+      "name_zh": "【复仇者】发动能力时，能提升专注值上限",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "每次发动能力【死灵术】，提升专注值上限，局内无限成长; 最多可成长60次，最多 +51% 专注值上限;",
+      "stackability_zh": "不可叠加"
+    },
+    "6500600": {
+      "name_zh": "【隐士】收集属性痕时，能提升该属性的减伤率",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "30秒内，受到对应属性的伤害-20% (反复收集同一个属性的属性痕时，减伤buff不能反复叠加, 但4种不同属性的减伤buff可以共存)",
+      "stackability_zh": "不可叠加"
+    },
+    "6500700": {
+      "name_zh": "【执行者】发动能力时，能缓慢恢复血量",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "每次发动能力【不屈】，每秒回复最大生命值的[0.27% + 3]，持续60秒(总回复量约为[16.2%+180]点)",
+      "stackability_zh": "不可叠加"
+    },
+    "6600000": {
+      "name_zh": "周围陷入催眠时，提升攻击力",
+      "category_zh": "行动",
+      "explanation_zh": "周围有任意角色催眠后，造成伤害+12%，持续20秒",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6600001": {
+      "name_zh": "周围陷入催眠时，提升攻击力＋１",
+      "category_zh": "行动",
+      "explanation_zh": "周围有任意角色催眠后，造成伤害+22%，持续20秒",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6600100": {
+      "name_zh": "周围陷入发狂时，提升攻击力",
+      "category_zh": "行动",
+      "explanation_zh": "周围有任意角色发狂后，造成伤害+12%，持续20秒",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6600101": {
+      "name_zh": "周围陷入发狂时，提升攻击力＋１",
+      "category_zh": "行动",
+      "explanation_zh": "周围有任意角色发狂后，造成伤害+22%，持续20秒",
+      "stackability_zh": "不同级别可叠加"
+    },
+    "6610400": {
+      "name_zh": "提升血量上限",
+      "category_zh": "能力值",
+      "explanation_zh": "生命值上限+10%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6610500": {
+      "name_zh": "提升专注值上限",
+      "category_zh": "能力值",
+      "explanation_zh": "专注值上限+15%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6610600": {
+      "name_zh": "提升精力上限",
+      "category_zh": "能力值",
+      "explanation_zh": "精力值上限+12%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6610700": {
+      "name_zh": "减少专注值消耗",
+      "category_zh": "能力值",
+      "explanation_zh": "专注值消耗-8%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6610800": {
+      "name_zh": "提升属性攻击力",
+      "category_zh": "攻击力",
+      "explanation_zh": "魔力/火/雷/圣属性伤害+5%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6610801": {
+      "name_zh": "提升属性攻击力＋１",
+      "category_zh": "攻击力",
+      "explanation_zh": "魔力/火/雷/圣属性伤害+8%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6610802": {
+      "name_zh": "提升属性攻击力＋２",
+      "category_zh": "攻击力",
+      "explanation_zh": "魔力/火/雷/圣属性伤害+11%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6611001": {
+      "name_zh": "提升物理减伤率＋１",
+      "category_zh": "减伤率",
+      "explanation_zh": "受到的物理属性伤害-10.5%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6611002": {
+      "name_zh": "提升物理减伤率＋２",
+      "category_zh": "减伤率",
+      "explanation_zh": "受到的物理属性伤害-12%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6611100": {
+      "name_zh": "提升属性减伤率",
+      "category_zh": "减伤率",
+      "explanation_zh": "受到的魔力/火/雷/圣属性伤害-6%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6611101": {
+      "name_zh": "提升属性减伤率＋１",
+      "category_zh": "减伤率",
+      "explanation_zh": "受到的魔力/火/雷/圣属性伤害-10.5%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6611102": {
+      "name_zh": "提升属性减伤率＋２",
+      "category_zh": "减伤率",
+      "explanation_zh": "受到的魔力/火/雷/圣属性伤害-12%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6611200": {
+      "name_zh": "强化魔法",
+      "category_zh": "攻击力",
+      "explanation_zh": "魔法造成的伤害+5% (只要用魔法杖打出的都算）",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6611201": {
+      "name_zh": "强化魔法＋１",
+      "category_zh": "攻击力",
+      "explanation_zh": "魔法造成的伤害+8.5% (只要用魔法杖打出的都算）",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6611202": {
+      "name_zh": "强化魔法＋２",
+      "category_zh": "攻击力",
+      "explanation_zh": "魔法造成的伤害+11% (只要用魔法杖打出的都算）",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6611300": {
+      "name_zh": "强化祷告",
+      "category_zh": "攻击力",
+      "explanation_zh": "祷告造成的伤害+5%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6611301": {
+      "name_zh": "强化祷告＋１",
+      "category_zh": "攻击力",
+      "explanation_zh": "祷告造成的伤害+8.5%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6611302": {
+      "name_zh": "强化祷告＋２",
+      "category_zh": "攻击力",
+      "explanation_zh": "祷告造成的伤害+11%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6611400": {
+      "name_zh": "提升圣杯瓶恢复量",
+      "category_zh": "恢复",
+      "explanation_zh": "增加红露滴圣杯瓶10%恢复量",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "6621000": {
+      "name_zh": "出击时，会持有“漫红结晶露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6621100": {
+      "name_zh": "出击时，会持有“红结晶露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6621200": {
+      "name_zh": "出击时，会持有“蓝结晶露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6621300": {
+      "name_zh": "出击时，会持有“斑斓硬露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6621400": {
+      "name_zh": "出击时，会持有“红泡状露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6621500": {
+      "name_zh": "出击时，会持有“珍珠泡状露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6621600": {
+      "name_zh": "出击时，会持有“涌红结晶露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6621700": {
+      "name_zh": "出击时，会持有“涌绿结晶露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6621800": {
+      "name_zh": "出击时，会持有“珍珠硬露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6621900": {
+      "name_zh": "出击时，会持有“连刺破露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6622000": {
+      "name_zh": "出击时，会持有“大刺破露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6622100": {
+      "name_zh": "出击时，会持有“风结晶露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6622200": {
+      "name_zh": "出击时，会持有“爆裂结晶露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6622300": {
+      "name_zh": "出击时，会持有“铅化硬露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6622400": {
+      "name_zh": "出击时，会持有“细枝破露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6622500": {
+      "name_zh": "出击时，会持有“红漩泡状露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6622600": {
+      "name_zh": "出击时，会持有“蓝秘密露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6622700": {
+      "name_zh": "出击时，会持有“岩刺破露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6622800": {
+      "name_zh": "出击时，会持有“带火破露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6622900": {
+      "name_zh": "出击时，会持有“带魔力破露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6623000": {
+      "name_zh": "出击时，会持有“带雷破露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6623100": {
+      "name_zh": "出击时，会持有“带圣破露滴”",
+      "category_zh": "出击时的道具(结晶露滴)",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6624000": {
+      "name_zh": "出击时，会持有“振奋香”",
+      "category_zh": "出击时的道具",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6624100": {
+      "name_zh": "出击时，会持有“火花香”",
+      "category_zh": "出击时的道具",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6624200": {
+      "name_zh": "出击时，会持有“铁壶香药”",
+      "category_zh": "出击时的道具",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6624300": {
+      "name_zh": "出击时，会持有“狂热香药”",
+      "category_zh": "出击时的道具",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6624400": {
+      "name_zh": "出击时，会持有“毒发喷雾”",
+      "category_zh": "出击时的道具",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6624500": {
+      "name_zh": "出击时，会持有“酸蚀喷雾”",
+      "category_zh": "出击时的道具",
+      "explanation_zh": "",
+      "stackability_zh": "可叠加"
+    },
+    "6630000": {
+      "name_zh": "通过潜在能力，能比较容易找到短剑",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6630100": {
+      "name_zh": "通过潜在能力，能比较容易找到直剑",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6630200": {
+      "name_zh": "通过潜在能力，能比较容易找到大剑",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6630300": {
+      "name_zh": "通过潜在能力，能比较容易找到特大剑",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6630400": {
+      "name_zh": "通过潜在能力，能比较容易找到曲剑",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6630500": {
+      "name_zh": "通过潜在能力，能比较容易找到大曲剑",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6630600": {
+      "name_zh": "通过潜在能力，能比较容易找到刀",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6630700": {
+      "name_zh": "通过潜在能力，能比较容易找到双头剑",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6630800": {
+      "name_zh": "通过潜在能力，能比较容易找到刺剑",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6630900": {
+      "name_zh": "通过潜在能力，能比较容易找到重刺剑",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6631000": {
+      "name_zh": "通过潜在能力，能比较容易找到斧",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6631100": {
+      "name_zh": "通过潜在能力，能比较容易找到大斧",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6631200": {
+      "name_zh": "通过潜在能力，能比较容易找到槌",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6631300": {
+      "name_zh": "通过潜在能力，能比较容易找到大槌",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6631400": {
+      "name_zh": "通过潜在能力，能比较容易找到连枷",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6631500": {
+      "name_zh": "通过潜在能力，能比较容易找到矛",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6631600": {
+      "name_zh": "通过潜在能力，能比较容易找到大矛",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6631700": {
+      "name_zh": "通过潜在能力，能比较容易找到戟",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6631800": {
+      "name_zh": "通过潜在能力，能比较容易找到镰刀",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6631900": {
+      "name_zh": "通过潜在能力，能比较容易找到拳头",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6632000": {
+      "name_zh": "通过潜在能力，能比较容易找到钩爪",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6632100": {
+      "name_zh": "通过潜在能力，能比较容易找到软鞭",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6632200": {
+      "name_zh": "通过潜在能力，能比较容易找到特大武器",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6632300": {
+      "name_zh": "通过潜在能力，能比较容易找到弓",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6632400": {
+      "name_zh": "通过潜在能力，能比较容易找到大弓",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6632500": {
+      "name_zh": "通过潜在能力，能比较容易找到弩",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6632600": {
+      "name_zh": "通过潜在能力，能比较容易找到弩炮",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6632700": {
+      "name_zh": "通过潜在能力，能比较容易找到小盾",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6632800": {
+      "name_zh": "通过潜在能力，能比较容易找到中盾",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6632900": {
+      "name_zh": "通过潜在能力，能比较容易找到大盾",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6633000": {
+      "name_zh": "通过潜在能力，能比较容易找到手杖",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6633100": {
+      "name_zh": "通过潜在能力，能比较容易找到圣印记",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6633200": {
+      "name_zh": "通过潜在能力，能比较容易找到火把",
+      "category_zh": "仅限特定武器",
+      "explanation_zh": "直接替换角色专属池",
+      "stackability_zh": "不可叠加"
+    },
+    "6640000": {
+      "name_zh": "【追踪者】提升集中力，但降低生命力",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，集中力+1，生命力-1; 等级12时达到变化最大值，集中力+10，生命力-5",
+      "stackability_zh": "不可叠加"
+    },
+    "6640100": {
+      "name_zh": "【追踪者】提升智力、信仰，但降低力气、灵巧",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，智力+1，信仰+1，力气-1，灵巧-1; 等级12时达到变化最大值，智力+15，信仰+15，力气-7、灵巧-5",
+      "stackability_zh": "不可叠加"
+    },
+    "6641000": {
+      "name_zh": "【守护者】提升力气、灵巧，但降低生命力",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，力气+1，灵巧+2，生命力-1; 等级12时达到变化最大值，力气+9，灵巧+19，生命力-8",
+      "stackability_zh": "不可叠加"
+    },
+    "6641100": {
+      "name_zh": "【守护者】提升集中力、信仰，但降低生命力",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，集中力+1，信仰+2，生命力-1; 等级12时达到变化最大值，集中力+8，信仰+17，生命力-6",
+      "stackability_zh": "不可叠加"
+    },
+    "6642000": {
+      "name_zh": "【铁之眼】提升感应，但降低灵巧",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，感应+2，灵巧-1; 等级12时达到变化最大值，感应+15，灵巧-9",
+      "stackability_zh": "不可叠加"
+    },
+    "6642100": {
+      "name_zh": "【铁之眼】提升生命力、力气，但降低灵巧",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，生命力+1，力气+2，灵巧-2; 等级12时达到变化最大值，生命力+5，力气+20，灵巧-13",
+      "stackability_zh": "不可叠加"
+    },
+    "6643000": {
+      "name_zh": "【女爵】提升生命力、力气，但降低集中力",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，生命力+1，力气+2，集中力-2; 等级12时达到变化最大值，生命力+3，力气+24，集中力-14",
+      "stackability_zh": "不可叠加"
+    },
+    "6643100": {
+      "name_zh": "【女爵】提升集中力、信仰，但降低智力",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，集中力+1，信仰+2，智力-1; 等级12时达到变化最大值，集中力+3，信仰+13，智力-5",
+      "stackability_zh": "不可叠加"
+    },
+    "6644000": {
+      "name_zh": "【无赖】提升集中力、智力，但降低生命力、耐力",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，集中力+1，智力+2，生命力-1，耐力-1; 等级12时达到变化最大值，集中力+9，智力+35，生命力-8，耐力-4",
+      "stackability_zh": "不可叠加"
+    },
+    "6644100": {
+      "name_zh": "【无赖】提升感应，但降低生命力",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，感应+2，生命力-1; 等级12时达到变化最大值，感应+17，生命力-4",
+      "stackability_zh": "不可叠加"
+    },
+    "6645000": {
+      "name_zh": "【复仇者】提升生命力、耐力，但降低集中力",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，生命力+1，耐力+1，集中力-1; 等级12时达到变化最大值，生命力+5，耐力+5，集中力-11",
+      "stackability_zh": "不可叠加"
+    },
+    "6645100": {
+      "name_zh": "【复仇者】提升力气，但降低信仰",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，力气+2，信仰-1; 等级12时达到变化最大值，力气+25，信仰-6",
+      "stackability_zh": "不可叠加"
+    },
+    "6646000": {
+      "name_zh": "【隐士】提升生命力、耐力、灵巧，但降低智力、信仰",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，生命力+1，耐力+1，灵巧+2，智力-1，信仰-1; 等级12时达到变化最大值，生命力+4，耐力+5，灵巧+20，智力-10，信仰-10",
+      "stackability_zh": "不可叠加"
+    },
+    "6646100": {
+      "name_zh": "【隐士】提升智力、信仰，但降低集中力",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，智力+2，信仰+2，集中力-2; 等级12时达到变化最大值，智力+12，信仰+12，集中力-13",
+      "stackability_zh": "不可叠加"
+    },
+    "6647000": {
+      "name_zh": "【执行者】提升生命力、耐力，但降低感应",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，生命力+1，耐力+1，感应-2; 等级12时达到变化最大值，生命力+5，耐力+6，感应-13",
+      "stackability_zh": "不可叠加"
+    },
+    "6647100": {
+      "name_zh": "【执行者】提升灵巧、感应，但降低生命力",
+      "category_zh": "仅限特定角色",
+      "explanation_zh": "等级1时，灵巧+1，感应+1，生命力-1; 等级12时达到变化最大值，灵巧+12，感应+9，生命力-7",
+      "stackability_zh": "不可叠加"
+    },
+    "6800000": {
+      "name_zh": "降低生命力",
+      "category_zh": "减益(能力值)",
+      "explanation_zh": "生命力-5",
+      "stackability_zh": "可叠加"
+    },
+    "6800200": {
+      "name_zh": "降低耐力",
+      "category_zh": "减益(能力值)",
+      "explanation_zh": "耐力-5",
+      "stackability_zh": "可叠加"
+    },
+    "6810100": {
+      "name_zh": "降低减伤率",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "受到的伤害+10%",
+      "stackability_zh": "可叠加"
+    },
+    "6820000": {
+      "name_zh": "受到损伤时，会累积中毒量表",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "受到伤害时，累积65点中毒值",
+      "stackability_zh": "可叠加"
+    },
+    "6820100": {
+      "name_zh": "受到损伤时，会累积猩红腐败量表",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "受到伤害时，累积55点腐败值",
+      "stackability_zh": "可叠加"
+    },
+    "6820200": {
+      "name_zh": "受到损伤时，会累积冻伤量表",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "受到伤害时，累积55点冻伤值",
+      "stackability_zh": "可叠加"
+    },
+    "6820300": {
+      "name_zh": "受到损伤时，会累积出血量表",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "受到伤害时，累积55点出血值",
+      "stackability_zh": "可叠加"
+    },
+    "6820400": {
+      "name_zh": "受到损伤时，会累积发狂量表",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "受到伤害时，累积50点发狂值",
+      "stackability_zh": "可叠加"
+    },
+    "6820500": {
+      "name_zh": "受到损伤时，会累积催眠量表",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "受到伤害时，累积50点睡眠值",
+      "stackability_zh": "可叠加"
+    },
+    "6820600": {
+      "name_zh": "受到损伤时，会累积死亡量表",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "受到伤害时，累积40点骤死值",
+      "stackability_zh": "可叠加"
+    },
+    "6830000": {
+      "name_zh": "降低力气、智力",
+      "category_zh": "减益(能力值)",
+      "explanation_zh": "力气-3，智力-3",
+      "stackability_zh": "可叠加"
+    },
+    "6830100": {
+      "name_zh": "降低灵巧、信仰",
+      "category_zh": "减益(能力值)",
+      "explanation_zh": "灵巧-3，信仰-3",
+      "stackability_zh": "可叠加"
+    },
+    "6830200": {
+      "name_zh": "降低智力、灵巧",
+      "category_zh": "减益(能力值)",
+      "explanation_zh": "智力-3，灵巧-3",
+      "stackability_zh": "可叠加"
+    },
+    "6830300": {
+      "name_zh": "降低信仰、力气",
+      "category_zh": "减益(能力值)",
+      "explanation_zh": "信仰-3，力气-3",
+      "stackability_zh": "可叠加"
+    },
+    "6830400": {
+      "name_zh": "降低生命力、感应",
+      "category_zh": "减益(能力值)",
+      "explanation_zh": "生命力-3，感应-3",
+      "stackability_zh": "可叠加"
+    },
+    "6840000": {
+      "name_zh": "减少获得的卢恩",
+      "category_zh": "减益(能力值)",
+      "explanation_zh": "获得的卢恩-10%，仅对击杀奖励有效",
+      "stackability_zh": "可叠加"
+    },
+    "6840100": {
+      "name_zh": "降低圣杯瓶恢复量",
+      "category_zh": "减益(行动)",
+      "explanation_zh": "红露滴圣杯瓶-15%恢复量",
+      "stackability_zh": "可叠加"
+    },
+    "6840200": {
+      "name_zh": "降低绝招量表累积量",
+      "category_zh": "减益(行动)",
+      "explanation_zh": "绝招量表累积速率-15%",
+      "stackability_zh": "可叠加"
+    },
+    "6850000": {
+      "name_zh": "降低物理减伤率",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "受到的物理属性伤害+12%",
+      "stackability_zh": "可叠加"
+    },
+    "6850100": {
+      "name_zh": "降低属性减伤率",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "受到的魔力/火/雷/圣属性伤害+12%",
+      "stackability_zh": "可叠加"
+    },
+    "6850200": {
+      "name_zh": "降低对所有异常状态的抵抗力",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "中毒/猩红腐败/出血/冻伤/催眠/发狂/骤死异常耐受上限-80",
+      "stackability_zh": "可叠加"
+    },
+    "6850500": {
+      "name_zh": "持续减少血量",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "每秒减少2点生命值 (可以触发“受到损伤的当下，能通过攻击恢复部分血量”系列; 不能触发“受到损伤时……”系列;)",
+      "stackability_zh": "可叠加"
+    },
+    "6850700": {
+      "name_zh": "闪避后的当下，受伤时损伤加剧",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "闪避后无敌帧结束的后摇，受到的伤害+45%",
+      "stackability_zh": "可叠加"
+    },
+    "6850800": {
+      "name_zh": "连续闪避时，降低减伤率",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "连续闪避时，受到的伤害+35%，效果持续15秒",
+      "stackability_zh": "可叠加"
+    },
+    "6850900": {
+      "name_zh": "使用圣杯瓶时，降低减伤率",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "使用圣杯瓶的动作中，受到的伤害+45%",
+      "stackability_zh": "可叠加"
+    },
+    "6851200": {
+      "name_zh": "血量没有全满时，降低攻击力",
+      "category_zh": "减益(行动)",
+      "explanation_zh": "血量不满时，造成的伤害-8.5%",
+      "stackability_zh": "可叠加"
+    },
+    "6851300": {
+      "name_zh": "血量没有全满时，累积中毒量表",
+      "category_zh": "减益(行动)",
+      "explanation_zh": "血量不满时，每1.3秒增加3点中毒值",
+      "stackability_zh": "可叠加"
+    },
+    "6851400": {
+      "name_zh": "血量没有全满时，累积猩红腐败量表",
+      "category_zh": "减益(行动)",
+      "explanation_zh": "血量不满时，每1.3秒增加2点腐败值",
+      "stackability_zh": "可叠加"
+    },
+    "6851700": {
+      "name_zh": "濒死时，降低血量上限",
+      "category_zh": "减益(行动)",
+      "explanation_zh": "濒死救活后，60秒内，生命值上限-25%",
+      "stackability_zh": "可叠加"
+    },
+    "8760000": {
+      "name_zh": "降低血量上限",
+      "category_zh": "减益(能力值)",
+      "explanation_zh": "生命值上限-4% / -6%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8760100": {
+      "name_zh": "降低专注值上限",
+      "category_zh": "减益(能力值)",
+      "explanation_zh": "专注值上限-6% / -9%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8760200": {
+      "name_zh": "降低精力上限",
+      "category_zh": "减益(能力值)",
+      "explanation_zh": "精力值上限-5% / -8%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8761000": {
+      "name_zh": "降低物理减伤率",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "受到的物理属性伤害+6% / +8%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8761100": {
+      "name_zh": "降低属性减伤率",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "受到的魔力/火/雷/圣属性伤害+6% / +8%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8762000": {
+      "name_zh": "降低对所有异常状态的抵抗力",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "中毒/猩红腐败/出血/冻伤/催眠/发狂/骤死异常耐受上限-30 / -45",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8763000": {
+      "name_zh": "降低圣杯瓶恢复量",
+      "category_zh": "减益(恢复)",
+      "explanation_zh": "减少红露滴圣杯瓶6% / 9%恢复量",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8766000": {
+      "name_zh": "持续减少血量",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "每秒减少1点生命值; 可以触发“受到损伤的当下，能通过攻击恢复部分血量”系列词条，不能触发“受到损伤时...”系列词条",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8770000": {
+      "name_zh": "被黑夜雨淋到的损伤加剧",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "黑夜雨伤害变为2倍 / 2.5倍",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8771000": {
+      "name_zh": "时间越接近夜晚，受到的损伤加剧",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "随着特定时间点，受到的伤害持续叠加1% / 2.5%，共叠加4次;触发时机暂不确定，猜测是：第一天开始、第一个缩圈结束，第二圈开始缩圈，第二圈缩圈结束。第二天黎明时，效果会解除。",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8800100": {
+      "name_zh": "闪避后的当下，受伤时损伤加剧",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "闪避后无敌帧结束的后摇，受到的伤害+15% / +20%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8800200": {
+      "name_zh": "连续闪避时，降低减伤率",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "连续闪避时，受到的伤害+30% / +46%，效果持续15秒; 连续按闪避时，第3次闪避触发效果; 2次按下闪避键的间隔小于1秒，就会被判定为“连续闪避”",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8801000": {
+      "name_zh": "使用圣杯瓶时，降低减伤率",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "使用圣杯瓶的动作中，受到的伤害+33%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8810000": {
+      "name_zh": "血量没有全满时，降低攻击力",
+      "category_zh": "减益(行动)",
+      "explanation_zh": "血量不满时，造成的伤害-5% / -7%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8810200": {
+      "name_zh": "血量没有全满时，降低绝招量表累积",
+      "category_zh": "减益(行动)",
+      "explanation_zh": "血量不满时，绝招量表累积速率-10% / -15%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8810300": {
+      "name_zh": "血量没有全满时，累积中毒量表",
+      "category_zh": "减益(行动)",
+      "explanation_zh": "血量不满时，每1.3秒增加2点中毒值",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8810400": {
+      "name_zh": "血量没有全满时，累积猩红腐败量表",
+      "category_zh": "减益(行动)",
+      "explanation_zh": "血量不满时，每1.3秒增加2点腐败值",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8813100": {
+      "name_zh": "精力偏少时，降低减伤率",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "精力值小于50%时，受到的伤害+10% / +15%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8821000": {
+      "name_zh": "攻击时，攻击偶尔会掠过目标",
+      "category_zh": "减益(行动)",
+      "explanation_zh": "每次攻击有3% / 5%，造成的伤害变为1% (仅降低伤害，依旧可以打出削韧值/异常值/冲击力)",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8830000": {
+      "name_zh": "增加因异常状态受到的损伤",
+      "category_zh": "减益(减伤率)",
+      "explanation_zh": "玩家触发异常后，异常状态扣除的血量增加+25% / +35%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8831000": {
+      "name_zh": "濒死时，减少绝招量表",
+      "category_zh": "减益(行动)",
+      "explanation_zh": "陷入濒死后，绝招量表-30% / -45%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8831200": {
+      "name_zh": "濒死时，降低血量上限",
+      "category_zh": "减益(能力值)",
+      "explanation_zh": "陷入濒死后，30秒内，生命值上限-15%",
+      "stackability_zh": "相同词条可叠加"
+    },
+    "8880000": {
+      "name_zh": "蓄力攻击时，刮起冰风暴",
+      "category_zh": "特殊效果",
+      "explanation_zh": "使出蓄力攻击时，能刮起冰风暴; 冰风暴：造成120点基础魔力属性伤害，4点削韧，1号冲击力，50点冻伤值; 冰风暴持续存在1.2秒，半径1.7m，但仅进行一次伤害判定; 附魔效果：20秒内，武器附带20点冻伤值",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8880200": {
+      "name_zh": "蓄力攻击时，喷洒黑焰",
+      "category_zh": "特殊效果",
+      "explanation_zh": "使出蓄力攻击时，能喷洒黑焰; 黑焰：造成5点基础火属性伤害，1点削韧，0号冲击力; 持续存在3.5秒，半径1m，附带黑焰特效; 黑焰特效：1.2秒内，每0.1秒扣除敌人（最大生命值的0.010%+3）; 附魔效果：7秒内，武器附带12点火属性伤害; 黑焰效果可以多层无限叠加，每层的持续时间单独计算)",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8880300": {
+      "name_zh": "蓄力攻击时，形成幻影进行攻击",
+      "category_zh": "特殊效果",
+      "explanation_zh": "使出蓄力攻击时，能形成幻影进行攻击; 幻影：造成165点基础物理伤害，8点削韧，6号冲击力",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8881000": {
+      "name_zh": "蓄力攻击时，释放圣属性冲击波",
+      "category_zh": "特殊效果",
+      "explanation_zh": "蓄力使出打击攻击时，能释放黄金冲击波; 黄金冲击波：造成150点基础圣属性伤害，4点削韧，1号冲击力; 黄金冲击波会向前扩散12m; 附魔效果：20秒内，武器附带12点圣属性伤害",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8881200": {
+      "name_zh": "蓄力攻击时，将敌人拉近自己",
+      "category_zh": "特殊效果",
+      "explanation_zh": "使出蓄力攻击时，能将敌人拉近自己; 拉拽：造成45点基础魔力属性伤害，3点削韧，3号冲击力; 共有3层不同的球状攻击判定，半径3.2m / 半径5.2m / 半径7m; 根据敌人的远近最多可以让3个攻击判定都命中",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8881500": {
+      "name_zh": "蓄力攻击时，形成熔岩",
+      "category_zh": "特殊效果",
+      "explanation_zh": "使出蓄力攻击时，能形成熔岩; 熔岩：造成50点基础火属性伤害，5点削韧，3号冲击力; 熔岩持续存在3秒，半径2m; 每0.5秒可持续造成25点基础火属性伤害，1点削韧，0号冲击力; 附魔效果：20秒内，武器附带12点火属性伤害",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8882100": {
+      "name_zh": "蓄力攻击时，释放雷电",
+      "category_zh": "特殊效果",
+      "explanation_zh": "使出蓄力攻击时，能释放雷电; 雷电：造成120点基础雷属性伤害，5点削韧，3号冲击力; 附魔效果：20秒内，武器附带12点雷属性伤害",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8882500": {
+      "name_zh": "蓄力攻击时，形成催眠烟雾",
+      "category_zh": "特殊效果",
+      "explanation_zh": "使出蓄力攻击时，能形成催眠烟雾; 催眠烟雾：持续存在3秒，半径1m扩散至3m，每0.5秒可造成20点睡眠值; 附魔效果：20秒内，武器附带20点催眠值;（实际的存在时间解包看到就是3秒，比视觉上的动画特效更长）",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8883000": {
+      "name_zh": "蓄力攻击时，形成追击魔力球",
+      "category_zh": "弓弩专属",
+      "explanation_zh": "使出蓄力攻击时，能形成魔力球，进行追击; 魔力球：3个魔力球，每个造成20点基础魔力属性伤害，1点削韧，3号冲击力",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8883100": {
+      "name_zh": "精密射击时，在命中点降下落雷",
+      "category_zh": "弓弩专属",
+      "explanation_zh": "精密射击时，能在命中点降下落雷; 落雷：造成33%武器面板攻击力+30点基础雷属性伤害，不造成削韧，0号冲击力; 在水域可以额外形成扩散雷，造成60点基础雷属性伤害，不造成削韧，1号冲击力",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8883200": {
+      "name_zh": "精密射击时，在命中点形成毒性烟雾",
+      "category_zh": "弓弩专属",
+      "explanation_zh": "精密射击时，能在命中点形成毒性烟雾; 毒性烟雾：持续存在1.8秒，半径1m扩散至3m，每0.5秒可造成11点中毒值",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8883300": {
+      "name_zh": "精密射击时，在命中点形成腐败烟雾",
+      "category_zh": "弓弩专属",
+      "explanation_zh": "精密射击时，能在命中点形成腐败烟雾; 腐败烟雾：持续存在1.8秒，半径1m扩散至3m，每0.5秒可造成9点腐败值",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8883400": {
+      "name_zh": "精密射击时，在命中点招来血蝇",
+      "category_zh": "弓弩专属",
+      "explanation_zh": "精密射击时，能在命中点招来血蝇; 血蝇：造成3%武器面板攻击力+1点基础物理伤害，不造成削韧，0号冲击力; 持续存在1.8秒，半径1m扩散至3m，每0.5秒可造成7点出血值",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8884200": {
+      "name_zh": "持盾维持防御时，发动圣域",
+      "category_zh": "盾牌专属",
+      "explanation_zh": "持盾维持防御时，能缓慢恢复血量并展开圣域，提升减伤率; 持盾维持防御超过2.5秒后展开圣域，内置3秒冷却时间; 圣域：附近的友方单位，受到的伤害-15%，每1.5秒回复7点生命值，持续35秒; 弱化版圣域，和战技/其他词条引发的圣域数值不同",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8884300": {
+      "name_zh": "失去平衡时，发动忍耐",
+      "category_zh": "盾牌专属",
+      "explanation_zh": "防御时失去平衡，或是被敌人格挡时能发动忍耐，提升强韧度与减伤率; 被破盾或者被弹反后，3.5秒内，受到的伤害-30%，免疫冲击力",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8885000": {
+      "name_zh": "使用圣杯瓶时，也恢复专注值",
+      "category_zh": "特殊效果",
+      "explanation_zh": "使用圣杯瓶时，也会恢复专注值; 使用圣杯瓶时，可以额外回复20%专注值",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8885100": {
+      "name_zh": "专注值不够时，施展魔法、祈祷恢复专注值",
+      "category_zh": "法术触媒专属",
+      "explanation_zh": "专注值不够时，咏唱失败动作会转为恢复专注值; 咏唱失败的动作会被替换，并恢复13%专注值",
+      "stackability_zh": "相同词条不可叠加"
+    },
+    "8885200": {
+      "name_zh": "维持防御时，强化魔法、祷告",
+      "category_zh": "法术触媒专属",
+      "explanation_zh": "维持防御时，能提升魔法、祷告的攻击力与缩短咏唱时间; 双手共持法术触媒时，按照维持防御的时间触发增益buff，最多3层; 3层buff可互相叠加，但buff结束时间独立计算; 每2.5秒触发一层持续时间为25秒的增益; 法术伤害+10%，获得相当于30点灵巧所带来的施法速度",
+      "stackability_zh": "相同词条不可叠加"
+    }
+  }
+}

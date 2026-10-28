@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>用户反馈收件箱 · 渡夜图鉴</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0d151b;--panel:#17242d;--line:#354550;--text:#e8e8e1;--muted:#a4b0b1;--gold:#d5ab67;--error:#ed9a8f}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font:15px/1.65 system-ui,"Noto Sans SC",sans-serif}
+    main{max-width:980px;margin:0 auto;padding:36px 20px 70px}h1,h2,p{margin-top:0}.eyebrow{color:var(--gold);font:11px Georgia,serif;letter-spacing:.2em;margin-bottom:8px}h1{font:600 30px Georgia,"Noto Serif SC",serif;margin-bottom:8px}.intro{color:var(--muted);font-size:13px;margin-bottom:24px}
+    form.login{display:flex;gap:10px;max-width:560px;align-items:end;flex-wrap:wrap;padding:18px;border:1px solid var(--line);background:var(--panel)}label{display:grid;gap:6px;flex:1;min-width:220px;color:var(--muted);font-size:12px}input{height:42px;padding:9px 11px;border:1px solid #52636b;background:#101b22;color:var(--text);font:inherit}button{min-height:42px;padding:9px 15px;border:1px solid var(--gold);background:var(--gold);color:#1b2427;font-weight:650;cursor:pointer}button:disabled{opacity:.6;cursor:wait}button:focus-visible,input:focus-visible{outline:2px solid #f5d18d;outline-offset:2px}
+    #admin-status{min-height:24px;margin:12px 0;color:var(--muted);font-size:13px}#admin-status.error{color:var(--error)}.inbox-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:26px 0 12px}.inbox-toolbar h2{font-size:19px;margin:0}.inbox-list{display:grid;gap:12px}.feedback-card{padding:17px 18px;border:1px solid var(--line);background:linear-gradient(145deg,#192832,#131e25)}.feedback-card header{display:flex;gap:12px;align-items:center;justify-content:space-between;margin-bottom:10px}.kind{color:#ebd39d;font-size:12px}.created{color:#93a2a6;font-size:11px}.message{white-space:pre-wrap;overflow-wrap:anywhere;margin-bottom:12px}.email{color:var(--muted);font-size:12px;margin:0 0 12px}.context{border-top:1px solid #34434b;padding-top:9px}.context summary{color:#cdb27c;font-size:12px;cursor:pointer}.context p{margin:10px 0 0;white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}.context strong{display:block;color:var(--muted);font-size:11px;margin-bottom:3px}#inbox-empty{padding:26px;text-align:center;color:var(--muted);border:1px dashed var(--line)}.inbox-pagination{display:flex;justify-content:center;align-items:center;gap:14px;margin-top:18px;color:var(--muted);font-size:12px}.inbox-pagination button{min-height:36px;padding:6px 12px}[hidden]{display:none!important}
+    .inbox-toolbar{flex-wrap:wrap}.inbox-actions{display:flex;gap:8px;flex-wrap:wrap}.inbox-actions .secondary{border-color:var(--line);background:var(--panel);color:var(--text)}
+    .security-warning{padding:12px 15px;border:1px solid #8b5148;background:#351e20;color:#ffd2c9;font-size:13px}
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">NIGHTREIGN GUIDE</p>
+    <h1>用户反馈收件箱</h1>
+    <p class="intro">仅管理员可查看。反馈及可选的本轮对话内容最多保留 90 天。</p>
+    <p id="transport-warning" class="security-warning" role="alert" hidden>管理员收件箱登录要求页面和 API 均使用 HTTPS。当前环境不安全，已禁用口令输入；口令不会发送。请改用 HTTPS 管理地址，或在本机通过 localhost、127.0.0.1 或 [::1] 开发访问。</p>
+    <form id="admin-login" class="login">
+      <label for="admin-password">管理员口令
+        <input id="admin-password" name="password" type="password" autocomplete="current-password" required disabled>
+      </label>
+      <button id="admin-login-button" type="submit" disabled>打开收件箱</button>
+    </form>
+    <p id="admin-status" role="status" aria-live="polite"></p>
+    <section id="inbox" hidden>
+      <div class="inbox-toolbar"><h2>收到的反馈</h2><div class="inbox-actions"><button id="admin-refresh" type="button">刷新</button><button id="admin-logout" class="secondary" type="button">退出收件箱</button></div></div>
+      <div id="inbox-empty" hidden>收件箱暂无反馈。</div>
+      <div id="inbox-list" class="inbox-list"></div>
+      <nav id="inbox-pagination" class="inbox-pagination" aria-label="反馈分页" hidden>
+        <button id="inbox-prev" type="button">上一页</button><span id="inbox-page"></span><button id="inbox-next" type="button">下一页</button>
+      </nav>
+    </section>
+  </main>
+  <script src="/ai-config.js"></script>
+  <script>
+    const apiBase=window.NIGHTREIGN_AI_API_BASE||'';
+    const loginForm=document.querySelector('#admin-login');
+    const passwordInput=document.querySelector('#admin-password');
+    const loginButton=document.querySelector('#admin-login-button');
+    const transportWarning=document.querySelector('#transport-warning');
+    const logoutButton=document.querySelector('#admin-logout');
+    const status=document.querySelector('#admin-status');
+    const inbox=document.querySelector('#inbox');
+    const inboxList=document.querySelector('#inbox-list');
+    const inboxEmpty=document.querySelector('#inbox-empty');
+    const pagination=document.querySelector('#inbox-pagination');
+    const previousButton=document.querySelector('#inbox-prev');
+    const nextButton=document.querySelector('#inbox-next');
+    const pageLabel=document.querySelector('#inbox-page');
+    const PAGE_SIZE=50;
+    let adminToken='';
+    let offset=0;
+    let total=0;
+    let inboxGeneration=0;
+    const inboxRequests=new Set();
+    const pageHost=window.location.hostname.replace(/^\[|\]$/g,'').toLowerCase();
+    const localDevelopmentHost=['localhost','127.0.0.1','::1'].includes(pageHost);
+    let apiUsesSecureTransport=false;
+    try{
+      const apiUrl=new URL(apiBase||window.location.origin,window.location.href);
+      const apiHost=apiUrl.hostname.replace(/^\[|\]$/g,'').toLowerCase();
+      const localApiHost=['localhost','127.0.0.1','::1'].includes(apiHost);
+      apiUsesSecureTransport=apiUrl.protocol==='https:'||(localDevelopmentHost&&localApiHost&&apiUrl.protocol==='http:');
+    }catch{}
+    const pageUsesSecureTransport=window.location.protocol==='https:'||localDevelopmentHost;
+    const secureAdminContext=pageUsesSecureTransport&&apiUsesSecureTransport;
+    if(secureAdminContext){loginButton.disabled=false;passwordInput.disabled=false}else{transportWarning.hidden=false}
+
+    function setStatus(text,isError=false){status.textContent=text;status.classList.toggle('error',isError)}
+    function addText(parent,tag,className,text){const element=document.createElement(tag);if(className)element.className=className;element.textContent=text;parent.append(element);return element}
+    function renderItems(items){
+      inboxList.replaceChildren();
+      inboxEmpty.hidden=items.length>0;
+      for(const item of items){
+        const card=document.createElement('article');card.className='feedback-card';
+        const header=document.createElement('header');
+        addText(header,'span','kind',item.kind==='answer'?'回答有错':'建议');
+        const time=document.createElement('time');time.className='created';time.dateTime=item.created_at;time.textContent=new Date(item.created_at).toLocaleString('zh-CN');header.append(time);card.append(header);
+        addText(card,'p','message',item.message);
+        if(item.email)addText(card,'p','email',`联系邮箱：${item.email}`);
+        if(item.question||item.answer){
+          const details=document.createElement('details');details.className='context';addText(details,'summary','','已同意附上当前这一轮问答');
+          if(item.question){const question=document.createElement('p');addText(question,'strong','','问题');addText(question,'span','',item.question);details.append(question)}
+          if(item.answer){const answer=document.createElement('p');addText(answer,'strong','','回答');addText(answer,'span','',item.answer);details.append(answer)}
+          card.append(details);
+        }
+        inboxList.append(card);
+      }
+    }
+    async function loadInbox(token,requestedOffset=offset){
+      const generation=inboxGeneration,controller=new AbortController();inboxRequests.add(controller);
+      try{
+        const response=await fetch(`${apiBase}/api/admin/feedback?limit=${PAGE_SIZE}&offset=${requestedOffset}`,{headers:{Authorization:`Bearer ${token}`},signal:controller.signal});
+        if(generation!==inboxGeneration)return false;
+        if(!response.ok){const error=new Error('收件箱请求被服务器拒绝。');error.status=response.status;throw error}
+        const data=await response.json();if(generation!==inboxGeneration)return false;if(!Array.isArray(data.items))throw new Error('收件箱暂时不可用。');
+        adminToken=token;offset=data.offset||0;total=data.total||0;renderItems(data.items);inbox.hidden=false;loginForm.hidden=true;
+        const pages=Math.max(1,Math.ceil(total/PAGE_SIZE));pageLabel.textContent=`第 ${Math.floor(offset/PAGE_SIZE)+1} / ${pages} 页，共 ${total} 条`;
+        pagination.hidden=total<=PAGE_SIZE;previousButton.disabled=offset<=0;nextButton.disabled=offset+PAGE_SIZE>=total;
+        setStatus(`已载入 ${data.items.length} 条反馈。`);return true;
+      }catch(error){if(generation!==inboxGeneration||error.name==='AbortError')return false;throw error}
+      finally{inboxRequests.delete(controller)}
+    }
+    function lockInbox(message,isError=false,shouldFocus=true){
+      inboxGeneration++;for(const controller of inboxRequests)controller.abort();inboxRequests.clear();
+      adminToken='';offset=0;total=0;passwordInput.value='';inboxList.replaceChildren();inboxEmpty.hidden=true;
+      pagination.hidden=true;pageLabel.textContent='';previousButton.disabled=true;nextButton.disabled=true;
+      inbox.hidden=true;loginForm.hidden=false;loginButton.disabled=!secureAdminContext;passwordInput.disabled=!secureAdminContext;setStatus(message,isError);
+      if(shouldFocus&&secureAdminContext)passwordInput.focus();
+    }
+    function logoutInbox(){
+      lockInbox('已退出收件箱。');
+    }
+    function handleInboxLoadError(error,retryMessage){
+      if(error.status===401||error.status===403){lockInbox('认证失效或服务拒绝访问。请重新验证口令；如仍被拒绝，请检查 HTTPS 与代理配置。',true);return}
+      setStatus(`${retryMessage}当前页面保持登录状态和已载入内容，可稍后重试。`,true);
+    }
+    loginForm.addEventListener('submit',async event=>{
+      event.preventDefault();if(!secureAdminContext)return;loginButton.disabled=true;setStatus('正在验证…');
+      const candidate=passwordInput.value;passwordInput.value='';
+      try{await loadInbox(candidate)}catch(error){
+        if(error.status===401||error.status===403)lockInbox('口令无效或服务拒绝了本次访问，请检查 HTTPS 配置后重试。',true);
+        else{setStatus('暂时无法连接收件箱，请检查网络后重试。',true);if(secureAdminContext)passwordInput.focus()}
+      }finally{loginButton.disabled=!secureAdminContext}
+    });
+    document.querySelector('#admin-refresh').addEventListener('click',async()=>{
+      const button=document.querySelector('#admin-refresh');button.disabled=true;setStatus('正在刷新…');
+      try{await loadInbox(adminToken)}catch(error){handleInboxLoadError(error,'暂时无法刷新收件箱。')}finally{button.disabled=false}
+    });
+    logoutButton.addEventListener('click',logoutInbox);
+    previousButton.addEventListener('click',async()=>{if(offset>0)try{await loadInbox(adminToken,Math.max(0,offset-PAGE_SIZE))}catch(error){handleInboxLoadError(error,'暂时无法载入上一页。')}});
+    nextButton.addEventListener('click',async()=>{if(offset+PAGE_SIZE<total)try{await loadInbox(adminToken,offset+PAGE_SIZE)}catch(error){handleInboxLoadError(error,'暂时无法载入下一页。')}});
+    window.addEventListener('pagehide',()=>lockInbox('',false,false));
+    window.addEventListener('pageshow',event=>{if(event.persisted)lockInbox('页面已从浏览器缓存恢复，请重新验证管理员口令。')});
+  </script>
+</body>
+</html>

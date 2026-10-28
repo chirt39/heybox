@@ -1,0 +1,52 @@
+{
+  "追跡者": {
+    "name": "追踪者",
+    "image": "./character-images/wylder.png",
+    "source": "https://patchwiki.biligame.com/images/nightreign/0/09/fuj0p06du3ky98gzs1eaxwkeaihd8xv.png"
+  },
+  "守護者": {
+    "name": "守护者",
+    "image": "./character-images/guardian.png",
+    "source": "https://patchwiki.biligame.com/images/nightreign/f/fc/fm3t244wq33xo3seefyeedi454u2qvh.png"
+  },
+  "鉄の目": {
+    "name": "铁之眼",
+    "image": "./character-images/iron-eye.png",
+    "source": "https://patchwiki.biligame.com/images/nightreign/4/47/bqrrwy8y24t895ykql09dw1xk5i5gxs.png"
+  },
+  "レディ": {
+    "name": "女爵",
+    "image": "./character-images/duchess.png",
+    "source": "https://patchwiki.biligame.com/images/nightreign/b/b8/083qtfc848k4kgzx98jkdkprc9t9isx.png"
+  },
+  "無頼漢": {
+    "name": "无赖",
+    "image": "./character-images/raider.png",
+    "source": "https://patchwiki.biligame.com/images/nightreign/d/d4/cc23ob3fo8p7ai2ig2ric9mf5xl4yu8.png"
+  },
+  "復讐者": {
+    "name": "复仇者",
+    "image": "./character-images/revenant.png",
+    "source": "https://patchwiki.biligame.com/images/nightreign/c/c6/i0u10xs3jp5hsw21bajcjrc1fasveib.png"
+  },
+  "隠者": {
+    "name": "隐士",
+    "image": "./character-images/recluse.png",
+    "source": "https://p325k7wa.twic.pics/high/elden-ring/elden-ring-nightreign/04-character-gallery/01-thumbnail/V2/thumbnail-RECLUSE-v2.png?twic=v1%2Fresize%3D-x560%2Fstep%3D10%2Fquality%3D80"
+  },
+  "執行者": {
+    "name": "执行者",
+    "image": "./character-images/executor.png",
+    "source": "https://patchwiki.biligame.com/images/nightreign/a/ae/2ddfcs7rkv9m9ti86wzdki2yem2lth0.png"
+  },
+  "学者": {
+    "name": "学者",
+    "image": "./character-images/scholar.png",
+    "source": "https://patchwiki.biligame.com/images/nightreign/4/4a/lj334op296pmj0gut5vtrdew07mquif.png"
+  },
+  "葬儀屋": {
+    "name": "送葬者",
+    "image": "./character-images/undertaker.png",
+    "source": "https://patchwiki.biligame.com/images/nightreign/2/24/cxcg7wv2tgkt5lp0gesim49r04kvrs5.png"
+  }
+}

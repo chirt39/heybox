@@ -1,0 +1,218 @@
+.heybox-miniapp {
+  min-width: 320px;
+  -webkit-tap-highlight-color: transparent;
+}
+.heybox-more-open { overflow: hidden; }
+
+.heybox-miniapp #mobile-menu { display: none !important; }
+.heybox-miniapp .topbar-feedback { display: none !important; }
+.heybox-miniapp #drop-zone { display: none !important; }
+.heybox-miniapp button { touch-action: manipulation; }
+.heybox-miniapp :is(button, a, select, input, textarea):focus-visible { outline: 2px solid var(--gold2); outline-offset: 2px; }
+
+.heybox-home-shortcuts { margin: 20px 0 30px; }
+.heybox-home-nav-heading { display: flex; align-items: end; justify-content: space-between; gap: 12px; margin: 0 2px 12px; }
+.heybox-home-nav-heading .eyebrow { margin: 0 0 4px; color: var(--gold2); font-size: 9px; letter-spacing: .17em; }
+.heybox-home-nav-heading h2 { margin: 0; color: var(--text); font-size: 20px; }
+.heybox-home-nav-heading > span { padding-bottom: 3px; color: var(--muted); font-size: 11px; }
+.heybox-home-nav { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.heybox-home-nav button {
+  position: relative; display: grid; align-content: center; justify-items: center; gap: 9px; min-width: 0; min-height: 82px; padding: 12px 8px;
+  border: 1px solid var(--line); border-radius: 12px; background: linear-gradient(145deg, #1b2930, #121d23); color: var(--text);
+  transition: background-color .16s ease, border-color .16s ease, transform .16s ease;
+}
+.heybox-home-nav button svg { width: 22px; height: 22px; color: var(--gold2); }
+.heybox-home-nav button b { max-width: 100%; font-size: 12px; font-weight: 600; line-height: 1.3; text-align: center; text-wrap: balance; }
+.heybox-home-nav button:hover,
+.heybox-home-nav button:focus-visible { border-color: var(--gold2); background: #202d32; }
+.heybox-home-nav button:active { transform: scale(.97); }
+.heybox-home-nav-arrow { position: absolute; top: 7px; right: 9px; color: var(--muted); font-size: 12px; }
+
+.heybox-local-save { margin: 16px 0; padding: 18px; }
+.heybox-local-save #heybox-save-hint { min-height: 1.5em; font-size: 13px; }
+.heybox-local-save #heybox-save-hint.is-error { color: #e3a4a4; }
+.heybox-local-save p { margin: 8px 0 12px; }
+.heybox-save-steps { display: grid; gap: 6px; margin: 10px 0 14px; padding-left: 20px; color: var(--muted); font-size: 12px; line-height: 1.65; }
+.heybox-save-steps li { padding-left: 2px; }
+.heybox-save-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.heybox-save-actions button { min-height: 44px; }
+
+.heybox-steam-cloud { margin: 16px 0; padding: 18px; border-color: rgb(210 183 121 / 22%); background: linear-gradient(145deg, rgb(29 41 46 / 96%), rgb(18 27 32 / 98%)); }
+.heybox-steam-cloud [hidden] { display: none !important; }
+.heybox-steam-cloud-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; }
+.heybox-steam-cloud-heading .eyebrow { margin: 0 0 6px; color: var(--gold2); font-size: 9px; letter-spacing: .16em; }
+.heybox-steam-cloud-heading h2 { margin: 0 0 6px; color: var(--text); font-size: 20px; }
+.heybox-steam-cloud-heading p { margin: 0; color: var(--muted); line-height: 1.65; }
+.heybox-steam-cloud-mark { display: grid; flex: 0 0 40px; place-items: center; width: 40px; height: 40px; border: 1px solid rgb(210 183 121 / 28%); border-radius: 12px; color: var(--gold2); font-size: 19px; }
+.heybox-steam-cloud-actions { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 14px; }
+.heybox-steam-cloud-actions > :is(button, a) { min-height: 44px; align-items: center; justify-content: center; text-decoration: none; }
+.heybox-steam-cloud-status { min-height: 1.5em; margin: 10px 0 0; color: var(--gold2); font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; }
+.heybox-steam-cloud-status.is-error { color: #e3a4a4; }
+.heybox-steam-cloud-files { display: grid; gap: 8px; margin-top: 12px; }
+.heybox-steam-cloud-files h3 { margin: 0 0 2px; color: var(--text); font-size: 14px; }
+.heybox-steam-file { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-width: 0; padding: 11px 12px; border: 1px solid var(--line); border-radius: 11px; background: rgb(9 16 20 / 42%); }
+.heybox-steam-file-info { display: grid; min-width: 0; gap: 4px; }
+.heybox-steam-file-info strong { overflow-wrap: anywhere; color: var(--text); font-size: 13px; }
+.heybox-steam-file-info small { color: var(--muted); font-size: 11px; }
+.heybox-steam-file button { flex: 0 0 auto; min-height: 40px; }
+.heybox-steam-cloud .heybox-steam-cloud-privacy { margin: 13px 0 0; color: var(--muted); font-size: 11px; line-height: 1.7; }
+
+.heybox-miniapp .heybox-feedback {
+  margin: 0 clamp(16px, 4vw, 62px) 24px;
+  padding: 20px;
+}
+
+.heybox-feedback h2 { margin: 0 0 6px; color: var(--gold2); }
+.heybox-feedback p { margin: 0 0 14px; }
+.heybox-feedback form { display: grid; gap: 9px; }
+.heybox-feedback label { font-weight: 600; }
+.heybox-feedback select,
+.heybox-feedback textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: var(--panel2);
+  color: var(--text);
+  padding: 10px;
+}
+.heybox-feedback textarea { min-height: 110px; resize: vertical; }
+.heybox-feedback .heybox-feedback-privacy { color: var(--muted); font-size: 12px; }
+.heybox-feedback button { justify-self: start; }
+.heybox-feedback [role="status"] { min-height: 1.5em; color: var(--gold2); }
+
+.heybox-miniapp [data-open-feedback],
+.heybox-miniapp #answer-feedback-dialog,
+.heybox-miniapp #suggestion-feedback-dialog {
+  display: none !important;
+}
+
+.heybox-mobile-nav,
+.heybox-more-backdrop,
+.heybox-more-sheet { display: none; }
+
+@media (max-width: 850px) {
+  .heybox-miniapp { font-size: 14px; }
+  .heybox-miniapp .sidebar { display: none; }
+  .heybox-miniapp .main { width: 100%; margin: 0; }
+  .heybox-miniapp .topbar { position: sticky; top: 0; z-index: 8; height: calc(52px + env(safe-area-inset-top, 0px)); padding: env(safe-area-inset-top, 0px) 14px 0; background: rgb(13 21 27 / 94%); backdrop-filter: blur(12px); }
+  .heybox-miniapp .breadcrumb { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 10px; letter-spacing: .08em; }
+  .heybox-miniapp .content { padding: 14px 14px calc(88px + env(safe-area-inset-bottom)); }
+  .heybox-miniapp #view-overview > .section-heading,
+  .heybox-miniapp #view-overview > .feature-grid { display: none; }
+  .heybox-miniapp .page-intro { margin: 8px 0 18px; }
+  .heybox-miniapp .page-intro h1 { font-size: clamp(27px, 8vw, 34px); text-wrap: balance; }
+  .heybox-miniapp .page-intro > p:last-child { font-size: 13px; line-height: 1.75; }
+  .heybox-miniapp button,
+  .heybox-miniapp select,
+  .heybox-miniapp input:not([type="checkbox"]) { min-height: 44px; }
+  .heybox-miniapp .toolbar { gap: 8px; }
+  .heybox-miniapp .toolbar .search-field { flex-basis: 100%; min-width: 0; }
+  .heybox-miniapp .toolbar select { flex: 1 1 calc(50% - 8px); min-width: 0; }
+  .heybox-miniapp .stat-row { gap: 8px; }
+  .heybox-miniapp .hero { min-height: 320px; padding: 30px 20px; border-radius: 18px; box-shadow: inset 0 0 0 1px rgb(210 183 121 / 10%), 0 16px 34px rgb(0 0 0 / 24%); }
+  .heybox-miniapp .hero h1 { font-size: clamp(30px, 9vw, 38px); }
+  .heybox-miniapp .hero-copy { margin: 14px 0 18px; }
+  .heybox-miniapp .hero-actions .button { flex: 1 1 100%; min-height: 46px; }
+  .heybox-miniapp .button { min-height: 46px; border-radius: 12px; }
+  .heybox-miniapp .panel,
+  .heybox-miniapp .home-agent,
+  .heybox-miniapp .relic-card,
+  .heybox-miniapp .record-panel,
+  .heybox-miniapp .source-card,
+  .heybox-miniapp .enemy-detail,
+  .heybox-miniapp .build-controls,
+  .heybox-miniapp .build-result,
+  .heybox-miniapp .effect-picker,
+  .heybox-miniapp .stat-card,
+  .heybox-miniapp .note-panel { border-radius: 14px; }
+  .heybox-miniapp .toolbar .search-field,
+  .heybox-miniapp .toolbar select,
+  .heybox-miniapp .control-group select { border-radius: 11px; }
+  .heybox-home-shortcuts { margin: 18px 0 22px; }
+  .heybox-home-nav { gap: 9px; }
+  .heybox-home-nav button { min-height: 78px; border-radius: 14px; }
+  .heybox-miniapp .relic-card,
+  .heybox-miniapp .record-panel,
+  .heybox-miniapp .source-card,
+  .heybox-miniapp .panel { min-width: 0; }
+  .heybox-miniapp .record-panel { padding: 16px 12px; }
+  .heybox-miniapp .source-card { padding: 18px 15px; }
+  .heybox-miniapp .source-card a { display: inline-flex; min-height: 42px; align-items: center; color: var(--gold2); }
+  .heybox-miniapp .enemy-detail { min-height: 0; padding: 18px 14px; }
+  .heybox-miniapp .enemy-detail .empty-state { padding: 38px 10px; }
+  .heybox-miniapp .enemy-detail .detail-top { flex-wrap: wrap; }
+  .heybox-miniapp .enemy-detail .detail-top h2 { font-size: 23px; overflow-wrap: anywhere; }
+  .heybox-miniapp .enemy-detail .kv-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .heybox-miniapp .enemy-detail .resist-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .heybox-miniapp .effect-encyclopedia-categories { display: flex; gap: 8px; overflow-x: auto; margin: 0 -2px 12px; padding: 2px 2px 7px; scrollbar-width: none; overscroll-behavior-x: contain; }
+  .heybox-miniapp .effect-encyclopedia-categories::-webkit-scrollbar { display: none; }
+  .heybox-miniapp .effect-encyclopedia-categories button { flex: 0 0 auto; min-height: 44px; padding: 8px 12px; border-radius: 999px; white-space: nowrap; }
+  .heybox-miniapp .effect-encyclopedia-toolbar { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .heybox-miniapp .effect-encyclopedia-toolbar .search-field,
+  .heybox-miniapp .effect-encyclopedia-toolbar select { width: 100%; min-width: 0; }
+  .heybox-miniapp .effect-encyclopedia-toolbar .result-count { justify-self: start; }
+  .heybox-miniapp footer { padding-bottom: calc(18px + env(safe-area-inset-bottom)); }
+  .heybox-miniapp .heybox-feedback { margin: 18px 0 0; padding: 16px; }
+  .heybox-steam-cloud { margin: 14px 0; padding: 16px; }
+  .heybox-steam-cloud-heading h2 { font-size: 18px; }
+  .heybox-steam-file { align-items: flex-start; flex-direction: column; }
+  .heybox-steam-file button { width: 100%; }
+  .heybox-steam-cloud-actions > :is(button, a) { flex: 1 1 100%; }
+
+  .heybox-mobile-nav {
+    position: fixed; z-index: 22; inset: auto 0 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr));
+    min-height: calc(68px + env(safe-area-inset-bottom)); padding: 6px 8px calc(6px + env(safe-area-inset-bottom));
+    border-top: 1px solid rgb(210 196 158 / 16%); background: rgb(13 21 27 / 97%); backdrop-filter: blur(18px);
+  }
+  .heybox-mobile-nav button {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; min-width: 0; min-height: 54px;
+    padding: 4px 2px; border: 0; border-radius: 12px; background: transparent; color: #8f9998; cursor: pointer;
+    transition: background-color .16s ease, color .16s ease, transform .16s ease;
+  }
+  .heybox-mobile-nav button:active { transform: scale(.95); }
+  .heybox-nav-icon { display: grid; place-items: center; width: 48px; height: 27px; border-radius: 10px; transition: background-color .16s ease; }
+  .heybox-nav-icon svg { width: 21px; height: 21px; }
+  .heybox-mobile-nav button > small { overflow: hidden; max-width: 100%; font-size: 11px; font-weight: 550; line-height: 1.2; text-overflow: ellipsis; white-space: nowrap; }
+  .heybox-mobile-nav button[aria-current="page"] { color: var(--gold2); }
+  .heybox-mobile-nav button[aria-current="page"] .heybox-nav-icon,
+  .heybox-mobile-nav button[aria-expanded="true"] .heybox-nav-icon { background: rgb(202 166 92 / 13%); }
+  .heybox-mobile-nav button[aria-expanded="true"] { color: var(--gold2); }
+  .heybox-more-backdrop {
+    position: fixed; z-index: 30; inset: 0; display: block; border: 0; padding: 0; background: rgb(3 7 9 / 68%);
+    opacity: 0; transition: opacity .2s ease;
+  }
+  .heybox-more-backdrop[hidden] { display: none; }
+  .heybox-more-backdrop.is-open { opacity: 1; }
+  .heybox-more-sheet {
+    position: fixed; z-index: 31; inset: auto 0 0; display: block; max-height: min(76vh, 600px); overflow-y: auto;
+    padding: 10px 18px calc(24px + env(safe-area-inset-bottom)); border: 1px solid rgb(210 196 158 / 18%); border-bottom: 0;
+    border-radius: 22px 22px 0 0; background: #152229; box-shadow: 0 -18px 48px #0008; overscroll-behavior: contain;
+    transform: translateY(105%); transition: transform .22s cubic-bezier(.22,.75,.25,1);
+  }
+  .heybox-more-sheet[hidden] { display: none; }
+  .heybox-more-sheet.is-open { transform: translateY(0); }
+  .heybox-sheet-handle { width: 38px; height: 4px; margin: 0 auto 17px; border-radius: 99px; background: #687477; }
+  .heybox-sheet-heading { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 15px; }
+  .heybox-sheet-heading p { margin: 0 0 4px; color: var(--gold2); font-size: 9px; letter-spacing: .16em; }
+  .heybox-sheet-heading h2 { margin: 0; color: var(--text); font-size: 21px; }
+  .heybox-sheet-close { display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid var(--line); border-radius: 50%; background: #1c2b32; color: var(--text); }
+  .heybox-sheet-close svg { width: 19px; height: 19px; }
+  .heybox-more-links { display: grid; gap: 8px; }
+  .heybox-more-links > button {
+    display: grid; grid-template-columns: 44px minmax(0, 1fr) 24px; align-items: center; gap: 12px; min-height: 68px; padding: 10px 12px;
+    border: 1px solid rgb(205 216 207 / 10%); border-radius: 13px; background: #1a2a31; color: var(--text); text-align: left;
+    transition: background-color .16s ease, border-color .16s ease, transform .16s ease;
+  }
+  .heybox-more-links > button:active { transform: scale(.985); }
+  .heybox-more-icon { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 12px; background: #22343a; color: var(--gold2); }
+  .heybox-more-icon svg { width: 21px; height: 21px; }
+  .heybox-more-copy { display: grid; gap: 4px; min-width: 0; }
+  .heybox-more-copy b { font-size: 14px; font-weight: 650; }
+  .heybox-more-copy small { color: var(--muted); font-size: 11px; line-height: 1.4; }
+  .heybox-more-arrow { display: grid; place-items: center; color: var(--muted); }
+  .heybox-more-arrow svg { width: 17px; height: 17px; }
+  .heybox-more-links > button[aria-current="page"] { border-color: rgb(202 166 92 / 54%); background: rgb(202 166 92 / 9%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heybox-miniapp *, .heybox-miniapp *::before, .heybox-miniapp *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}

@@ -1,0 +1,7116 @@
+{
+  "source": "https://github.com/xxiixi/NightreignQuickRef/tree/3e23450094c18125ae5665927ed240b18189a040/src/data/zh-CN",
+  "sourceCommit": "3e23450094c18125ae5665927ed240b18189a040",
+  "license": "GPL-3.0",
+  "categories": [
+    {
+      "id": "normal-outside",
+      "label": "局外词条",
+      "sourceFile": "outsider_entries_zh-CN.json",
+      "count": 369
+    },
+    {
+      "id": "normal-inside",
+      "label": "局内词条",
+      "sourceFile": "in-game_entries_zh-CN.json",
+      "count": 164
+    },
+    {
+      "id": "deep-outside",
+      "label": "深夜局外词条",
+      "sourceFile": "deep_night_entries.json",
+      "count": 195
+    },
+    {
+      "id": "deep-inside",
+      "label": "深夜局内词条",
+      "sourceFile": "in-game_deep_night_entries.json",
+      "count": 59
+    }
+  ],
+  "entries": [
+    {
+      "id": "7000000",
+      "category": "normal-outside",
+      "name": "生命力+１",
+      "type": "能力",
+      "explanation": "+1点生命力（固定+20点生命值上限）",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000001",
+      "category": "normal-outside",
+      "name": "生命力+２",
+      "type": "能力",
+      "explanation": "+2点生命力（固定+40点生命值上限）",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000002",
+      "category": "normal-outside",
+      "name": "生命力+３",
+      "type": "能力",
+      "explanation": "+3点生命力（固定+60点生命值上限）",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000090",
+      "category": "normal-outside",
+      "name": "提升血量上限",
+      "type": "能力",
+      "explanation": "+5点生命力（固定+100点生命值上限）",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000100",
+      "category": "normal-outside",
+      "name": "集中力+１",
+      "type": "能力",
+      "explanation": "+1点集中力（固定+5点专注值上限）",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000101",
+      "category": "normal-outside",
+      "name": "集中力+２",
+      "type": "能力",
+      "explanation": "+2点集中力（固定+10点专注值上限）",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000102",
+      "category": "normal-outside",
+      "name": "集中力+３",
+      "type": "能力",
+      "explanation": "+3点集中力（固定+15点专注值上限）",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000190",
+      "category": "normal-outside",
+      "name": "提升专注值上限",
+      "type": "能力",
+      "explanation": "+5点集中力（固定+25点专注值上限）",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000200",
+      "category": "normal-outside",
+      "name": "耐力+１",
+      "type": "能力",
+      "explanation": "+1点耐力（固定+2点精力值上限）",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000201",
+      "category": "normal-outside",
+      "name": "耐力+２",
+      "type": "能力",
+      "explanation": "+2点耐力（固定+4点精力值上限）",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000202",
+      "category": "normal-outside",
+      "name": "耐力+３",
+      "type": "能力",
+      "explanation": "+3点耐力（固定+6点精力值上限）",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000290",
+      "category": "normal-outside",
+      "name": "提升精力上限",
+      "type": "能力",
+      "explanation": "+5点耐力（固定+10点精力值上限）",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000300",
+      "category": "normal-outside",
+      "name": "力气+１",
+      "type": "能力",
+      "explanation": "+1点力气",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000301",
+      "category": "normal-outside",
+      "name": "力气+２",
+      "type": "能力",
+      "explanation": "+2点力气",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000302",
+      "category": "normal-outside",
+      "name": "力气+３",
+      "type": "能力",
+      "explanation": "+3点力气",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000400",
+      "category": "normal-outside",
+      "name": "灵巧+１",
+      "type": "能力",
+      "explanation": "+1点灵巧",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000401",
+      "category": "normal-outside",
+      "name": "灵巧+２",
+      "type": "能力",
+      "explanation": "+2点灵巧",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000402",
+      "category": "normal-outside",
+      "name": "灵巧+３",
+      "type": "能力",
+      "explanation": "+3点灵巧",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000500",
+      "category": "normal-outside",
+      "name": "智力+１",
+      "type": "能力",
+      "explanation": "+1点智力",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000501",
+      "category": "normal-outside",
+      "name": "智力+２",
+      "type": "能力",
+      "explanation": "+2点智力",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000502",
+      "category": "normal-outside",
+      "name": "智力+３",
+      "type": "能力",
+      "explanation": "+3点智力",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000600",
+      "category": "normal-outside",
+      "name": "信仰+１",
+      "type": "能力",
+      "explanation": "+1点信仰",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000601",
+      "category": "normal-outside",
+      "name": "信仰+２",
+      "type": "能力",
+      "explanation": "+2点信仰",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000602",
+      "category": "normal-outside",
+      "name": "信仰+３",
+      "type": "能力",
+      "explanation": "+3点信仰",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000700",
+      "category": "normal-outside",
+      "name": "感应+１",
+      "type": "能力",
+      "explanation": "+1点感应",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000701",
+      "category": "normal-outside",
+      "name": "感应+２",
+      "type": "能力",
+      "explanation": "+2点感应",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000702",
+      "category": "normal-outside",
+      "name": "感应+３",
+      "type": "能力",
+      "explanation": "+3点感应",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000800",
+      "category": "normal-outside",
+      "name": "缩短技艺的冷却时间+１",
+      "type": "技艺/绝招",
+      "explanation": "技艺冷却时间 -5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000801",
+      "category": "normal-outside",
+      "name": "缩短技艺的冷却时间+２",
+      "type": "技艺/绝招",
+      "explanation": "技艺冷却时间 -7.5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000802",
+      "category": "normal-outside",
+      "name": "缩短技艺的冷却时间+３",
+      "type": "技艺/绝招",
+      "explanation": "技艺冷却时间 -10%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000900",
+      "category": "normal-outside",
+      "name": "自然累积绝招量表 +１",
+      "type": "技艺/绝招",
+      "explanation": "绝招量表累积速率 +5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000901",
+      "category": "normal-outside",
+      "name": "自然累积绝招量表 +２",
+      "type": "技艺/绝招",
+      "explanation": "绝招量表累积速率 +7.5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7000902",
+      "category": "normal-outside",
+      "name": "自然累积绝招量表 +３",
+      "type": "技艺/绝招",
+      "explanation": "绝招量表累积速率+10%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7001000",
+      "category": "normal-outside",
+      "name": "强韧度+１",
+      "type": "能力",
+      "explanation": "受到的韧性伤害 -5%",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "7001001",
+      "category": "normal-outside",
+      "name": "强韧度+２",
+      "type": "能力",
+      "explanation": "受到的韧性伤害 -10%",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "7001002",
+      "category": "normal-outside",
+      "name": "强韧度+３",
+      "type": "能力",
+      "explanation": "受到的韧性伤害 -15%",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "7001400",
+      "category": "normal-outside",
+      "name": "提升物理攻击力",
+      "type": "攻击力",
+      "explanation": "物理攻击力 +4%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7001401",
+      "category": "normal-outside",
+      "name": "提升物理攻击力 +１",
+      "type": "攻击力",
+      "explanation": "物理攻击力 +5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7001402",
+      "category": "normal-outside",
+      "name": "提升物理攻击力 +２",
+      "type": "攻击力",
+      "explanation": "物理攻击力 +6%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7001500",
+      "category": "normal-outside",
+      "name": "提升魔力属性攻击力",
+      "type": "攻击力",
+      "explanation": "魔力属性攻击力 +4.5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7001501",
+      "category": "normal-outside",
+      "name": "提升魔力属性攻击力 +１",
+      "type": "攻击力",
+      "explanation": "魔力属性攻击力 +5.5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7001502",
+      "category": "normal-outside",
+      "name": "提升魔力属性攻击力 +２",
+      "type": "攻击力",
+      "explanation": "魔力属性攻击力 +6.5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7001600",
+      "category": "normal-outside",
+      "name": "提升火属性攻击力",
+      "type": "攻击力",
+      "explanation": "火属性攻击力 +4.5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7001601",
+      "category": "normal-outside",
+      "name": "提升火属性攻击力 +１",
+      "type": "攻击力",
+      "explanation": "火属性攻击力 +5.5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7001602",
+      "category": "normal-outside",
+      "name": "提升火属性攻击力 +２",
+      "type": "攻击力",
+      "explanation": "火属性攻击力 +6.5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7001700",
+      "category": "normal-outside",
+      "name": "提升雷属性攻击力",
+      "type": "攻击力",
+      "explanation": "雷属性攻击力 +4.5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7001701",
+      "category": "normal-outside",
+      "name": "提升雷属性攻击力 +１",
+      "type": "攻击力",
+      "explanation": "雷属性攻击力 +5.5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7001702",
+      "category": "normal-outside",
+      "name": "提升雷属性攻击力 +２",
+      "type": "攻击力",
+      "explanation": "雷属性攻击力 +6.5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7001800",
+      "category": "normal-outside",
+      "name": "提升圣属性攻击力",
+      "type": "攻击力",
+      "explanation": "圣属性攻击力 +4.5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7001801",
+      "category": "normal-outside",
+      "name": "提升圣属性攻击力 +１",
+      "type": "攻击力",
+      "explanation": "圣属性攻击力 +5.5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7001802",
+      "category": "normal-outside",
+      "name": "提升圣属性攻击力 +２",
+      "type": "攻击力",
+      "explanation": "圣属性攻击力 +6.5%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7002600",
+      "category": "normal-outside",
+      "name": "提升魔力属性减伤率",
+      "type": "减伤率",
+      "explanation": "受到的魔力属性伤害 -10%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7002700",
+      "category": "normal-outside",
+      "name": "提升火属性减伤率",
+      "type": "减伤率",
+      "explanation": "受到的火属性伤害 -10%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7002800",
+      "category": "normal-outside",
+      "name": "提升雷属性减伤率",
+      "type": "减伤率",
+      "explanation": "受到的雷属性伤害 -10%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7002900",
+      "category": "normal-outside",
+      "name": "提升圣属性减伤率",
+      "type": "减伤率",
+      "explanation": "受到的圣属性伤害 -10%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7003000",
+      "category": "normal-outside",
+      "name": "提升对中毒的抵抗力",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+75点中毒异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7003100",
+      "category": "normal-outside",
+      "name": "提升对出血的抵抗力",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+75点出血异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7003200",
+      "category": "normal-outside",
+      "name": "提升对催眠的抵抗力",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+75点催眠异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7003300",
+      "category": "normal-outside",
+      "name": "提升对死亡的抵抗力",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+75点死亡异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7003400",
+      "category": "normal-outside",
+      "name": "提升对猩红腐败的抵抗力",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+75点猩红腐败异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7003500",
+      "category": "normal-outside",
+      "name": "提升对冻伤的抵抗力",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+75点冻伤异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7003600",
+      "category": "normal-outside",
+      "name": "提升对发狂的抵抗力",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+75点发狂异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7005600",
+      "category": "normal-outside",
+      "name": "受到损伤的当下，能通过攻击恢复部分血量",
+      "type": "恢复",
+      "explanation": "∘ 最近一次被攻击的4s内，可通过攻击恢复这部分虚血\n∘ 每次攻击的恢复量 = 武器基础回血量 × 动作回血倍率",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7006000",
+      "category": "normal-outside",
+      "name": "提升双手共持时，造成失去平衡的能力",
+      "type": "攻击力",
+      "explanation": "双手共持时，造成的削韧 +5%",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "7006100",
+      "category": "normal-outside",
+      "name": "提升双手各持时，造成失去平衡的能力",
+      "type": "攻击力",
+      "explanation": "双手各持时，造成的削韧 +5%",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "7010200",
+      "category": "normal-outside",
+      "name": "使用圣杯瓶时，连同恢复周围我方人物",
+      "type": "队伍成员",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7010500",
+      "category": "normal-outside",
+      "name": "【追踪者】发动绝招时，能燃起火焰、蔓延周围",
+      "type": "仅限特定角色",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7010700",
+      "category": "normal-outside",
+      "name": "【女爵】以短剑使出连续攻击时，能对着周围的敌人，再次上演最近做过的行动",
+      "type": "仅限特定角色",
+      "explanation": "女爵用短剑连续攻击，用出整套动作最后一下时触发重演，重演造成连续攻击过程中伤害的40%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7010900",
+      "category": "normal-outside",
+      "name": "【复仇者】发动绝招时，能以自己的血量为代价完全恢复我方人物的血量",
+      "type": "仅限特定角色",
+      "explanation": "扣除自身最大生命值的 50%，恢复周围友军最大生命值的 100%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7011000",
+      "category": "normal-outside",
+      "name": "【守护者】延长技艺的有效时间",
+      "type": "仅限特定角色",
+      "explanation": "技艺从单次伤害变为，不蓄力持续4秒，蓄力持续7秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7011200",
+      "category": "normal-outside",
+      "name": "【复仇者】发动绝招时，能引发灵火爆炸",
+      "type": "仅限特定角色",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7011600",
+      "category": "normal-outside",
+      "name": "【守护者】以戟蓄力攻击时，能引发旋风",
+      "type": "仅限特定角色",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7011700",
+      "category": "normal-outside",
+      "name": "【执行者】在绝招发动期间，能以咆哮恢复血量",
+      "type": "仅限特定角色",
+      "explanation": "恢复最大生命值的 15%，内置0.9秒冷却时间",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7012000",
+      "category": "normal-outside",
+      "name": "【守护者】发动绝招时，能缓慢恢复周围我方人物的血量",
+      "type": "仅限特定角色",
+      "explanation": "每秒恢复[最大生命值 × 10% + 12]点血量",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7012200",
+      "category": "normal-outside",
+      "name": "血量偏低时，包含周围我方人物缓慢恢复血量",
+      "type": "恢复",
+      "explanation": "生命值量小于40%时，50秒内，每秒恢复[最大生命值 × 0.5% + 1]点血量，内置50秒冷却时间",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7012300",
+      "category": "normal-outside",
+      "name": "血量偏低时，能提升减伤率",
+      "type": "减伤率",
+      "explanation": "生命值量小于40%时，受到的伤害 -16%",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "7020000",
+      "category": "normal-outside",
+      "name": "【追踪者】发动技艺时，轻攻击能使出缠绕火焰的追加攻击（仅限大剑）",
+      "type": "仅限特定角色",
+      "explanation": "使用技艺后用大剑进行轻攻击，武器+20点火属性攻击力，持续20秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7030000",
+      "category": "normal-outside",
+      "name": "身在图腾碑石周围时，能提升强韧度",
+      "type": "仅限特定角色",
+      "explanation": "∘ 无赖释放图腾石碑时，本buff会赋予给石碑周围的玩家\n∘ 获得buff的玩家受到的韧性伤害 -90%，内置30秒冷却时间",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7030200",
+      "category": "normal-outside",
+      "name": "食用苔药等等道具时，能恢复血量",
+      "type": "恢复",
+      "explanation": "使用对应道具后立即回复20点血量，然后每秒回复[最大生命值 × 0.5% + 1]点血量，持续20秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7030600",
+      "category": "normal-outside",
+      "name": "防御成功时，能累积绝招量表",
+      "type": "技艺/绝招",
+      "explanation": "绝招量表 +1",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "7030700",
+      "category": "normal-outside",
+      "name": "防御时，变得容易被敌人攻击",
+      "type": "行动",
+      "explanation": "仇恨+9，松开后持续4s ",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "7030800",
+      "category": "normal-outside",
+      "name": "使出致命一击时，加快累积绝招量表",
+      "type": "技艺/绝招",
+      "explanation": "绝招量表 +5",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "7030900",
+      "category": "normal-outside",
+      "name": "涂抹油脂类道具时，能额外提升物理攻击力",
+      "type": "攻击力",
+      "explanation": "30秒内，增加物理伤害 +10%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7031200",
+      "category": "normal-outside",
+      "name": "【复仇者】发动绝招时，能强化家人与我方人物",
+      "type": "仅限特定角色",
+      "explanation": "30秒内，造成的伤害 +25%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7031300",
+      "category": "normal-outside",
+      "name": "【无赖】在技艺发动期间，受到攻击时能提升攻击力与精力上限",
+      "type": "仅限特定角色",
+      "explanation": "20秒内，最大精力值 +20%，造成的伤害 +10%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7031800",
+      "category": "normal-outside",
+      "name": "【女爵】从背后使出致命一击后，自己的身影会变得难以辨识，并消除脚步声",
+      "type": "仅限特定角色",
+      "explanation": "10秒内，敌人靠视觉发现你的概率变为0.01%，敌人靠听觉发现你的概率变为0",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7031900",
+      "category": "normal-outside",
+      "name": "使出致命一击时，能获得卢恩",
+      "type": "能力",
+      "explanation": "+600卢恩",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7032200",
+      "category": "normal-outside",
+      "name": "受到攻击时，能提升攻击力",
+      "type": "攻击力",
+      "explanation": "10秒内，造成的伤害 +15%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7032400",
+      "category": "normal-outside",
+      "name": "【追踪者】发动能力时，能累积绝招量表",
+      "type": "仅限特定角色",
+      "explanation": "绝招量表 +18",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7032700",
+      "category": "normal-outside",
+      "name": "【女爵】在绝招发动期间，打倒敌人时能提升攻击力",
+      "type": "仅限特定角色",
+      "explanation": "∘ 在隐身的12.5秒内，击杀敌人会叠加层数，每层增伤15%，持续30s \n∘ 每层独立计时，上限30层（如层数为3时增伤计算：1.15*1.15*1.15 ≈ 1.52，增伤52%）",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7032800",
+      "category": "normal-outside",
+      "name": "【隐士】收集属性痕时，能触发“魔法之境”",
+      "type": "仅限特定角色",
+      "explanation": "产生持续30秒的“魔法之境”，在周围的玩家造成的魔力属性伤害 +15%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7032900",
+      "category": "normal-outside",
+      "name": "【隐士】发动绝招时，自己陷入异常状态出血，提升攻击力",
+      "type": "仅限特定角色",
+      "explanation": "引发特殊的出血异常，固定扣除自身[最大生命值 × 20%]点血量，造成的伤害 +16%，持续30秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7033200",
+      "category": "normal-outside",
+      "name": "【追踪者】技艺的使用次数+１",
+      "type": "仅限特定角色",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7033300",
+      "category": "normal-outside",
+      "name": "【守护者】在能力发动期间，会变得容易受敌人攻击",
+      "type": "仅限特定角色",
+      "explanation": "仇恨增益 +600",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7033400",
+      "category": "normal-outside",
+      "name": "【守护者】在能力发动期间，防御成功时能形成冲击波",
+      "type": "仅限特定角色",
+      "explanation": "造成[固定100点 + 0.12%最大生命值]的物理伤害，5点削韧，3号冲击力",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7034100",
+      "category": "normal-outside",
+      "name": "【隐士】发动绝招时，能提升血量上限",
+      "type": "仅限特定角色",
+      "explanation": "30秒内，提升生命值上限50%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7034400",
+      "category": "normal-outside",
+      "name": "【执行者】提升技艺发动期间的攻击力，但攻击时会降低减伤率",
+      "type": "仅限特定角色",
+      "explanation": "发动技艺期间，buff:攻击力提升35%; debuff:每次攻击后会降低减伤率40%，持续5s，攻击会持续刷新debuff",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7034500",
+      "category": "normal-outside",
+      "name": "【执行者】在技艺发动期间，妖刀进入解放状态时，能恢复血量",
+      "type": "仅限特定角色",
+      "explanation": "回复[最大生命值 × 5% + 100]点血量",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7034600",
+      "category": "normal-outside",
+      "name": "【铁之眼】蓄力发动绝招时，附加异常状态中毒",
+      "type": "仅限特定角色",
+      "explanation": "附带300点中毒值，造成中毒异常，每秒扣除敌人[最大生命值 × 0.1% + 10]点血量，持续40秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7034700",
+      "category": "normal-outside",
+      "name": "【铁之眼】发动绝招后，强化突刺反击",
+      "type": "仅限特定角色",
+      "explanation": "30秒内，触发突刺反击时，造成的物理伤害 +20%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7035100",
+      "category": "normal-outside",
+      "name": "使出致命一击时，能提升精力的恢复速度",
+      "type": "恢复",
+      "explanation": "15秒内，精力回复速度 +10点/秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7035400",
+      "category": "normal-outside",
+      "name": "通过肢体动作“盘腿坐”，能累积发狂量表",
+      "type": "行动",
+      "explanation": "每2秒 +10点发狂值。 触发发狂异常时，扣除[最大生命值 × 10% + 100]点血量，固定扣除30点专注值，造成2.4秒发狂硬直",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7035500",
+      "category": "normal-outside",
+      "name": "引发异常状态发狂后，能持续恢复专注值",
+      "type": "恢复",
+      "explanation": "引发发狂异常后，25秒内，每0.5秒回复1点专注值",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7035700",
+      "category": "normal-outside",
+      "name": "切换武器时，能附加随机的属性攻击力",
+      "type": "攻击力",
+      "explanation": "10秒内，增加随机属性的攻击力 +20",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7035800",
+      "category": "normal-outside",
+      "name": "附加属性攻击力时，能提升属性攻击力",
+      "type": "攻击力",
+      "explanation": "魔力/火/雷/圣属性伤害 +10%（本词条不能加成魔法/祷告）",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7035900",
+      "category": "normal-outside",
+      "name": "切换武器时，能提升物理攻击力",
+      "type": "攻击力",
+      "explanation": "10秒内，物理攻击力 +10%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7036100",
+      "category": "normal-outside",
+      "name": "防御成功时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7040000",
+      "category": "normal-outside",
+      "name": "强化轻攻击的第一记攻击",
+      "type": "攻击力",
+      "explanation": "轻击第一下造成的伤害 +15%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7040100",
+      "category": "normal-outside",
+      "name": "强化防御反击",
+      "type": "攻击力",
+      "explanation": "防御反击造成的伤害 +18%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7040200",
+      "category": "normal-outside",
+      "name": "强化致命一击",
+      "type": "攻击力",
+      "explanation": "致命一击造成的伤害 +18%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7040201",
+      "category": "normal-outside",
+      "name": "强化致命一击+１ (爵的黑夜)",
+      "type": "攻击力",
+      "explanation": "致命一击造成的伤害 +20%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7040300",
+      "category": "normal-outside",
+      "name": "提升投掷壶的攻击力",
+      "type": "攻击力",
+      "explanation": "投掷壶造成的伤害 +15%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7040400",
+      "category": "normal-outside",
+      "name": "提升投掷小刀的攻击力",
+      "type": "攻击力",
+      "explanation": "投投掷小刀造成的伤害 +15%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7040500",
+      "category": "normal-outside",
+      "name": "提升使用辉石、重力石道具的攻击力",
+      "type": "攻击力",
+      "explanation": "投投掷石头造成的伤害 +15%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7043000",
+      "category": "normal-outside",
+      "name": "强化咆哮与吐息",
+      "type": "攻击力",
+      "explanation": "咆哮与吐息造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7043100",
+      "category": "normal-outside",
+      "name": "强化调香术",
+      "type": "攻击力",
+      "explanation": "调香术造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7043200",
+      "category": "normal-outside",
+      "name": "强化挖石的魔法",
+      "type": "魔法/祷告",
+      "explanation": "挖石的魔法造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7043300",
+      "category": "normal-outside",
+      "name": "强化卡利亚剑的魔法",
+      "type": "魔法/祷告",
+      "explanation": "卡利亚剑的魔法造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7043400",
+      "category": "normal-outside",
+      "name": "强化辉剑的魔法",
+      "type": "魔法/祷告",
+      "explanation": "辉剑的魔法造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7043500",
+      "category": "normal-outside",
+      "name": "强化隐形的魔法",
+      "type": "魔法/祷告",
+      "explanation": "隐形的魔法造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7043600",
+      "category": "normal-outside",
+      "name": "强化结晶人的魔法",
+      "type": "魔法/祷告",
+      "explanation": "结晶人的魔法造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7043700",
+      "category": "normal-outside",
+      "name": "强化重力的魔法",
+      "type": "魔法/祷告",
+      "explanation": "重力的魔法造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7043800",
+      "category": "normal-outside",
+      "name": "强化荆棘的魔法",
+      "type": "魔法/祷告",
+      "explanation": "荆棘的魔法造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7043900",
+      "category": "normal-outside",
+      "name": "强化黑夜的魔法",
+      "type": "魔法/祷告",
+      "explanation": "黑夜的魔法造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7044000",
+      "category": "normal-outside",
+      "name": "强化黄金律法基本主义的祷告",
+      "type": "魔法/祷告",
+      "explanation": "黄金律法基本主义的祷告造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7044100",
+      "category": "normal-outside",
+      "name": "强化王城古龙信仰的祷告",
+      "type": "魔法/祷告",
+      "explanation": "王城古龙信仰的祷告造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7044200",
+      "category": "normal-outside",
+      "name": "强化巨人火焰的祷告",
+      "type": "魔法/祷告",
+      "explanation": "巨人火焰的祷告造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7044300",
+      "category": "normal-outside",
+      "name": "强化狩猎神祇的祷告",
+      "type": "魔法/祷告",
+      "explanation": "狩猎神祇的祷告造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7044400",
+      "category": "normal-outside",
+      "name": "强化野兽的祷告",
+      "type": "魔法/祷告",
+      "explanation": "野兽的祷告造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7044500",
+      "category": "normal-outside",
+      "name": "强化癫火的祷告",
+      "type": "魔法/祷告",
+      "explanation": "癫火的祷告造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7044600",
+      "category": "normal-outside",
+      "name": "强化龙飨的祷告",
+      "type": "魔法/祷告",
+      "explanation": "龙飨的祷告造成的伤害 +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7050000",
+      "category": "normal-outside",
+      "name": "不包含自己，提升周围我方人物的精力恢复速度",
+      "type": "队伍成员",
+      "explanation": "周围友方人物但不包括自己，精力恢复速度+4点/秒",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "7050100",
+      "category": "normal-outside",
+      "name": "道具效用能扩及我方人物",
+      "type": "队伍成员",
+      "explanation": "",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "7060000",
+      "category": "normal-outside",
+      "name": "每次打倒封印监牢里的囚犯，能提升攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害每次 +5%，局内无限成长",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7060100",
+      "category": "normal-outside",
+      "name": "每次解开魔法师塔的机关，能提升专注值上限",
+      "type": "能力",
+      "explanation": "专注值上限每次 +18%，局内无限成长",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7060200",
+      "category": "normal-outside",
+      "name": "每次打倒黑夜入侵者，能提升攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害每次 +7%，局内无限成长",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7070000",
+      "category": "normal-outside",
+      "name": "能显示地图上隐藏宝藏的位置",
+      "type": "场地环境",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7080000",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为短剑的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7080100",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为直剑的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7080200",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为大剑的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7080300",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为特大剑的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7080400",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为曲剑的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7080500",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为大曲剑的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7080600",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为刀的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7080700",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为双头剑的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7080800",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为刺剑的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7080900",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为重刺剑的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7081000",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为斧的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7081100",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为大斧的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7081200",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为槌的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7081300",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为大槌的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7081400",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为连枷的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7081500",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为矛的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7081700",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为大矛的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7081800",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为戟的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7081900",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为镰刀的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7082000",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为拳头的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7082100",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为钩爪的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7082200",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为软鞭的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7082300",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为特大武器的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +20%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7082400",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为弓的武器，能提升攻击力",
+      "type": "仅限特定武器",
+      "explanation": "造成的伤害 +10%，指定放在背包里就可生效，用别的武器也可增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7082500",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为手杖的武器，能提升专注值上限",
+      "type": "仅限特定武器",
+      "explanation": "+10点集中力（固定+50点专注值上限）",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7082600",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为圣印记的武器，能提升专注值上限",
+      "type": "仅限特定武器",
+      "explanation": "+10点集中力（固定+50点专注值上限）",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7082700",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为小盾的武器，能提升血量上限",
+      "type": "仅限特定武器",
+      "explanation": "+10点生命力（固定+200点生命值上限）",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7082800",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为中盾的武器，能提升血量上限",
+      "type": "仅限特定武器",
+      "explanation": "+10点生命力（固定+200点生命值上限）",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7082900",
+      "category": "normal-outside",
+      "name": "装备三把以上类别为大盾的武器，能提升血量上限",
+      "type": "仅限特定武器",
+      "explanation": "+10点生命力（固定+200点生命值上限）",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7090000",
+      "category": "normal-outside",
+      "name": "提升打倒敌人时，绝招量表的累积量表",
+      "type": "技艺/绝招",
+      "explanation": "绝招量表 +5",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "7090100",
+      "category": "normal-outside",
+      "name": "打倒敌人时，除了自己恢复周围我方人物的血量",
+      "type": "队伍成员",
+      "explanation": "固定回复20点血量，有0.5秒内置冷却时间",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "7090300",
+      "category": "normal-outside",
+      "name": "在图腾碑石周围打倒敌人时，能恢复血量",
+      "type": "恢复",
+      "explanation": "∘ 无赖释放图腾石碑时，本buff会和石碑增伤buff同时赋予给石碑周围的玩家\n∘ 获得buff的玩家每击杀一个敌人回复[最大生命值 × 50%]点血量，持续20秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7100100",
+      "category": "normal-outside",
+      "name": "攻击命中时，能恢复精力",
+      "type": "恢复",
+      "explanation": "攻击成功时，+2点精力值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7100110",
+      "category": "normal-outside",
+      "name": "攻击成功时，能恢复精力+１ (野兽的黑夜)",
+      "type": "恢复",
+      "explanation": "攻击成功时，+3点精力值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7110000",
+      "category": "normal-outside",
+      "name": "增加自己与我方人物获得的卢恩",
+      "type": "队伍成员",
+      "explanation": "获得的卢恩+3.5%，仅对击杀奖励有效，全队有效",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7120000",
+      "category": "normal-outside",
+      "name": "出击时的武器，附加魔力属性攻击力",
+      "type": "出击时的武器（附加）",
+      "explanation": "根据武器类型降低物理攻击力30/40/50/60，并增加魔力属性攻击力33/44/55/66",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7120100",
+      "category": "normal-outside",
+      "name": "出击时的武器，附加火属性攻击力",
+      "type": "出击时的武器（附加）",
+      "explanation": "根据武器类型降低物理攻击力30/40/50/60，并增加火属性攻击力33/44/55/66",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7120200",
+      "category": "normal-outside",
+      "name": "出击时的武器，附加雷属性攻击力",
+      "type": "出击时的武器（附加）",
+      "explanation": "根据武器类型降低物理攻击力30/40/50/60，并增加雷属性攻击力33/44/55/66",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7120300",
+      "category": "normal-outside",
+      "name": "出击时的武器，附加圣属性攻击力",
+      "type": "出击时的武器（附加）",
+      "explanation": "根据武器类型降低物理攻击力30/40/50/60，并增加圣属性攻击力33/44/55/66",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7120400",
+      "category": "normal-outside",
+      "name": "出击时的武器，附加异常状态冻伤",
+      "type": "出击时的武器（附加）",
+      "explanation": "∘ 附带35点基础冻伤值，武器造成的伤害 -15%\n∘ 冻伤：扣除敌人最大生命值 × 10% + 50，30秒内，玩家造成的伤害 +15%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7120500",
+      "category": "normal-outside",
+      "name": "出击时的武器，附加异常状态中毒",
+      "type": "出击时的武器（附加）",
+      "explanation": "∘ 附带35点基础中毒值，武器造成的伤害 -15%\n∘ 中毒：每秒扣除敌人[最大生命值 × 0.1% + 10]点血量，持续40秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7120600",
+      "category": "normal-outside",
+      "name": "出击时的武器，附加异常状态出血",
+      "type": "出击时的武器（附加）",
+      "explanation": "∘ 附带25点基础出血值，武器造成的伤害 -15%\n∘ 出血：扣除敌人[最大生命值 × 12.5% + 100]点血量",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7120900",
+      "category": "normal-outside",
+      "name": "出击时，会持有“石剑钥匙”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7121000",
+      "category": "normal-outside",
+      "name": "出击时，会持有“小型随身包包”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7121100",
+      "category": "normal-outside",
+      "name": "出击时，会持有“火焰壶”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7121200",
+      "category": "normal-outside",
+      "name": "出击时，会持有“魔力壶”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7121300",
+      "category": "normal-outside",
+      "name": "出击时，会持有“雷电壶”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7121400",
+      "category": "normal-outside",
+      "name": "出击时，会持有“圣水壶”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7121500",
+      "category": "normal-outside",
+      "name": "出击时，会持有“兽骨毒飞刀”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7121600",
+      "category": "normal-outside",
+      "name": "出击时，会持有“结晶飞刀”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7121700",
+      "category": "normal-outside",
+      "name": "出击时，会持有“投掷匕首”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7121800",
+      "category": "normal-outside",
+      "name": "出击时，会持有“崩裂辉石”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7121900",
+      "category": "normal-outside",
+      "name": "出击时，会持有“块状重力石”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7122000",
+      "category": "normal-outside",
+      "name": "出击时，会持有“魅惑树枝”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7122100",
+      "category": "normal-outside",
+      "name": "出击时，会持有“召咒魂铃”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7122200",
+      "category": "normal-outside",
+      "name": "出击时，会持有“火油脂”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7122300",
+      "category": "normal-outside",
+      "name": "出击时，会持有“魔力油脂”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7122400",
+      "category": "normal-outside",
+      "name": "出击时，会持有“雷油脂”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7122500",
+      "category": "normal-outside",
+      "name": "出击时，会持有“圣油脂”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7122600",
+      "category": "normal-outside",
+      "name": "出击时，会持有“坚盾油脂”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7122700",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“辉剑圆阵”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7122800",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“重力”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7122900",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“炎击”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7123000",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“熔岩火浆”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7123100",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“落雷”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7123200",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“雷击斩”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7123300",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“神圣刀刃”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7123400",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“祈祷一击”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7123500",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“毒雾”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7123600",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“双吻毒蛾”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7123700",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“血刃”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7123800",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“切腹”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7123900",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“寒气冻雾”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7124000",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“冻霜踏地”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7124100",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“白影诱惑”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7124300",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“忍耐”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7124400",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“碎步”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7124500",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“风暴足”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7124600",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“决心”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7124700",
+      "category": "normal-outside",
+      "name": "出击时，武器战技改为“箭雨”",
+      "type": "出击时的武器（战技）",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7126000",
+      "category": "normal-outside",
+      "name": "出击时，会持有“星光碎片”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7150000",
+      "category": "normal-outside",
+      "name": "防御反击成功时，能依照自己目前的血量提升伤害",
+      "type": "攻击力",
+      "explanation": "提升防御反击伤害，提升数值为人物最大生命值的 5%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7160000",
+      "category": "normal-outside",
+      "name": "突刺反击成功时，能恢复血量",
+      "type": "恢复",
+      "explanation": "触发突刺反击时，回复人物最大生命值 × 2.5% (突刺反击本身的物理伤害增益为10%)",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7220000",
+      "category": "normal-outside",
+      "name": "【复仇者】与家人并肩战斗期间，能强化自身",
+      "type": "仅限特定角色",
+      "explanation": "召唤家人时激活不同的增益效果: \n ∘ 海伦：玩家每秒回复1点生命值\n ∘ 弗雷德利克：玩家造成的伤害 +10%\n ∘ 塞巴斯蒂安：玩家受到的魔力/火/雷/圣属性伤害 -20%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7230000",
+      "category": "normal-outside",
+      "name": "在出击期间，减少于商店购物时所需的卢恩",
+      "type": "场地环境",
+      "explanation": "物品出售价格-10%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7230001",
+      "category": "normal-outside",
+      "name": "在出击期间，大幅减少于商店购物时所需的卢恩",
+      "type": "场地环境",
+      "explanation": "物品出售价格-20%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7240000",
+      "category": "normal-outside",
+      "name": "受到损伤并被弹飞时，能提升强韧度与减伤率",
+      "type": "减伤率",
+      "explanation": "玩家被击飞时，20秒内，受到的伤害 -20%，受到的韧性伤害 -20%",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "7260000",
+      "category": "normal-outside",
+      "name": "对陷入中毒的敌人，能强化攻击",
+      "type": "行动",
+      "explanation": "对中毒的敌人造成的伤害 +10%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7260300",
+      "category": "normal-outside",
+      "name": "对陷入猩红腐败的敌人，能强化攻击",
+      "type": "行动",
+      "explanation": "对猩红腐败的敌人造成的伤害 +10%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7260400",
+      "category": "normal-outside",
+      "name": "对陷入冻伤的敌人，能强化攻击",
+      "type": "行动",
+      "explanation": "对冻伤的敌人造成的伤害 +10%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7260700",
+      "category": "normal-outside",
+      "name": "周围人物陷入异常状态冻伤时，能隐藏自己的身影",
+      "type": "行动",
+      "explanation": "隐身时间为5秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7260800",
+      "category": "normal-outside",
+      "name": "周围人物陷入中毒、腐败时，能提升攻击力 (智的黑夜)",
+      "type": "行动",
+      "explanation": "20秒内，玩家造成的伤害 +12%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7270100",
+      "category": "normal-outside",
+      "name": "【铁之眼】技艺的使用次数+１",
+      "type": "仅限特定角色",
+      "explanation": "",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7280000",
+      "category": "normal-outside",
+      "name": "【铁之眼】延长弱点显露的时间",
+      "type": "仅限特定角色",
+      "explanation": "标记存在时间从17变为22秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7290000",
+      "category": "normal-outside",
+      "name": "【女爵】提升技艺造成的伤害",
+      "type": "仅限特定角色",
+      "explanation": "重演从50%伤害变为60%",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7310000",
+      "category": "normal-outside",
+      "name": "【无赖】延长绝招的有效时间",
+      "type": "仅限特定角色",
+      "explanation": "墓碑存在时间从20秒变为30秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7330000",
+      "category": "normal-outside",
+      "name": "提升短剑的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7330100",
+      "category": "normal-outside",
+      "name": "提升直剑的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7330200",
+      "category": "normal-outside",
+      "name": "提升大剑的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7330300",
+      "category": "normal-outside",
+      "name": "提升特大剑的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7330400",
+      "category": "normal-outside",
+      "name": "提升曲剑的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7330500",
+      "category": "normal-outside",
+      "name": "提升大曲剑的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7330600",
+      "category": "normal-outside",
+      "name": "提升刀的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7330700",
+      "category": "normal-outside",
+      "name": "提升双头剑的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7330800",
+      "category": "normal-outside",
+      "name": "提升刺剑的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7330900",
+      "category": "normal-outside",
+      "name": "提升重刺剑的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7331000",
+      "category": "normal-outside",
+      "name": "提升斧的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7331100",
+      "category": "normal-outside",
+      "name": "提升大斧的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7331200",
+      "category": "normal-outside",
+      "name": "提升槌的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7331300",
+      "category": "normal-outside",
+      "name": "提升大槌的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7331400",
+      "category": "normal-outside",
+      "name": "提升连枷的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7331500",
+      "category": "normal-outside",
+      "name": "提升矛的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7331600",
+      "category": "normal-outside",
+      "name": "提升长矛的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7331700",
+      "category": "normal-outside",
+      "name": "提升大矛的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7331800",
+      "category": "normal-outside",
+      "name": "提升戟的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7331900",
+      "category": "normal-outside",
+      "name": "提升镰刀的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7332000",
+      "category": "normal-outside",
+      "name": "提升拳头的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7332100",
+      "category": "normal-outside",
+      "name": "提升钩爪的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7332200",
+      "category": "normal-outside",
+      "name": "提升软鞭的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7332300",
+      "category": "normal-outside",
+      "name": "提升特大武器的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7332400",
+      "category": "normal-outside",
+      "name": "提升弓的攻击力",
+      "type": "攻击力",
+      "explanation": "造成的伤害 +6%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7340000",
+      "category": "normal-outside",
+      "name": "以短剑攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7340100",
+      "category": "normal-outside",
+      "name": "以直剑攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7340200",
+      "category": "normal-outside",
+      "name": "以大剑攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7340300",
+      "category": "normal-outside",
+      "name": "以特大剑攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7340400",
+      "category": "normal-outside",
+      "name": "以曲剑攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7340500",
+      "category": "normal-outside",
+      "name": "以大曲剑攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7340600",
+      "category": "normal-outside",
+      "name": "以刀攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7340700",
+      "category": "normal-outside",
+      "name": "以双头剑攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7340800",
+      "category": "normal-outside",
+      "name": "以刺剑攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7340900",
+      "category": "normal-outside",
+      "name": "以重刺剑攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7341000",
+      "category": "normal-outside",
+      "name": "以斧攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7341100",
+      "category": "normal-outside",
+      "name": "以大斧攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7341200",
+      "category": "normal-outside",
+      "name": "以槌攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7341300",
+      "category": "normal-outside",
+      "name": "以大槌攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7341400",
+      "category": "normal-outside",
+      "name": "以连枷攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7341500",
+      "category": "normal-outside",
+      "name": "以矛攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7341600",
+      "category": "normal-outside",
+      "name": "以长矛攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7341700",
+      "category": "normal-outside",
+      "name": "以大矛攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7341800",
+      "category": "normal-outside",
+      "name": "以戟攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7341900",
+      "category": "normal-outside",
+      "name": "以镰刀攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7342000",
+      "category": "normal-outside",
+      "name": "以拳头攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7342100",
+      "category": "normal-outside",
+      "name": "以钩爪攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7342200",
+      "category": "normal-outside",
+      "name": "以软鞭攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7342300",
+      "category": "normal-outside",
+      "name": "以特大武器攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7342400",
+      "category": "normal-outside",
+      "name": "以弓攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复15点生命值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7350000",
+      "category": "normal-outside",
+      "name": "以短剑攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7350100",
+      "category": "normal-outside",
+      "name": "以直剑攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7350200",
+      "category": "normal-outside",
+      "name": "以大剑攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7350300",
+      "category": "normal-outside",
+      "name": "以特大剑攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7350400",
+      "category": "normal-outside",
+      "name": "以曲剑攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7350500",
+      "category": "normal-outside",
+      "name": "以大曲剑攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7350600",
+      "category": "normal-outside",
+      "name": "以刀攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7350700",
+      "category": "normal-outside",
+      "name": "以双头剑攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7350800",
+      "category": "normal-outside",
+      "name": "以刺剑攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7350900",
+      "category": "normal-outside",
+      "name": "以重刺剑攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7351000",
+      "category": "normal-outside",
+      "name": "以斧攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7351100",
+      "category": "normal-outside",
+      "name": "以大斧攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7351200",
+      "category": "normal-outside",
+      "name": "以槌攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7351300",
+      "category": "normal-outside",
+      "name": "以大槌攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7351400",
+      "category": "normal-outside",
+      "name": "以连枷攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7351500",
+      "category": "normal-outside",
+      "name": "以矛攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7351600",
+      "category": "normal-outside",
+      "name": "以长矛攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7351700",
+      "category": "normal-outside",
+      "name": "以大矛攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7351800",
+      "category": "normal-outside",
+      "name": "以戟攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7351900",
+      "category": "normal-outside",
+      "name": "以镰刀攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7352000",
+      "category": "normal-outside",
+      "name": "以拳头攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7352100",
+      "category": "normal-outside",
+      "name": "以钩爪攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7352200",
+      "category": "normal-outside",
+      "name": "以软鞭攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7352300",
+      "category": "normal-outside",
+      "name": "以特大武器攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7352400",
+      "category": "normal-outside",
+      "name": "以弓攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6630000",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到短剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6630100",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到直剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6630200",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到大剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6630300",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到特大剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6630400",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到曲剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6630500",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到大曲剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6630600",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到刀",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6630700",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到双头剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6630800",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到刺剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6630900",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到重刺剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6631000",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到斧",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6631100",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到大斧",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6631200",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到槌",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6631300",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到大槌",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6631400",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到连枷",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6631500",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到矛",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6631600",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到大矛",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6631700",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到戟",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6631800",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到镰刀",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6631900",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到拳头",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6632000",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到钩爪",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6632100",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到软鞭",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6632200",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到特大武器",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6632300",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到弓",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6632400",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到大弓",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6632500",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到弩",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6632600",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到弩炮",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6632700",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到小盾",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6632800",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到中盾",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6632900",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到大盾",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6633000",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到手杖",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6633100",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到圣印记",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6633200",
+      "category": "normal-outside",
+      "name": "通过潜在能力，能比较容易找到火把",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7006400",
+      "category": "normal-outside",
+      "name": "【单眼镜的皮革袋】延长魔法、祷告的有效时间",
+      "type": "专属遗物",
+      "explanation": "延长魔法、祷告的有效时间 (延长50%，向下取整)",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7006500",
+      "category": "normal-outside",
+      "name": "【安定者的遗志】持续恢复专注值",
+      "type": "专属遗物",
+      "explanation": "每5秒恢复1点专注值",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7006600",
+      "category": "normal-outside",
+      "name": "【安定的遗志/安定者的遗志】提升近战攻击力",
+      "type": "专属遗物",
+      "explanation": "近战攻击造成的伤害 +6% (包括近战武器打出的弹道型远程战技)",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7006700",
+      "category": "normal-outside",
+      "name": "【安定的遗志/安定者的遗志】提升战技攻击力",
+      "type": "专属遗物",
+      "explanation": "战技造成的伤害 +15%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7036200",
+      "category": "normal-outside",
+      "name": "【学者】减缓技艺进行率的下降幅度",
+      "type": "仅限特定角色",
+      "explanation": "技艺进行率的下降幅度 -30",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7036300",
+      "category": "normal-outside",
+      "name": "【学者】使用技艺时，提升目标我方人物的攻击力",
+      "type": "仅限特定角色",
+      "explanation": "30秒内，目标友方单位造成的物理伤害 +20%，造成的魔力/火/雷/圣属性伤害 +15% (学者自身无法享受这个效果，仅增益队友)",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7036400",
+      "category": "normal-outside",
+      "name": "【学者】对上已用绝招连结的敌人，持续给予伤害",
+      "type": "仅限特定角色",
+      "explanation": "∘ 对于每个被连接的敌人，每秒固定扣除15点生命值，持续20秒\n∘ 扣血效果可在敌人之间传递，连接的敌人越多效果越强",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7036500",
+      "category": "normal-outside",
+      "name": "【学者】每次使用技艺增加样本，能获得卢恩",
+      "type": "仅限特定角色",
+      "explanation": "∘ 每次用技艺观察不同种类的敌人时，+1300点卢恩\n∘ 同一对局内，同种敌人只能触发一次该效果",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7036800",
+      "category": "normal-outside",
+      "name": "【送葬者】发动绝招时，提升攻击力",
+      "type": "仅限特定角色",
+      "explanation": "发动绝招时，造成的伤害+18%，持续40秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7036900",
+      "category": "normal-outside",
+      "name": "【送葬者】连击的最后攻击命中时，提升攻击力",
+      "type": "仅限特定角色",
+      "explanation": "最后攻击命中时，造成的伤害+16%，持续20秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7037000",
+      "category": "normal-outside",
+      "name": "【送葬者】使用祷告将辅助效果附加在自己身上时，提升物理攻击力",
+      "type": "仅限特定角色",
+      "explanation": "物理攻击力+19%，持续60秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7037300",
+      "category": "normal-outside",
+      "name": "【送葬者】发动绝招时，恢复触碰到的我方人物的血量",
+      "type": "仅限特定角色",
+      "explanation": "绝招触碰到的友方单位，固定回复[最大生命值 × 30% + 100]点血量",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7037600",
+      "category": "normal-outside",
+      "name": "【玻璃项链】连续攻击时，提升攻击力",
+      "type": "专属遗物",
+      "explanation": "根据连续攻击累积值增加伤害\n ∘ 共有4个阶段 [5%/6.5%/9%/15%]\n ∘ 持续时间 [1-3阶段1.5秒，4阶段0秒]\n ∘ 每个等级buff互相独立计算持续时间和增伤",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7037700",
+      "category": "normal-outside",
+      "name": "【废弃物之夜】出现异常状态量表时，能缓慢提升攻击力",
+      "type": "专属遗物",
+      "explanation": "根据异常值存在的时间，逐步提升增加的伤害\n  ∘ 共有10个阶段[3.5%/7%/11%/15.5%/20%/25%/30%/35%/40%/45%]\n  ∘ 当人物进入任意异常状态时，就会进入阶段1(增伤3.5%)，之后每20秒会进行一次判定，如果判定时异常状态仍然存在，则会提升到下一个阶段\n  ∘ 阶段的提升与异常状态是否触发、异常条本身的进度以及长短无关\n  ∘ 如果在判定间隔之间异常状态消失，但随后又出现，不会导致阶段重置",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7037800",
+      "category": "normal-outside",
+      "name": "【安定的遗志】减伤率降低时，偶尔会让敌人攻击失效",
+      "type": "专属遗物",
+      "explanation": "∘ 当玩家减伤率降低时，有20%概率让敌人攻击失效\n∘ 该效果会随任意减伤率降低buff一同出现和消失\n∘ 攻击失效时，玩家会受到1点伤害，会累积异常条，但不会硬直",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7170100",
+      "category": "normal-outside",
+      "name": "【废弃物之夜】受到损伤时，附加异常状态腐败",
+      "type": "专属遗物",
+      "explanation": "∘ 受到敌人攻击后，武器附魔25点腐败值，持续12秒\n∘ 猩红腐败：40秒内，每1.3秒扣除敌人[最大生命值 × 0.15% + 15]点血量",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7260900",
+      "category": "normal-outside",
+      "name": "【废弃物之夜】周围陷入腐败时，持续恢复血量",
+      "type": "专属遗物",
+      "explanation": "周围人物陷入异常状态猩红腐败时，每1.3秒回复[最大生命值 × 0.15% + 15]点血量，持续15秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7360600",
+      "category": "normal-outside",
+      "name": "出击时，武器魔法改为“魔法辉剑",
+      "type": "出击时的武器（魔法）",
+      "explanation": "仅隐士有效",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7360900",
+      "category": "normal-outside",
+      "name": "出击时，武器魔法改为“卡利亚大剑”",
+      "type": "出击时的武器（魔法）",
+      "explanation": "仅隐士有效",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7361200",
+      "category": "normal-outside",
+      "name": "出击时，武器魔法改为“黑夜魔砾”",
+      "type": "出击时的武器（魔法）",
+      "explanation": "仅隐士有效",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7361300",
+      "category": "normal-outside",
+      "name": "出击时，武器魔法改为“熔岩球”",
+      "type": "出击时的武器（魔法）",
+      "explanation": "仅隐士有效",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7362100",
+      "category": "normal-outside",
+      "name": "出击时，武器魔法改为“责罚荆棘”",
+      "type": "出击时的武器（魔法）",
+      "explanation": "仅隐士有效",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7370300",
+      "category": "normal-outside",
+      "name": "出击时，武器祷告改为“黄金之怒”",
+      "type": "出击时的武器（祷告）",
+      "explanation": "仅复仇者有效",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7370400",
+      "category": "normal-outside",
+      "name": "出击时，武器祷告改为“雷电枪”",
+      "type": "出击时的武器（祷告）",
+      "explanation": "仅复仇者有效",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7370500",
+      "category": "normal-outside",
+      "name": "出击时，武器祷告改为“雷击”",
+      "type": "出击时的武器（祷告）",
+      "explanation": "仅复仇者有效",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7370600",
+      "category": "normal-outside",
+      "name": "出击时，武器祷告改为“火焰啊!”",
+      "type": "出击时的武器（祷告）",
+      "explanation": "仅复仇者有效",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7370900",
+      "category": "normal-outside",
+      "name": "出击时，武器祷告改为“兽爪”",
+      "type": "出击时的武器（祷告）",
+      "explanation": "仅复仇者有效",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "7371500",
+      "category": "normal-outside",
+      "name": "出击时，武器祷告改为“龙焰”",
+      "type": "出击时的武器（祷告）",
+      "explanation": "仅复仇者有效",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8000000",
+      "category": "normal-inside",
+      "name": "提升血量上限",
+      "type": "能力值",
+      "explanation": "生命值上限+10% / +15%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8010000",
+      "category": "normal-inside",
+      "name": "提升专注值上限",
+      "type": "能力值",
+      "explanation": "专注值上限+10% / +15%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8010100",
+      "category": "normal-inside",
+      "name": "减少专注值消耗",
+      "type": "能力值",
+      "explanation": "专注值消耗-10% / -15%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8020000",
+      "category": "normal-inside",
+      "name": "提升精力上限",
+      "type": "能力值",
+      "explanation": "精力值上限+10% / +15%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8020200",
+      "category": "normal-inside",
+      "name": "提升精力恢复速度",
+      "type": "能力值",
+      "explanation": "精力回复速度+4点/秒 / +6点/秒",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8100000",
+      "category": "normal-inside",
+      "name": "提升物理攻击力",
+      "type": "攻击力",
+      "explanation": "造成的物理属性伤害+6% / +9%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8100100",
+      "category": "normal-inside",
+      "name": "提升魔力属性攻击力",
+      "type": "攻击力",
+      "explanation": "造成的魔力属性伤害+6% / +9% / +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8100200",
+      "category": "normal-inside",
+      "name": "提升火属性攻击力",
+      "type": "攻击力",
+      "explanation": "造成的火属性伤害+6% / +9% / +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8100300",
+      "category": "normal-inside",
+      "name": "提升雷属性攻击力",
+      "type": "攻击力",
+      "explanation": "造成的雷属性伤害+6% / +9% / +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8100400",
+      "category": "normal-inside",
+      "name": "提升圣属性攻击力",
+      "type": "攻击力",
+      "explanation": "造成的圣属性伤害+6% / +9% / +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8110000",
+      "category": "normal-inside",
+      "name": "附加异常状态中毒",
+      "type": "附加异常状态",
+      "explanation": "附加中毒值18 / 23 / 30",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8110100",
+      "category": "normal-inside",
+      "name": "附加异常状态出血",
+      "type": "附加异常状态",
+      "explanation": "附加出血值18 / 23 / 30",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8110200",
+      "category": "normal-inside",
+      "name": "附加异常状态催眠",
+      "type": "附加异常状态",
+      "explanation": "附加睡眠值18 / 23 / 30",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8110400",
+      "category": "normal-inside",
+      "name": "附加异常状态腐败",
+      "type": "附加异常状态",
+      "explanation": "附加腐败值18 / 23 / 30",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8110500",
+      "category": "normal-inside",
+      "name": "附加异常状态冻伤",
+      "type": "附加异常状态",
+      "explanation": "附加冻伤值18 / 23 / 30",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8110700",
+      "category": "normal-inside",
+      "name": "武器变为火属性",
+      "type": "武器属性",
+      "explanation": "降低物理攻击力25 / 30 / 35 / 26，并增加火属性攻击力25 / 30 / 35 / 26",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8110800",
+      "category": "normal-inside",
+      "name": "武器变为魔力属性",
+      "type": "武器属性",
+      "explanation": "降低物理攻击力25 / 30 / 35 / 26，并增加魔力属性攻击力25 / 30 / 35 / 26",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8110900",
+      "category": "normal-inside",
+      "name": "武器变为雷属性",
+      "type": "武器属性",
+      "explanation": "降低物理攻击力25 / 30 / 35 / 26，并增加雷属性攻击力25 / 30 / 35 / 26",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8111000",
+      "category": "normal-inside",
+      "name": "武器变为圣属性",
+      "type": "武器属性",
+      "explanation": "降低物理攻击力25 / 30 / 35 / 26，并增加圣属性攻击力25 / 30 / 35 / 26",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8120000",
+      "category": "normal-inside",
+      "name": "提升让敌人失去平衡的能力",
+      "type": "攻击力",
+      "explanation": "造成的削韧+10% / +15%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8130000",
+      "category": "normal-inside",
+      "name": "强化致命一击",
+      "type": "攻击力",
+      "explanation": "致命一击造成的伤害+12% / +18% / +24%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8140000",
+      "category": "normal-inside",
+      "name": "提升瓦解防御的能力",
+      "type": "攻击力",
+      "explanation": "攻击举盾防御的敌人时，敌人消耗的精力值+30% / +45% / +60%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8200000",
+      "category": "normal-inside",
+      "name": "提升物理减伤率",
+      "type": "减伤率",
+      "explanation": "受到的物理属性伤害-12% / -18%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8200100",
+      "category": "normal-inside",
+      "name": "提升魔力属性减伤率",
+      "type": "减伤率",
+      "explanation": "受到的魔力属性伤害-12% / -16% / -20%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8200200",
+      "category": "normal-inside",
+      "name": "提升火属性减伤率",
+      "type": "减伤率",
+      "explanation": "受到的火属性伤害-12% / -16% / -20%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8200300",
+      "category": "normal-inside",
+      "name": "提升雷属性减伤率",
+      "type": "减伤率",
+      "explanation": "受到的雷属性伤害-12% / -16% / -20%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8200400",
+      "category": "normal-inside",
+      "name": "提升圣属性减伤率",
+      "type": "减伤率",
+      "explanation": "受到的圣属性伤害-12% / -16% / -20%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8200500",
+      "category": "normal-inside",
+      "name": "提升物理以外的减伤率",
+      "type": "减伤率",
+      "explanation": "减少受到的除物理外伤害-12% / -18%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8210000",
+      "category": "normal-inside",
+      "name": "提升对中毒的抵抗力",
+      "type": "对异常状态的抵抗力",
+      "explanation": "中毒异常耐受上限+57 / +75 / +112点",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8210100",
+      "category": "normal-inside",
+      "name": "提升对出血的抵抗力",
+      "type": "对异常状态的抵抗力",
+      "explanation": "出血异常耐受上限+57 / +75 / +112点",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8210200",
+      "category": "normal-inside",
+      "name": "提升对催眠的抵抗力",
+      "type": "对异常状态的抵抗力",
+      "explanation": "催眠异常耐受上限+57 / +75 / +112点",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8210300",
+      "category": "normal-inside",
+      "name": "提升对骤死的抵抗力",
+      "type": "对异常状态的抵抗力",
+      "explanation": "骤死异常耐受上限+57 / +75 / +112点",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8210400",
+      "category": "normal-inside",
+      "name": "提升对腐败的抵抗力",
+      "type": "对异常状态的抵抗力",
+      "explanation": "腐败异常耐受上限+57 / +75 / +112点",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8210500",
+      "category": "normal-inside",
+      "name": "提升对冻伤的抵抗力",
+      "type": "对异常状态的抵抗力",
+      "explanation": "冻伤异常耐受上限+57 / +75 / +112点",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8210600",
+      "category": "normal-inside",
+      "name": "提升对发狂的抵抗力",
+      "type": "对异常状态的抵抗力",
+      "explanation": "发狂异常耐受上限+57 / +75 / +112点",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8220000",
+      "category": "normal-inside",
+      "name": "提升防御强度",
+      "type": "能力值",
+      "explanation": "防御时，最终损失的精力值-10%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8220001",
+      "category": "normal-inside",
+      "name": "提升防御强度＋１",
+      "type": "能力值",
+      "explanation": "防御时，最终损失的精力值-15%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8220002",
+      "category": "normal-inside",
+      "name": "提升防御强度＋２",
+      "type": "能力值",
+      "explanation": "防御时，最终损失的精力值-20%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8230000",
+      "category": "normal-inside",
+      "name": "提升强韧度",
+      "type": "能力值",
+      "explanation": "受到的韧性伤害-25% / -38%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8300000",
+      "category": "normal-inside",
+      "name": "提升双手共持时的攻击力",
+      "type": "攻击力",
+      "explanation": "双手共持武器时造成的伤害+7% / +10% / +13%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8300100",
+      "category": "normal-inside",
+      "name": "提升双手共持时，造成失去平衡的能力",
+      "type": "攻击力",
+      "explanation": "双手共持武器时造成的韧性伤害+5% / +6% / +7%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8310000",
+      "category": "normal-inside",
+      "name": "提升双手各持时的攻击力",
+      "type": "攻击力",
+      "explanation": "双手各持武器时造成的伤害+7% / +10% / +13%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8310100",
+      "category": "normal-inside",
+      "name": "提升双手各持时，造成失去平衡的能力",
+      "type": "攻击力",
+      "explanation": "双手各持武器时造成的韧性伤害+5% / +6% / +7%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8320000",
+      "category": "normal-inside",
+      "name": "强化连续攻击的最后攻击",
+      "type": "攻击力",
+      "explanation": "连续攻击的最后攻击伤害+21% / +26% / +31%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8320100",
+      "category": "normal-inside",
+      "name": "强化蓄力攻击",
+      "type": "攻击力",
+      "explanation": "蓄力攻击的伤害+6% / +9% / +12%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8320300",
+      "category": "normal-inside",
+      "name": "强化跳跃攻击",
+      "type": "攻击力",
+      "explanation": "跳跃攻击造成的伤害+14% / +17% / +20%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8320400",
+      "category": "normal-inside",
+      "name": "蓄力攻击时，提升减伤率",
+      "type": "减伤率",
+      "explanation": "∘ 使用蓄力攻击时，产生一个10秒增益状态，受到的伤害-24% / -32% / -40%;\n∘ 持续时间内再次蓄力攻击命中，可刷新持续时间;\n∘ 三种级别叠加时，最高减伤率计算：\n      1. 总承受伤害比例 = (1-24%)×(1-32%)×(1-40%) = 31.008%\n      2. 最高减伤率 = 1 - 总承受伤害比例 = 68.992%",
+      "stackability": "不同级别可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8330000",
+      "category": "normal-inside",
+      "name": "强化魔法",
+      "type": "强化",
+      "explanation": "魔法造成的伤害+5% / +8% / +11% (只要用魔法杖打出的都算）",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8330100",
+      "category": "normal-inside",
+      "name": "强化祷告",
+      "type": "强化",
+      "explanation": "祷告造成的伤害+5% / +8% / +11%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8330200",
+      "category": "normal-inside",
+      "name": "强化魔法的蓄力施展",
+      "type": "强化",
+      "explanation": "蓄力魔法的伤害+9% / +13% / +18%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8330300",
+      "category": "normal-inside",
+      "name": "强化祷告的蓄力执行",
+      "type": "强化",
+      "explanation": "蓄力祷告的伤害+9% / +13% / +18%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8330400",
+      "category": "normal-inside",
+      "name": "缩短魔法、祷告的咏唱时间",
+      "type": "强化",
+      "explanation": "增加相当于30 / 60点灵巧所带来的施法速度",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8330500",
+      "category": "normal-inside",
+      "name": "延长魔法、祷告的有效时间",
+      "type": "强化",
+      "explanation": "延长魔法、祷告的有效时间(延长佩戴时长的200%，向下取整)",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8330600",
+      "category": "normal-inside",
+      "name": "减少魔法、祷告专注值消耗",
+      "type": "强化",
+      "explanation": "魔法、祷告专注值消耗-10% / -15% / -20%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8330700",
+      "category": "normal-inside",
+      "name": "龙飨祷告对武器附加增伤【龙】",
+      "type": "强化",
+      "explanation": "使用龙飨祷告会对武器施加45秒\"龙特攻\"附魔，对古龙造成1.2倍伤害，对普通龙造成1.3倍伤害",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "8330900",
+      "category": "normal-inside",
+      "name": "咏唱魔法、祷告时，提升减伤率",
+      "type": "减伤率",
+      "explanation": "∘ 咏唱魔法、祷告时，受到的伤害-18% / -24% / -30%；\n∘ 施法动作期间维持减伤，结束还会维持0.5s;\n∘ 三种级别叠加时，最高减伤率计算：\n      1. 总承受伤害比例 = (1-18%)×(1-24%)×(1-30%) = 43.624%\n      2. 最高减伤率 = 1 - 总承受伤害比例 = 56.376%",
+      "stackability": "不同级别可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8340000",
+      "category": "normal-inside",
+      "name": "强化射击",
+      "type": "强化",
+      "explanation": "箭矢造成的伤害+7% / +10% / +14%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8340100",
+      "category": "normal-inside",
+      "name": "降低射击时，伤害随距离递减的影响",
+      "type": "强化",
+      "explanation": "弓弩基础射程距离+30% / +40% / +50%（基础射程为50)",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8350000",
+      "category": "normal-inside",
+      "name": "提升战技攻击力",
+      "type": "攻击力",
+      "explanation": "战技造成的伤害+15% / +18% / +21%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8350200",
+      "category": "normal-inside",
+      "name": "减少战技专注值消耗",
+      "type": "强化",
+      "explanation": "战技专注值消耗-12% / -18% / -24%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8350400",
+      "category": "normal-inside",
+      "name": "格挡时，发动黄金式奉还",
+      "type": "强化",
+      "explanation": "能以格挡消除魔法、祷告，再释放光芒球",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8360000",
+      "category": "normal-inside",
+      "name": "强化自然累积绝招量表",
+      "type": "技艺/绝招",
+      "explanation": "绝招量表累积速率+6%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8370000",
+      "category": "normal-inside",
+      "name": "缩短技艺的冷却时间",
+      "type": "技艺/绝招",
+      "explanation": "技艺冷却时间-10%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8380000",
+      "category": "normal-inside",
+      "name": "强化咆哮与吐息",
+      "type": "强化",
+      "explanation": "增加15%吐息和咆哮造成的伤害",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8390000",
+      "category": "normal-inside",
+      "name": "强化投掷壶",
+      "type": "强化",
+      "explanation": "增加20%投掷壶造成的伤害",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8400000",
+      "category": "normal-inside",
+      "name": "强化调香术",
+      "type": "强化",
+      "explanation": "增加15%调香类道具造成的伤害",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8410000",
+      "category": "normal-inside",
+      "name": "强化闪避能力",
+      "type": "强化",
+      "explanation": "增加闪避动作无敌帧",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8410100",
+      "category": "normal-inside",
+      "name": "闪避时，在周围降下落雷",
+      "type": "额外效果",
+      "explanation": "翻滚、后跃闪避时，能在周围降下落雷(每发55.8雷，削韧2)",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8420000",
+      "category": "normal-inside",
+      "name": "强化防御反击",
+      "type": "强化",
+      "explanation": "防御反击造成的伤害+17% / +20% / +23%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8420100",
+      "category": "normal-inside",
+      "name": "防御反击时，触发圣属性攻击",
+      "type": "额外效果",
+      "explanation": "使出防御反击时，能引发圣属性的爆炸(100.2圣，击退冲击力7，削韧7)",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8420200",
+      "category": "normal-inside",
+      "name": "防御反击时，触发召唤攻击",
+      "type": "额外效果",
+      "explanation": "使出防御反击时，能召唤因死迷途者攻击(三个骷髅每个63魔，削韧5x3)",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8430000",
+      "category": "normal-inside",
+      "name": "强化突刺反击",
+      "type": "强化",
+      "explanation": "触发突刺反击时，额外造成物理伤害+10% / +15% / +20%",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "8440000",
+      "category": "normal-inside",
+      "name": "提升圣杯瓶恢复量",
+      "type": "恢复",
+      "explanation": "红露滴圣杯瓶恢复量+20% / +30%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8440200",
+      "category": "normal-inside",
+      "name": "使用圣杯瓶时，改为缓慢恢复",
+      "type": "恢复",
+      "explanation": "立刻恢复10%(受恢复量buff加成)；后续恢复1%/0.1s，持续8s(不受恢复量buff加成)",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8450000",
+      "category": "normal-inside",
+      "name": "急速冲刺时，喷出熔岩",
+      "type": "额外效果",
+      "explanation": "能在急速冲刺的起点喷出熔岩",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8450100",
+      "category": "normal-inside",
+      "name": "急速冲刺时，刮起冰风暴",
+      "type": "额外效果",
+      "explanation": "能在急速冲刺的起点刮起冰风暴(每次19.2魔＋5冰冻值，削韧每次2)",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8460000",
+      "category": "normal-inside",
+      "name": "慢步移动时，形成黑暗消除自身存在",
+      "type": "额外效果",
+      "explanation": "慢步移动时，身影会变得难以辨认，也会消除脚步声",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8460100",
+      "category": "normal-inside",
+      "name": "慢步移动时，剧烈燃烧周围",
+      "type": "额外效果",
+      "explanation": "慢步移动时，能引发剧烈自燃，连同周围一起燃烧(每次86.4火，削韧每次9.25)",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8460200",
+      "category": "normal-inside",
+      "name": "慢步移动时，迸发剧烈癫火",
+      "type": "额外效果",
+      "explanation": "慢步移动时，能迸发剧烈黄色癫火(每发64.2火+20发狂值，削韧每发5)",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8460300",
+      "category": "normal-inside",
+      "name": "慢步移动时，释放咒魂",
+      "type": "额外效果",
+      "explanation": "慢步移动时，能释放穷追不舍的咒魂(爆炸33圣，削韧15，生成12个咒魂，每个21圣，削韧1)",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8460400",
+      "category": "normal-inside",
+      "name": "慢步移动时，降下磅礡的星雨",
+      "type": "额外效果",
+      "explanation": "慢步移动时，能在空中召唤出黑暗星云，降下磅礡的星雨(每发9魔，削韧每发0.5)",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8460500",
+      "category": "normal-inside",
+      "name": "慢步移动时，召唤红落雷",
+      "type": "额外效果",
+      "explanation": "慢步移动时，能在周围召唤红落雷(每发36雷，削韧每发5)",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8500000",
+      "category": "normal-inside",
+      "name": "打倒敌人时，增加获得的卢恩",
+      "type": "能力值",
+      "explanation": "获得的卢恩+10%，仅对击杀奖励有效",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8510000",
+      "category": "normal-inside",
+      "name": "提升观察力",
+      "type": "能力值",
+      "explanation": "观察力+20",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8520000",
+      "category": "normal-inside",
+      "name": "敌人比较不会攻击自己",
+      "type": "能力值",
+      "explanation": "仇恨增益-300 / -450 / -600",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8530000",
+      "category": "normal-inside",
+      "name": "一定时间间隔内，形成多支辉剑",
+      "type": "额外效果",
+      "explanation": "辉剑会先后形成，自动攻击敌人(生成5只辉剑，每发36魔，削韧1x5)",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8530100",
+      "category": "normal-inside",
+      "name": "一定时间间隔内，形成大量辉剑",
+      "type": "额外效果",
+      "explanation": "辉剑会先后形成，自动攻击敌人(生成9只辉剑，每发28.8魔，削韧1×9)",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8530200",
+      "category": "normal-inside",
+      "name": "一定时间间隔内，形成巨大辉剑",
+      "type": "额外效果",
+      "explanation": "辉剑会先后形成，自动攻击敌人(生成3只大辉剑，每发60魔，削韧10.175×3)",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8540000",
+      "category": "normal-inside",
+      "name": "持续恢复血量",
+      "type": "恢复",
+      "explanation": "每秒恢复1点生命值",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "8600100",
+      "category": "normal-inside",
+      "name": "攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "每次攻击固定回复4点生命值",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "8600200",
+      "category": "normal-inside",
+      "name": "攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "每次攻击固定回复1点专注值",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "8600300",
+      "category": "normal-inside",
+      "name": "攻击时，敌人偶尔会骤死",
+      "type": "额外效果",
+      "explanation": "攻击命中的敌人，偶尔会无关血量多寡立刻死亡",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8610000",
+      "category": "normal-inside",
+      "name": "连续攻击时，恢复血量",
+      "type": "恢复",
+      "explanation": "连续攻击回复血量，回复最大生命值的3%，内置4秒冷却时间(累积32连击值，提升减伤率同品质词条不叠加)",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8610100",
+      "category": "normal-inside",
+      "name": "连续攻击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "连续攻击回复专注值，回复最大专注值的10%，内置4秒冷却时间(累积32连击值，提升减伤率同品质词条不叠加)",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8610300",
+      "category": "normal-inside",
+      "name": "蓄力攻击时，追加魔力属性攻击",
+      "type": "额外效果",
+      "explanation": "蓄力攻击时，追加75点基础魔力属性伤害，1点削韧，3号冲击力",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8610400",
+      "category": "normal-inside",
+      "name": "蓄力攻击时，追加火属性攻击",
+      "type": "额外效果",
+      "explanation": "蓄力攻击时，追加75点基础火属性伤害，1点削韧，3号冲击力",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8610500",
+      "category": "normal-inside",
+      "name": "蓄力攻击时，追加雷属性攻击",
+      "type": "额外效果",
+      "explanation": "蓄力攻击时，追加75点基础雷属性伤害，1点削韧，3号冲击力",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8610600",
+      "category": "normal-inside",
+      "name": "蓄力攻击时，追加圣属性攻击",
+      "type": "额外效果",
+      "explanation": "蓄力攻击时，追加75点基础圣属性伤害，1点削韧，3号冲击力",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8610700",
+      "category": "normal-inside",
+      "name": "连续攻击时，仅限一次提升减伤率",
+      "type": "减伤率",
+      "explanation": "∘ 连续攻击时，触发仅一次的减伤效果，受到的伤害-38% / -48% / -60%；\n∘ 持续30秒(每累积32连击值且未受到伤害，可刷新持续时间)；\n∘ 三种级别叠加时，最高减伤率计算：\n      1. 总承受伤害比例 = (1-38%)×(1-48%)×(1-60%) = 12.896%\n      2. 最高减伤率 = 1 - 总承受伤害比例 = 87.104%",
+      "stackability": "不同级别可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8620000",
+      "category": "normal-inside",
+      "name": "受到损伤时，恢复专注值",
+      "type": "恢复",
+      "explanation": "每次受到伤害回复2点专注值",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "8620100",
+      "category": "normal-inside",
+      "name": "受到损伤时，提升减伤率",
+      "type": "减伤率",
+      "explanation": "∘ 每次受到伤害，触发减伤效果，受到的伤害-21% / -28% / -36%，持续10秒;\n∘ 持续时间内再次受到损伤，可刷新持续时间；\n∘ 三种级别叠加时，最高减伤率计算：\n      1. 总承受伤害比例 = (1-21%)×(1-28%)×(1-36%) = 31.008%\n      2. 最高减伤率 = 1 - 总承受伤害比例 = 68.992%",
+      "stackability": "不同级别可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8630000",
+      "category": "normal-inside",
+      "name": "打倒敌人时，恢复血量",
+      "type": "恢复",
+      "explanation": "击杀一名敌人后，固定回复20点生命值",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "8630100",
+      "category": "normal-inside",
+      "name": "打倒敌人时，恢复专注值",
+      "type": "恢复",
+      "explanation": "击杀一名敌人后，固定回复最大专注值的4%",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "8630200",
+      "category": "normal-inside",
+      "name": "打倒多名敌人时，释放咒魂",
+      "type": "额外效果",
+      "explanation": "打倒多名敌人时，能释放穷追不舍的咒魂",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8630300",
+      "category": "normal-inside",
+      "name": "打倒多名敌人时，形成魅惑烟雾",
+      "type": "额外效果",
+      "explanation": "打倒多名敌人时，能形成魅惑烟雾",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8630400",
+      "category": "normal-inside",
+      "name": "打倒多名敌人时，召唤怨魂",
+      "type": "额外效果",
+      "explanation": "打倒多名敌人时，能召唤穷追不舍的怨魂群",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8630500",
+      "category": "normal-inside",
+      "name": "打倒多名敌人时，形成熔岩",
+      "type": "额外效果",
+      "explanation": "打倒多名敌人时，能形成滚烫熔岩",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8630600",
+      "category": "normal-inside",
+      "name": "打倒多名敌人时，形成寒气冻雾",
+      "type": "额外效果",
+      "explanation": "打倒多名敌人时，能形成寒气冻雾",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8630700",
+      "category": "normal-inside",
+      "name": "打倒多名敌人时，降下落雷",
+      "type": "额外效果",
+      "explanation": "打倒多名敌人时，能降下落雷",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8630800",
+      "category": "normal-inside",
+      "name": "打倒多名敌人时，形成黄金冲击波",
+      "type": "额外效果",
+      "explanation": "打倒多名敌人时，能形成黄金冲击波",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8640000",
+      "category": "normal-inside",
+      "name": "致命一击时，恢复血量",
+      "type": "恢复",
+      "explanation": "致命一击回复血量，回复最大生命值的18%",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "8640100",
+      "category": "normal-inside",
+      "name": "致命一击时，恢复专注值",
+      "type": "恢复",
+      "explanation": "致命一击回复专注值，回复最大专注值的10%",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "8640200",
+      "category": "normal-inside",
+      "name": "致命一击时，增加对敌人的伤害",
+      "type": "攻击力",
+      "explanation": "致命一击后使敌人受到伤害增加15%，持续30秒(致命一击的第—击吃不到加伤)",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "8650000",
+      "category": "normal-inside",
+      "name": "防御成功时，恢复血量",
+      "type": "恢复",
+      "explanation": "固定回复10点生命值",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "8650100",
+      "category": "normal-inside",
+      "name": "防御成功时，恢复专注值",
+      "type": "恢复",
+      "explanation": "固定回复2点专注值",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "8652000",
+      "category": "normal-inside",
+      "name": "防御成功时，提升强韧度",
+      "type": "能力值",
+      "explanation": "受到的韧性伤害-12%，持续10秒",
+      "stackability": "未知",
+      "buffType": ""
+    },
+    {
+      "id": "8652100",
+      "category": "normal-inside",
+      "name": "防御成功时，提升减伤率",
+      "type": "减伤率",
+      "explanation": "∘ 受到的伤害-14% / -19% / -24%，持续10秒；\n∘ 防御成功指的是非空精破防；\n∘ 持续时间内再次防御成功可刷新持续时间；\n∘ 三种级别叠加时，最高减伤率计算：\n      1. 总承受伤害比例 = (1-14%)×(1-19%)×(1-24%) = 52.9416%\n      2. 最高减伤率 = 1 - 总承受伤害比例 = 47.0584%",
+      "stackability": "不同级别可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8660000",
+      "category": "normal-inside",
+      "name": "血量偏低时，提升攻击力",
+      "type": "攻击力",
+      "explanation": "生命值小于40%时，造成的伤害+13% / +17% / +21%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8660101",
+      "category": "normal-inside",
+      "name": "血量偏低时，提升减伤率",
+      "type": "减伤率",
+      "explanation": "生命值小于40%时，受到的伤害-23% / -30% / -37%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8660200",
+      "category": "normal-inside",
+      "name": "致命一击时，附加异常状态出血",
+      "type": "附加异常状态",
+      "explanation": "使用致命一击后右手武器附魔18物理攻击力及50点出血值，持续65秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8660300",
+      "category": "normal-inside",
+      "name": "血量偏低时，展开圣域",
+      "type": "额外效果",
+      "explanation": "血量低于40%时使用圣域，法阵内減伤率提升20%，每秒恢复10生命值，法阵持续35秒",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8670000",
+      "category": "normal-inside",
+      "name": "血量全满时，提升攻击力",
+      "type": "攻击力",
+      "explanation": "生命值为100%时，造成的伤害+7% / +10.5% / +14%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8670101",
+      "category": "normal-inside",
+      "name": "血量全满时，提升减伤率",
+      "type": "减伤率",
+      "explanation": "生命值为100%时，受到的伤害-24% / -32% / -40%",
+      "stackability": "可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8690000",
+      "category": "normal-inside",
+      "name": "陷入中毒时，形成毒性烟雾",
+      "type": "额外效果",
+      "explanation": "陷入中毒时，释放中毒值为200点的毒性烟雾",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8690100",
+      "category": "normal-inside",
+      "name": "陷入发狂时，释放癫火",
+      "type": "额外效果",
+      "explanation": "陷入发狂时，释放癫火，每束癫火附带90点发狂值，造成125点基础火属性伤害，5点削韧，2号冲击力",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8690200",
+      "category": "normal-inside",
+      "name": "陷入猩红腐败时，形成腐败烟雾",
+      "type": "额外效果",
+      "explanation": "陷入中毒时，释放腐败值为200点的腐败烟雾",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8690300",
+      "category": "normal-inside",
+      "name": "陷入冻伤时，形成寒气冻雾",
+      "type": "额外效果",
+      "explanation": "陷入冻伤时，释放冻伤值为300点的寒气冻雾",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8690400",
+      "category": "normal-inside",
+      "name": "陷入催眠时，形成催眠烟雾",
+      "type": "额外效果",
+      "explanation": "陷入催眠时，释放睡眠值为29点的催眠烟雾",
+      "stackability": "不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "9021400",
+      "category": "normal-inside",
+      "name": "夜与火的庇佑",
+      "type": "庇佑",
+      "explanation": "发动战技后，能附加魔力或火属性攻击力",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9030900",
+      "category": "normal-inside",
+      "name": "暗月的庇佑",
+      "type": "庇佑",
+      "explanation": "攻击时，能降低敌人的魔力属性减伤率",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9031000",
+      "category": "normal-inside",
+      "name": "无上庇佑",
+      "type": "庇佑",
+      "explanation": "使出蓄力攻击时，能释放光波",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9031400",
+      "category": "normal-inside",
+      "name": "亵渎的庇佑",
+      "type": "庇佑",
+      "explanation": "打倒敌人时，能恢复血量",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9031500",
+      "category": "normal-inside",
+      "name": "玛雷家的庇佑",
+      "type": "庇佑",
+      "explanation": "打倒敌人时，能提升攻击力",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9031700",
+      "category": "normal-inside",
+      "name": "黄金律法的庇佑",
+      "type": "庇佑",
+      "explanation": "使出蓄力攻击时，能治愈所有异常状态，并消除暂时性的效果",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9040200",
+      "category": "normal-inside",
+      "name": "命定之死的庇佑",
+      "type": "庇佑",
+      "explanation": "攻击时，在极短的时间内：些微、持续减少血量",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9040500",
+      "category": "normal-inside",
+      "name": "碎星的庇佑",
+      "type": "庇佑",
+      "explanation": "双手各持一把武器，在连续攻击的第一记攻击，能形成拉近敌人的重力波",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9040800",
+      "category": "normal-inside",
+      "name": "毁灭的庇佑",
+      "type": "庇佑",
+      "explanation": "使出蓄力攻击时，能形成重力波",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9041000",
+      "category": "normal-inside",
+      "name": "复仇的庇佑",
+      "type": "庇佑",
+      "explanation": "打倒敌人时，能提升所有的能力值；此效果能叠加",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9060400",
+      "category": "normal-inside",
+      "name": "龙王的庇佑",
+      "type": "庇佑",
+      "explanation": "跳跃重攻击会产生变化：自己化为雷云，再用缠绕雷电的剑身贯穿敌人",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9071000",
+      "category": "normal-inside",
+      "name": "绝望的庇佑",
+      "type": "庇佑",
+      "explanation": "攻击命中的敌人，较容易无关血量多寡立刻死亡",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9081000",
+      "category": "normal-inside",
+      "name": "恶兆王的庇佑",
+      "type": "庇佑",
+      "explanation": "使出致命一击时，能引发火焰爆炸",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9090200",
+      "category": "normal-inside",
+      "name": "战无不胜的庇佑",
+      "type": "庇佑",
+      "explanation": "受到损伤时，能通过攻击恢复部分血量",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9111500",
+      "category": "normal-inside",
+      "name": "女王的庇佑",
+      "type": "庇佑",
+      "explanation": "使出蓄力攻击时，能形成圣属性的冲击波",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9122000",
+      "category": "normal-inside",
+      "name": "亵渎的庇佑",
+      "type": "庇佑",
+      "explanation": "打倒敌人时，能恢复血量",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9130300",
+      "category": "normal-inside",
+      "name": "黑暗的庇佑",
+      "type": "庇佑",
+      "explanation": "攻击时，偶尔会形成星云：星云会在短时间内爆炸消失",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9150400",
+      "category": "normal-inside",
+      "name": "黄金一族的庇佑",
+      "type": "庇佑",
+      "explanation": "使出蓄力攻击时，能产生冲击波，也能撼动地面",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9151100",
+      "category": "normal-inside",
+      "name": "祖灵的庇佑",
+      "type": "庇佑",
+      "explanation": "攻击时，偶尔会暂时降低周围敌人的减伤率",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9160900",
+      "category": "normal-inside",
+      "name": "大古龙的庇佑",
+      "type": "庇佑",
+      "explanation": "蓄力发动战技后，能附加雷属性攻击力",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9170100",
+      "category": "normal-inside",
+      "name": "鲜血君王的庇佑",
+      "type": "庇佑",
+      "explanation": "周围人物陷入异常状态出血时，能提升攻击力",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9200600",
+      "category": "normal-inside",
+      "name": "巨人的庇佑",
+      "type": "庇佑",
+      "explanation": "发动战技后，能在周围燃起接连形成的火焰柱",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9210600",
+      "category": "normal-inside",
+      "name": "飞龙的庇佑",
+      "type": "庇佑",
+      "explanation": "使出致命一击时，能释放龙焰",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9230500",
+      "category": "normal-inside",
+      "name": "初始之王的庇佑",
+      "type": "庇佑",
+      "explanation": "使出蓄力攻击时，能提升攻击力",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9330900",
+      "category": "normal-inside",
+      "name": "满月的庇佑",
+      "type": "庇佑",
+      "explanation": "在咏唱魔法、祷告时，能消除敌人的法，再借力形成辉剑",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9420000",
+      "category": "normal-inside",
+      "name": "将军的庇佑",
+      "type": "庇佑",
+      "explanation": "重攻击时，能一次射出多支箭",
+      "stackability": "无",
+      "buffType": ""
+    },
+    {
+      "id": "9990100",
+      "category": "normal-inside",
+      "name": "追踪者的不甘",
+      "type": "不甘",
+      "explanation": "+3力气 +3灵巧",
+      "stackability": "同种不甘不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "9990200",
+      "category": "normal-inside",
+      "name": "守护者的不甘",
+      "type": "不甘",
+      "explanation": "+3生命力 +3耐力",
+      "stackability": "同种不甘不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "9990300",
+      "category": "normal-inside",
+      "name": "铁之眼的不甘",
+      "type": "不甘",
+      "explanation": "+3耐力 +3灵巧",
+      "stackability": "同种不甘不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "9990400",
+      "category": "normal-inside",
+      "name": "女爵的不甘",
+      "type": "不甘",
+      "explanation": "+3灵巧 +3智力",
+      "stackability": "同种不甘不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "9990500",
+      "category": "normal-inside",
+      "name": "无赖的不甘",
+      "type": "不甘",
+      "explanation": "+3生命力 +3力气",
+      "stackability": "同种不甘不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "9990600",
+      "category": "normal-inside",
+      "name": "复仇者的不甘",
+      "type": "不甘",
+      "explanation": "+3信仰 +3感应",
+      "stackability": "同种不甘不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "9990700",
+      "category": "normal-inside",
+      "name": "隐士的不甘",
+      "type": "不甘",
+      "explanation": "+3集中力 +3智力",
+      "stackability": "同种不甘不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "9990800",
+      "category": "normal-inside",
+      "name": "执行者的不甘",
+      "type": "不甘",
+      "explanation": "+3灵巧 +3感应",
+      "stackability": "同种不甘不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "9990900",
+      "category": "normal-inside",
+      "name": "学者的不甘",
+      "type": "不甘",
+      "explanation": "+3智力 +3感应",
+      "stackability": "同种不甘不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "9991000",
+      "category": "normal-inside",
+      "name": "送葬者的不甘",
+      "type": "不甘",
+      "explanation": "+3力气 +3信仰",
+      "stackability": "同种不甘不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6001400",
+      "category": "deep-outside",
+      "name": "提升物理攻击力＋３",
+      "type": "攻击力",
+      "explanation": "物理攻击力+10.5%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6001401",
+      "category": "deep-outside",
+      "name": "提升物理攻击力＋４",
+      "type": "攻击力",
+      "explanation": "物理攻击力+12%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6001500",
+      "category": "deep-outside",
+      "name": "提升魔力属性攻击力＋３",
+      "type": "攻击力",
+      "explanation": "魔力属性攻击力+10.5%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6001501",
+      "category": "deep-outside",
+      "name": "提升魔力属性攻击力＋４",
+      "type": "攻击力",
+      "explanation": "魔力属性攻击力+12%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6001600",
+      "category": "deep-outside",
+      "name": "提升火属性攻击力＋３",
+      "type": "攻击力",
+      "explanation": "火属性攻击力+10.5%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6001601",
+      "category": "deep-outside",
+      "name": "提升火属性攻击力＋４",
+      "type": "攻击力",
+      "explanation": "火属性攻击力+12%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6001700",
+      "category": "deep-outside",
+      "name": "提升雷属性攻击力＋３",
+      "type": "攻击力",
+      "explanation": "雷属性攻击力+10.5%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6001701",
+      "category": "deep-outside",
+      "name": "提升雷属性攻击力＋４",
+      "type": "攻击力",
+      "explanation": "雷属性攻击力+12%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6001800",
+      "category": "deep-outside",
+      "name": "提升圣属性攻击力＋３",
+      "type": "攻击力",
+      "explanation": "圣属性攻击力+10.5%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6001801",
+      "category": "deep-outside",
+      "name": "提升圣属性攻击力＋４",
+      "type": "攻击力",
+      "explanation": "圣属性攻击力+12%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6002600",
+      "category": "deep-outside",
+      "name": "提升魔力属性减伤率＋１",
+      "type": "减伤率",
+      "explanation": "减少受到魔力属性伤害-15%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6002601",
+      "category": "deep-outside",
+      "name": "提升魔力属性减伤率＋２",
+      "type": "减伤率",
+      "explanation": "减少受到魔力属性伤害-16%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6002700",
+      "category": "deep-outside",
+      "name": "提升火属性减伤率＋１",
+      "type": "减伤率",
+      "explanation": "减少受到火属性伤害-15%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6002701",
+      "category": "deep-outside",
+      "name": "提升火属性减伤率＋２",
+      "type": "减伤率",
+      "explanation": "减少受到火属性伤害-16%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6002800",
+      "category": "deep-outside",
+      "name": "提升雷属性减伤率＋１",
+      "type": "减伤率",
+      "explanation": "减少受到雷属性伤害-15%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6002801",
+      "category": "deep-outside",
+      "name": "提升雷属性减伤率＋２",
+      "type": "减伤率",
+      "explanation": "减少受到雷属性伤害-16%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6002900",
+      "category": "deep-outside",
+      "name": "提升圣属性减伤率＋１",
+      "type": "减伤率",
+      "explanation": "减少受到圣属性伤害-15%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6002901",
+      "category": "deep-outside",
+      "name": "提升圣属性减伤率＋２",
+      "type": "减伤率",
+      "explanation": "减少受到圣属性伤害-16%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6003000",
+      "category": "deep-outside",
+      "name": "提升对中毒的抵抗力＋１",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+110点中毒异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6003001",
+      "category": "deep-outside",
+      "name": "提升对中毒的抵抗力＋２",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+130点中毒异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6003100",
+      "category": "deep-outside",
+      "name": "提升对出血的抵抗力＋１",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+110点出血异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6003101",
+      "category": "deep-outside",
+      "name": "提升对出血的抵抗力＋２",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+130点出血异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6003200",
+      "category": "deep-outside",
+      "name": "提升对催眠的抵抗力＋１",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+110点催眠异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6003201",
+      "category": "deep-outside",
+      "name": "提升对催眠的抵抗力＋２",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+130点催眠异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6003300",
+      "category": "deep-outside",
+      "name": "提升对骤死的抵抗力＋１",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+110点死亡异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6003301",
+      "category": "deep-outside",
+      "name": "提升对骤死的抵抗力＋２",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+130点死亡异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6003400",
+      "category": "deep-outside",
+      "name": "提升对腐败的抵抗力＋１",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+110点猩红腐败异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6003401",
+      "category": "deep-outside",
+      "name": "提升对腐败的抵抗力＋２",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+130点猩红腐败异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6003500",
+      "category": "deep-outside",
+      "name": "提升对冻伤的抵抗力＋１",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+110点冻伤异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6003501",
+      "category": "deep-outside",
+      "name": "提升对冻伤的抵抗力＋２",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+130点冻伤异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6003600",
+      "category": "deep-outside",
+      "name": "提升对发狂的抵抗力＋１",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+110点发狂异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6003601",
+      "category": "deep-outside",
+      "name": "提升对发狂的抵抗力＋２",
+      "type": "对异常状态的抵抗力",
+      "explanation": "+130点发狂异常耐受上限",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6005600",
+      "category": "deep-outside",
+      "name": "受到损伤的当下，能通过攻击恢复部分血量＋１",
+      "type": "恢复",
+      "explanation": "最近一次被攻击的4s内，可通过攻击恢复这部分虚血每次攻击的恢复量=武器基础回血量×动作回血倍率×1.25",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6005601",
+      "category": "deep-outside",
+      "name": "受到损伤的当下，能通过攻击恢复部分血量＋２",
+      "type": "恢复",
+      "explanation": "最近一次被攻击的4s内，可通过攻击恢复这部分虚血每次攻击的恢复量=武器基础回血量×动作回血倍率×1.35",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6030200",
+      "category": "deep-outside",
+      "name": "食用苔药等等道具时，能恢复血量＋１",
+      "type": "恢复",
+      "explanation": "使用对应道具后立即回复80点生命值，然后每秒回复最大生命值的0.5%+1，持续20秒",
+      "stackability": "不同级别可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6030600",
+      "category": "deep-outside",
+      "name": "防御成功时，能累积绝招量表＋１",
+      "type": "技艺/绝招",
+      "explanation": "绝招量表+1.5",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6030800",
+      "category": "deep-outside",
+      "name": "使出致命一击时，加快累积绝招量表＋１",
+      "type": "技艺/绝招",
+      "explanation": "绝招量表+6.5",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6030900",
+      "category": "deep-outside",
+      "name": "涂抹油脂类道具时，能额外提升物理攻击力＋１",
+      "type": "攻击力",
+      "explanation": "30秒内，增加物理伤害+17%",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6030901",
+      "category": "deep-outside",
+      "name": "涂抹油脂类道具时，能额外提升物理攻击力＋２",
+      "type": "攻击力",
+      "explanation": "30秒内，增加物理伤害+20%",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6035100",
+      "category": "deep-outside",
+      "name": "使出致命一击时，能提升精力的恢复速度＋１",
+      "type": "恢复",
+      "explanation": "15秒内，精力回复速度+17点/秒",
+      "stackability": "不同级别可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6040100",
+      "category": "deep-outside",
+      "name": "强化防御反击＋１",
+      "type": "攻击力",
+      "explanation": "防御反击造成的伤害+25%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6040101",
+      "category": "deep-outside",
+      "name": "强化防御反击＋２",
+      "type": "攻击力",
+      "explanation": "防御反击造成的伤害+29%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6040300",
+      "category": "deep-outside",
+      "name": "提升投掷壶的攻击力＋１",
+      "type": "攻击力",
+      "explanation": "投掷壶造成的伤害+30%",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6040400",
+      "category": "deep-outside",
+      "name": "提升投掷小刀的攻击力＋１",
+      "type": "攻击力",
+      "explanation": "投掷小刀造成的伤害+30%",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6040500",
+      "category": "deep-outside",
+      "name": "提升使用辉石、重力石道具的攻击力＋１",
+      "type": "攻击力",
+      "explanation": "投掷辉石、重力石造成的伤害+30%",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6043100",
+      "category": "deep-outside",
+      "name": "强化调香术＋１",
+      "type": "攻击力",
+      "explanation": "调香术造成的伤害+18%",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6060300",
+      "category": "deep-outside",
+      "name": "每次打倒大教堂的强敌，能提升血量上限",
+      "type": "能力值",
+      "explanation": "每次生命值上限+5%",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6060400",
+      "category": "deep-outside",
+      "name": "每次打倒小型要塞的强敌，能增加获得的卢恩、提升观察力",
+      "type": "能力值",
+      "explanation": "每次获得的卢恩+5.5%，仅对击杀奖励有效，观察力+16",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6060500",
+      "category": "deep-outside",
+      "name": "每次打倒遗迹的强敌，能提升感应",
+      "type": "能力值",
+      "explanation": "每次感应+4",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6060600",
+      "category": "deep-outside",
+      "name": "每次打倒大型营地的强敌，能提升精力上限",
+      "type": "能力值",
+      "explanation": "每次精力值上限+7.5%",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6090000",
+      "category": "deep-outside",
+      "name": "提升打倒敌人时，绝招量表的累积量＋１",
+      "type": "技艺/绝招",
+      "explanation": "绝招量表+6.5",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6160000",
+      "category": "deep-outside",
+      "name": "突刺反击成功时，能恢复血量＋１",
+      "type": "恢复",
+      "explanation": "触发突刺反击时，回复人物最大生命值的3.3%",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6260000",
+      "category": "deep-outside",
+      "name": "对陷入中毒的敌人，能强化攻击＋１",
+      "type": "行动",
+      "explanation": "对中毒的敌人造成的伤害+16%",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6260001",
+      "category": "deep-outside",
+      "name": "对陷入中毒的敌人，能强化攻击＋２",
+      "type": "行动",
+      "explanation": "对中毒的敌人造成的伤害+20%",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6260300",
+      "category": "deep-outside",
+      "name": "对陷入猩红腐败的敌人，能强化攻击＋１",
+      "type": "行动",
+      "explanation": "对猩红腐败的敌人造成的伤害+16%",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6260301",
+      "category": "deep-outside",
+      "name": "对陷入猩红腐败的敌人，能强化攻击＋２",
+      "type": "行动",
+      "explanation": "对猩红腐败的敌人造成的伤害+20%",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6260400",
+      "category": "deep-outside",
+      "name": "对陷入冻伤的敌人，能强化攻击＋１",
+      "type": "行动",
+      "explanation": "对冻伤的敌人造成的伤害+16%",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6260401",
+      "category": "deep-outside",
+      "name": "对陷入冻伤的敌人，能强化攻击＋２",
+      "type": "行动",
+      "explanation": "对冻伤的敌人造成的伤害+20%",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6500000",
+      "category": "deep-outside",
+      "name": "【追踪者】技艺会附加引发异常状态出血的效果",
+      "type": "仅限特定角色",
+      "explanation": "钩出附带60点出血值，钩回附带55点出血值",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6500100",
+      "category": "deep-outside",
+      "name": "【守护者】发动技艺时，能提升周围我方人物的减伤率",
+      "type": "仅限特定角色",
+      "explanation": "30秒内，受到的伤害-18%",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6500200",
+      "category": "deep-outside",
+      "name": "【铁之眼】技艺会附加引发异常状态中毒的效果; 对上陷入中毒的敌人，能给予大伤害",
+      "type": "仅限特定角色",
+      "explanation": "附带 70 点中毒值，如果目标已经中毒，扣除敌人最大生命值的 0.25% + 250; 中毒：40秒内，每秒扣除敌人最大生命值的 0.1% + 10",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6500300",
+      "category": "deep-outside",
+      "name": "【女爵】发动技艺时，能进入短暂无敌状态",
+      "type": "仅限特定角色",
+      "explanation": "产生12帧（0.4秒）无敌帧",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6500400",
+      "category": "deep-outside",
+      "name": "【无赖】技艺命中敌人时，能降低对方的攻击力",
+      "type": "仅限特定角色",
+      "explanation": "13s 内，敌人造成的伤害-13%",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6500500",
+      "category": "deep-outside",
+      "name": "【复仇者】发动能力时，能提升专注值上限",
+      "type": "仅限特定角色",
+      "explanation": "每次发动能力【死灵术】，提升专注值上限，局内无限成长; 最多可成长60次，最多 +51% 专注值上限;",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6500600",
+      "category": "deep-outside",
+      "name": "【隐士】收集属性痕时，能提升该属性的减伤率",
+      "type": "仅限特定角色",
+      "explanation": "30秒内，受到对应属性的伤害-20% (反复收集同一个属性的属性痕时，减伤buff不能反复叠加, 但4种不同属性的减伤buff可以共存)",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6500700",
+      "category": "deep-outside",
+      "name": "【执行者】发动能力时，能缓慢恢复血量",
+      "type": "仅限特定角色",
+      "explanation": "每次发动能力【不屈】，每秒回复最大生命值的[0.27% + 3]，持续60秒(总回复量约为[16.2%+180]点)",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6600000",
+      "category": "deep-outside",
+      "name": "周围陷入催眠时，提升攻击力",
+      "type": "行动",
+      "explanation": "周围有任意角色催眠后，造成伤害+12%，持续20秒",
+      "stackability": "不同级别可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6600001",
+      "category": "deep-outside",
+      "name": "周围陷入催眠时，提升攻击力＋１",
+      "type": "行动",
+      "explanation": "周围有任意角色催眠后，造成伤害+22%，持续20秒",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6600100",
+      "category": "deep-outside",
+      "name": "周围陷入发狂时，提升攻击力",
+      "type": "行动",
+      "explanation": "周围有任意角色发狂后，造成伤害+12%，持续20秒",
+      "stackability": "不同级别可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6600101",
+      "category": "deep-outside",
+      "name": "周围陷入发狂时，提升攻击力＋１",
+      "type": "行动",
+      "explanation": "周围有任意角色发狂后，造成伤害+22%，持续20秒",
+      "stackability": "不同级别可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6610400",
+      "category": "deep-outside",
+      "name": "提升血量上限",
+      "type": "能力值",
+      "explanation": "生命值上限+10%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6610500",
+      "category": "deep-outside",
+      "name": "提升专注值上限",
+      "type": "能力值",
+      "explanation": "专注值上限+15%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6610600",
+      "category": "deep-outside",
+      "name": "提升精力上限",
+      "type": "能力值",
+      "explanation": "精力值上限+12%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6610700",
+      "category": "deep-outside",
+      "name": "减少专注值消耗",
+      "type": "能力值",
+      "explanation": "专注值消耗-8%",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6610800",
+      "category": "deep-outside",
+      "name": "提升属性攻击力",
+      "type": "攻击力",
+      "explanation": "魔力/火/雷/圣属性伤害+5%",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6610801",
+      "category": "deep-outside",
+      "name": "提升属性攻击力＋１",
+      "type": "攻击力",
+      "explanation": "魔力/火/雷/圣属性伤害+8%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6610802",
+      "category": "deep-outside",
+      "name": "提升属性攻击力＋２",
+      "type": "攻击力",
+      "explanation": "魔力/火/雷/圣属性伤害+10%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6611001",
+      "category": "deep-outside",
+      "name": "提升物理减伤率＋１",
+      "type": "减伤率",
+      "explanation": "受到的物理属性伤害-10.5%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6611002",
+      "category": "deep-outside",
+      "name": "提升物理减伤率＋２",
+      "type": "减伤率",
+      "explanation": "受到的物理属性伤害-12%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6611100",
+      "category": "deep-outside",
+      "name": "提升属性减伤率",
+      "type": "减伤率",
+      "explanation": "受到的魔力/火/雷/圣属性伤害-6%",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6611101",
+      "category": "deep-outside",
+      "name": "提升属性减伤率＋１",
+      "type": "减伤率",
+      "explanation": "受到的魔力/火/雷/圣属性伤害-10.5%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6611102",
+      "category": "deep-outside",
+      "name": "提升属性减伤率＋２",
+      "type": "减伤率",
+      "explanation": "受到的魔力/火/雷/圣属性伤害-12%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6611200",
+      "category": "deep-outside",
+      "name": "强化魔法",
+      "type": "攻击力",
+      "explanation": "魔法造成的伤害+5% (只要用魔法杖打出的都算）",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6611201",
+      "category": "deep-outside",
+      "name": "强化魔法＋１",
+      "type": "攻击力",
+      "explanation": "魔法造成的伤害+8.5% (只要用魔法杖打出的都算）",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6611202",
+      "category": "deep-outside",
+      "name": "强化魔法＋２",
+      "type": "攻击力",
+      "explanation": "魔法造成的伤害+10% (只要用魔法杖打出的都算）",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6611300",
+      "category": "deep-outside",
+      "name": "强化祷告",
+      "type": "攻击力",
+      "explanation": "祷告造成的伤害+5%",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6611301",
+      "category": "deep-outside",
+      "name": "强化祷告＋１",
+      "type": "攻击力",
+      "explanation": "祷告造成的伤害+8.5%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6611302",
+      "category": "deep-outside",
+      "name": "强化祷告＋２",
+      "type": "攻击力",
+      "explanation": "祷告造成的伤害+10%",
+      "stackability": "可叠加",
+      "buffType": "附带负面词条"
+    },
+    {
+      "id": "6611400",
+      "category": "deep-outside",
+      "name": "提升圣杯瓶恢复量",
+      "type": "恢复",
+      "explanation": "增加红露滴圣杯瓶10%恢复量",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6621000",
+      "category": "deep-outside",
+      "name": "出击时，会持有“漫红结晶露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6621100",
+      "category": "deep-outside",
+      "name": "出击时，会持有“红结晶露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6621200",
+      "category": "deep-outside",
+      "name": "出击时，会持有“蓝结晶露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6621300",
+      "category": "deep-outside",
+      "name": "出击时，会持有“斑斓硬露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6621400",
+      "category": "deep-outside",
+      "name": "出击时，会持有“红泡状露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6621500",
+      "category": "deep-outside",
+      "name": "出击时，会持有“珍珠泡状露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6621600",
+      "category": "deep-outside",
+      "name": "出击时，会持有“涌红结晶露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6621700",
+      "category": "deep-outside",
+      "name": "出击时，会持有“涌绿结晶露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6621800",
+      "category": "deep-outside",
+      "name": "出击时，会持有“珍珠硬露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6621900",
+      "category": "deep-outside",
+      "name": "出击时，会持有“连刺破露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6622000",
+      "category": "deep-outside",
+      "name": "出击时，会持有“大刺破露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6622100",
+      "category": "deep-outside",
+      "name": "出击时，会持有“风结晶露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6622200",
+      "category": "deep-outside",
+      "name": "出击时，会持有“爆裂结晶露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6622300",
+      "category": "deep-outside",
+      "name": "出击时，会持有“铅化硬露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6622400",
+      "category": "deep-outside",
+      "name": "出击时，会持有“细枝破露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6622500",
+      "category": "deep-outside",
+      "name": "出击时，会持有“红漩泡状露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6622600",
+      "category": "deep-outside",
+      "name": "出击时，会持有“蓝秘密露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6622700",
+      "category": "deep-outside",
+      "name": "出击时，会持有“岩刺破露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6622800",
+      "category": "deep-outside",
+      "name": "出击时，会持有“带火破露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6622900",
+      "category": "deep-outside",
+      "name": "出击时，会持有“带魔力破露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6623000",
+      "category": "deep-outside",
+      "name": "出击时，会持有“带雷破露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6623100",
+      "category": "deep-outside",
+      "name": "出击时，会持有“带圣破露滴”",
+      "type": "出击时的道具(结晶露滴)",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6624000",
+      "category": "deep-outside",
+      "name": "出击时，会持有“振奋香”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6624100",
+      "category": "deep-outside",
+      "name": "出击时，会持有“火花香”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6624200",
+      "category": "deep-outside",
+      "name": "出击时，会持有“铁壶香药”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6624300",
+      "category": "deep-outside",
+      "name": "出击时，会持有“狂热香药”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6624400",
+      "category": "deep-outside",
+      "name": "出击时，会持有“毒发喷雾”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6624500",
+      "category": "deep-outside",
+      "name": "出击时，会持有“酸蚀喷雾”",
+      "type": "出击时的道具",
+      "explanation": "",
+      "stackability": "可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6630000",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到短剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6630100",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到直剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6630200",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到大剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6630300",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到特大剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6630400",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到曲剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6630500",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到大曲剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6630600",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到刀",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6630700",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到双头剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6630800",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到刺剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6630900",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到重刺剑",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6631000",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到斧",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6631100",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到大斧",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6631200",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到槌",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6631300",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到大槌",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6631400",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到连枷",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6631500",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到矛",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6631600",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到大矛",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6631700",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到戟",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6631800",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到镰刀",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6631900",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到拳头",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6632000",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到钩爪",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6632100",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到软鞭",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6632200",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到特大武器",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6632300",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到弓",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6632400",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到大弓",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6632500",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到弩",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6632600",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到弩炮",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6632700",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到小盾",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6632800",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到中盾",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6632900",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到大盾",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6633000",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到手杖",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6633100",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到圣印记",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6633200",
+      "category": "deep-outside",
+      "name": "通过潜在能力，能比较容易找到火把",
+      "type": "仅限特定武器",
+      "explanation": "直接替换角色专属池",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6640000",
+      "category": "deep-outside",
+      "name": "【追踪者】提升集中力，但降低生命力",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，集中力+1，生命力-1; 等级12时达到变化最大值，集中力+10，生命力-5",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6640100",
+      "category": "deep-outside",
+      "name": "【追踪者】提升智力、信仰，但降低力气、灵巧",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，智力+1，信仰+1，力气-1，灵巧-1; 等级12时达到变化最大值，智力+15，信仰+15，力气-7、灵巧-5",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6641000",
+      "category": "deep-outside",
+      "name": "【守护者】提升力气、灵巧，但降低生命力",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，力气+1，灵巧+2，生命力-1; 等级12时达到变化最大值，力气+9，灵巧+19，生命力-8",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6641100",
+      "category": "deep-outside",
+      "name": "【守护者】提升集中力、信仰，但降低生命力",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，集中力+1，信仰+2，生命力-1; 等级12时达到变化最大值，集中力+8，信仰+17，生命力-6",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6642000",
+      "category": "deep-outside",
+      "name": "【铁之眼】提升感应，但降低灵巧",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，感应+2，灵巧-1; 等级12时达到变化最大值，感应+15，灵巧-9",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6642100",
+      "category": "deep-outside",
+      "name": "【铁之眼】提升生命力、力气，但降低灵巧",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，生命力+1，力气+2，灵巧-2; 等级12时达到变化最大值，生命力+5，力气+20，灵巧-13",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6643000",
+      "category": "deep-outside",
+      "name": "【女爵】提升生命力、力气，但降低集中力",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，生命力+1，力气+2，集中力-2; 等级12时达到变化最大值，生命力+3，力气+24，集中力-14",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6643100",
+      "category": "deep-outside",
+      "name": "【女爵】提升集中力、信仰，但降低智力",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，集中力+1，信仰+2，智力-1; 等级12时达到变化最大值，集中力+3，信仰+13，智力-5",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6644000",
+      "category": "deep-outside",
+      "name": "【无赖】提升集中力、智力，但降低生命力、耐力",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，集中力+1，智力+2，生命力-1，耐力-1; 等级12时达到变化最大值，集中力+9，智力+35，生命力-8，耐力-4",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6644100",
+      "category": "deep-outside",
+      "name": "【无赖】提升感应，但降低生命力",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，感应+2，生命力-1; 等级12时达到变化最大值，感应+17，生命力-4",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6645000",
+      "category": "deep-outside",
+      "name": "【复仇者】提升生命力、耐力，但降低集中力",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，生命力+1，耐力+1，集中力-1; 等级12时达到变化最大值，生命力+5，耐力+5，集中力-11",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6645100",
+      "category": "deep-outside",
+      "name": "【复仇者】提升力气，但降低信仰",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，力气+2，信仰-1; 等级12时达到变化最大值，力气+25，信仰-6",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6646000",
+      "category": "deep-outside",
+      "name": "【隐士】提升生命力、耐力、灵巧，但降低智力、信仰",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，生命力+1，耐力+1，灵巧+2，智力-1，信仰-1; 等级12时达到变化最大值，生命力+4，耐力+5，灵巧+20，智力-10，信仰-10",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6646100",
+      "category": "deep-outside",
+      "name": "【隐士】提升智力、信仰，但降低集中力",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，智力+2，信仰+2，集中力-2; 等级12时达到变化最大值，智力+12，信仰+12，集中力-13",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6647000",
+      "category": "deep-outside",
+      "name": "【执行者】提升生命力、耐力，但降低感应",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，生命力+1，耐力+1，感应-2; 等级12时达到变化最大值，生命力+5，耐力+6，感应-13",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6647100",
+      "category": "deep-outside",
+      "name": "【执行者】提升灵巧、感应，但降低生命力",
+      "type": "仅限特定角色",
+      "explanation": "等级1时，灵巧+1，感应+1，生命力-1; 等级12时达到变化最大值，灵巧+12，感应+9，生命力-7",
+      "stackability": "不可叠加",
+      "buffType": "不附带负面词条"
+    },
+    {
+      "id": "6800000",
+      "category": "deep-outside",
+      "name": "降低生命力",
+      "type": "减益(能力值)",
+      "explanation": "生命力-5",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6800200",
+      "category": "deep-outside",
+      "name": "降低耐力",
+      "type": "减益(能力值)",
+      "explanation": "耐力-5",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6810100",
+      "category": "deep-outside",
+      "name": "降低减伤率",
+      "type": "减益(减伤率)",
+      "explanation": "受到的伤害+10%",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6820000",
+      "category": "deep-outside",
+      "name": "受到损伤时，会累积中毒量表",
+      "type": "减益(减伤率)",
+      "explanation": "受到伤害时，累积65点中毒值",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6820100",
+      "category": "deep-outside",
+      "name": "受到损伤时，会累积猩红腐败量表",
+      "type": "减益(减伤率)",
+      "explanation": "受到伤害时，累积55点腐败值",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6820200",
+      "category": "deep-outside",
+      "name": "受到损伤时，会累积冻伤量表",
+      "type": "减益(减伤率)",
+      "explanation": "受到伤害时，累积55点冻伤值",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6820300",
+      "category": "deep-outside",
+      "name": "受到损伤时，会累积出血量表",
+      "type": "减益(减伤率)",
+      "explanation": "受到伤害时，累积55点出血值",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6820400",
+      "category": "deep-outside",
+      "name": "受到损伤时，会累积发狂量表",
+      "type": "减益(减伤率)",
+      "explanation": "受到伤害时，累积50点发狂值",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6820500",
+      "category": "deep-outside",
+      "name": "受到损伤时，会累积催眠量表",
+      "type": "减益(减伤率)",
+      "explanation": "受到伤害时，累积50点睡眠值",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6820600",
+      "category": "deep-outside",
+      "name": "受到损伤时，会累积死亡量表",
+      "type": "减益(减伤率)",
+      "explanation": "受到伤害时，累积40点骤死值",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6830000",
+      "category": "deep-outside",
+      "name": "降低力气、智力",
+      "type": "减益(能力值)",
+      "explanation": "力气-3，智力-3",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6830100",
+      "category": "deep-outside",
+      "name": "降低灵巧、信仰",
+      "type": "减益(能力值)",
+      "explanation": "灵巧-3，信仰-3",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6830200",
+      "category": "deep-outside",
+      "name": "降低智力、灵巧",
+      "type": "减益(能力值)",
+      "explanation": "智力-3，灵巧-3",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6830300",
+      "category": "deep-outside",
+      "name": "降低信仰、力气",
+      "type": "减益(能力值)",
+      "explanation": "信仰-3，力气-3",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6830400",
+      "category": "deep-outside",
+      "name": "降低生命力、感应",
+      "type": "减益(能力值)",
+      "explanation": "生命力-3，感应-3",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6840000",
+      "category": "deep-outside",
+      "name": "减少获得的卢恩",
+      "type": "减益(能力值)",
+      "explanation": "获得的卢恩-10%，仅对击杀奖励有效",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6840100",
+      "category": "deep-outside",
+      "name": "降低圣杯瓶恢复量",
+      "type": "减益(行动)",
+      "explanation": "红露滴圣杯瓶-15%恢复量",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6840200",
+      "category": "deep-outside",
+      "name": "降低绝招量表累积量",
+      "type": "减益(行动)",
+      "explanation": "绝招量表累积速率-15%",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6850000",
+      "category": "deep-outside",
+      "name": "降低物理减伤率",
+      "type": "减益(减伤率)",
+      "explanation": "受到的物理属性伤害+12%",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6850100",
+      "category": "deep-outside",
+      "name": "降低属性减伤率",
+      "type": "减益(减伤率)",
+      "explanation": "受到的魔力/火/雷/圣属性伤害+12%",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6850200",
+      "category": "deep-outside",
+      "name": "降低对所有异常状态的抵抗力",
+      "type": "减益(减伤率)",
+      "explanation": "中毒/猩红腐败/出血/冻伤/催眠/发狂/骤死异常耐受上限-80",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6850500",
+      "category": "deep-outside",
+      "name": "持续减少血量",
+      "type": "减益(减伤率)",
+      "explanation": "每秒减少2点生命值 (可以触发“受到损伤的当下，能通过攻击恢复部分血量”系列; 不能触发“受到损伤时……”系列;)",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6850700",
+      "category": "deep-outside",
+      "name": "闪避后的当下，受伤时损伤加剧",
+      "type": "减益(减伤率)",
+      "explanation": "闪避后无敌帧结束的后摇，受到的伤害+45%",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6850800",
+      "category": "deep-outside",
+      "name": "连续闪避时，降低减伤率",
+      "type": "减益(减伤率)",
+      "explanation": "连续闪避时，受到的伤害+35%，效果持续15秒",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6850900",
+      "category": "deep-outside",
+      "name": "使用圣杯瓶时，降低减伤率",
+      "type": "减益(减伤率)",
+      "explanation": "使用圣杯瓶的动作中，受到的伤害+45%",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6851200",
+      "category": "deep-outside",
+      "name": "血量没有全满时，降低攻击力",
+      "type": "减益(行动)",
+      "explanation": "血量不满时，造成的伤害-8.5%",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6851300",
+      "category": "deep-outside",
+      "name": "血量没有全满时，累积中毒量表",
+      "type": "减益(行动)",
+      "explanation": "血量不满时，每1.3秒增加3点中毒值",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6851400",
+      "category": "deep-outside",
+      "name": "血量没有全满时，累积猩红腐败量表",
+      "type": "减益(行动)",
+      "explanation": "血量不满时，每1.3秒增加2点腐败值",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6851700",
+      "category": "deep-outside",
+      "name": "濒死时，降低血量上限",
+      "type": "减益(行动)",
+      "explanation": "濒死救活后，60秒内，生命值上限-25%",
+      "stackability": "可叠加",
+      "buffType": "随机加入正面词条"
+    },
+    {
+      "id": "6610400",
+      "category": "deep-inside",
+      "name": "提升血量上限",
+      "type": "能力值",
+      "explanation": "生命值上限+10%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6610500",
+      "category": "deep-inside",
+      "name": "提升专注值上限",
+      "type": "能力值",
+      "explanation": "专注值上限+15%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6610600",
+      "category": "deep-inside",
+      "name": "提升精力上限",
+      "type": "能力值",
+      "explanation": "精力值上限+12%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6610700",
+      "category": "deep-inside",
+      "name": "减少专注值消耗",
+      "type": "能力值",
+      "explanation": "专注值消耗-8%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6610800",
+      "category": "deep-inside",
+      "name": "提升属性攻击力",
+      "type": "攻击力",
+      "explanation": "魔力/火/雷/圣属性伤害+5%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6610801",
+      "category": "deep-inside",
+      "name": "提升属性攻击力＋１",
+      "type": "攻击力",
+      "explanation": "魔力/火/雷/圣属性伤害+8%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6610802",
+      "category": "deep-inside",
+      "name": "提升属性攻击力＋２",
+      "type": "攻击力",
+      "explanation": "魔力/火/雷/圣属性伤害+11%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6611001",
+      "category": "deep-inside",
+      "name": "提升物理减伤率＋１",
+      "type": "减伤率",
+      "explanation": "受到的物理属性伤害-10.5%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6611002",
+      "category": "deep-inside",
+      "name": "提升物理减伤率＋２",
+      "type": "减伤率",
+      "explanation": "受到的物理属性伤害-12%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6611100",
+      "category": "deep-inside",
+      "name": "提升属性减伤率",
+      "type": "减伤率",
+      "explanation": "受到的魔力/火/雷/圣属性伤害-6%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6611101",
+      "category": "deep-inside",
+      "name": "提升属性减伤率＋１",
+      "type": "减伤率",
+      "explanation": "受到的魔力/火/雷/圣属性伤害-10.5%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6611102",
+      "category": "deep-inside",
+      "name": "提升属性减伤率＋２",
+      "type": "减伤率",
+      "explanation": "受到的魔力/火/雷/圣属性伤害-12%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6611200",
+      "category": "deep-inside",
+      "name": "强化魔法",
+      "type": "攻击力",
+      "explanation": "魔法造成的伤害+5% (只要用魔法杖打出的都算）",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6611201",
+      "category": "deep-inside",
+      "name": "强化魔法＋１",
+      "type": "攻击力",
+      "explanation": "魔法造成的伤害+8.5% (只要用魔法杖打出的都算）",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6611202",
+      "category": "deep-inside",
+      "name": "强化魔法＋２",
+      "type": "攻击力",
+      "explanation": "魔法造成的伤害+11% (只要用魔法杖打出的都算）",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6611300",
+      "category": "deep-inside",
+      "name": "强化祷告",
+      "type": "攻击力",
+      "explanation": "祷告造成的伤害+5%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6611301",
+      "category": "deep-inside",
+      "name": "强化祷告＋１",
+      "type": "攻击力",
+      "explanation": "祷告造成的伤害+8.5%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6611302",
+      "category": "deep-inside",
+      "name": "强化祷告＋２",
+      "type": "攻击力",
+      "explanation": "祷告造成的伤害+11%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "6611400",
+      "category": "deep-inside",
+      "name": "提升圣杯瓶恢复量",
+      "type": "恢复",
+      "explanation": "增加红露滴圣杯瓶10%恢复量",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8760000",
+      "category": "deep-inside",
+      "name": "降低血量上限",
+      "type": "减益(能力值)",
+      "explanation": "生命值上限-4% / -6%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8760100",
+      "category": "deep-inside",
+      "name": "降低专注值上限",
+      "type": "减益(能力值)",
+      "explanation": "专注值上限-6% / -9%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8760200",
+      "category": "deep-inside",
+      "name": "降低精力上限",
+      "type": "减益(能力值)",
+      "explanation": "精力值上限-5% / -8%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8761000",
+      "category": "deep-inside",
+      "name": "降低物理减伤率",
+      "type": "减益(减伤率)",
+      "explanation": "受到的物理属性伤害+6% / +8%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8761100",
+      "category": "deep-inside",
+      "name": "降低属性减伤率",
+      "type": "减益(减伤率)",
+      "explanation": "受到的魔力/火/雷/圣属性伤害+6% / +8%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8762000",
+      "category": "deep-inside",
+      "name": "降低对所有异常状态的抵抗力",
+      "type": "减益(减伤率)",
+      "explanation": "中毒/猩红腐败/出血/冻伤/催眠/发狂/骤死异常耐受上限-30 / -45",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8763000",
+      "category": "deep-inside",
+      "name": "降低圣杯瓶恢复量",
+      "type": "减益(恢复)",
+      "explanation": "减少红露滴圣杯瓶6% / 9%恢复量",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8766000",
+      "category": "deep-inside",
+      "name": "持续减少血量",
+      "type": "减益(减伤率)",
+      "explanation": "每秒减少1点生命值; 可以触发“受到损伤的当下，能通过攻击恢复部分血量”系列词条，不能触发“受到损伤时...”系列词条",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8770000",
+      "category": "deep-inside",
+      "name": "被黑夜雨淋到的损伤加剧",
+      "type": "减益(减伤率)",
+      "explanation": "黑夜雨伤害变为2倍 / 2.5倍",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8771000",
+      "category": "deep-inside",
+      "name": "时间越接近夜晚，受到的损伤加剧",
+      "type": "减益(减伤率)",
+      "explanation": "随着特定时间点，受到的伤害持续叠加1% / 2.5%，共叠加4次;触发时机暂不确定，猜测是：第一天开始、第一个缩圈结束，第二圈开始缩圈，第二圈缩圈结束。第二天黎明时，效果会解除。",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8800100",
+      "category": "deep-inside",
+      "name": "闪避后的当下，受伤时损伤加剧",
+      "type": "减益(减伤率)",
+      "explanation": "闪避后无敌帧结束的后摇，受到的伤害+15% / +20%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8800200",
+      "category": "deep-inside",
+      "name": "连续闪避时，降低减伤率",
+      "type": "减益(减伤率)",
+      "explanation": "连续闪避时，受到的伤害+30% / +46%，效果持续15秒; 连续按闪避时，第3次闪避触发效果; 2次按下闪避键的间隔小于1秒，就会被判定为“连续闪避”",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8801000",
+      "category": "deep-inside",
+      "name": "使用圣杯瓶时，降低减伤率",
+      "type": "减益(减伤率)",
+      "explanation": "使用圣杯瓶的动作中，受到的伤害+33%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8810000",
+      "category": "deep-inside",
+      "name": "血量没有全满时，降低攻击力",
+      "type": "减益(行动)",
+      "explanation": "血量不满时，造成的伤害-5% / -7%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8810200",
+      "category": "deep-inside",
+      "name": "血量没有全满时，降低绝招量表累积",
+      "type": "减益(行动)",
+      "explanation": "血量不满时，绝招量表累积速率-10% / -15%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8810300",
+      "category": "deep-inside",
+      "name": "血量没有全满时，累积中毒量表",
+      "type": "减益(行动)",
+      "explanation": "血量不满时，每1.3秒增加2点中毒值",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8810400",
+      "category": "deep-inside",
+      "name": "血量没有全满时，累积猩红腐败量表",
+      "type": "减益(行动)",
+      "explanation": "血量不满时，每1.3秒增加2点腐败值",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8813100",
+      "category": "deep-inside",
+      "name": "精力偏少时，降低减伤率",
+      "type": "减益(减伤率)",
+      "explanation": "精力值小于50%时，受到的伤害+10% / +15%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8821000",
+      "category": "deep-inside",
+      "name": "攻击时，攻击偶尔会掠过目标",
+      "type": "减益(行动)",
+      "explanation": "每次攻击有3% / 5%，造成的伤害变为1% (仅降低伤害，依旧可以打出削韧值/异常值/冲击力)",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8830000",
+      "category": "deep-inside",
+      "name": "增加因异常状态受到的损伤",
+      "type": "减益(减伤率)",
+      "explanation": "玩家触发异常后，异常状态扣除的血量增加+25% / +35%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8831000",
+      "category": "deep-inside",
+      "name": "濒死时，减少绝招量表",
+      "type": "减益(行动)",
+      "explanation": "陷入濒死后，绝招量表-30% / -45%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8831200",
+      "category": "deep-inside",
+      "name": "濒死时，降低血量上限",
+      "type": "减益(能力值)",
+      "explanation": "陷入濒死后，30秒内，生命值上限-15%",
+      "stackability": "相同词条可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8880000",
+      "category": "deep-inside",
+      "name": "蓄力攻击时，刮起冰风暴",
+      "type": "特殊效果",
+      "explanation": "使出蓄力攻击时，能刮起冰风暴; 冰风暴：造成120点基础魔力属性伤害，4点削韧，1号冲击力，50点冻伤值; 冰风暴持续存在1.2秒，半径1.7m，但仅进行一次伤害判定; 附魔效果：20秒内，武器附带20点冻伤值",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8880200",
+      "category": "deep-inside",
+      "name": "蓄力攻击时，喷洒黑焰",
+      "type": "特殊效果",
+      "explanation": "使出蓄力攻击时，能喷洒黑焰; 黑焰：造成5点基础火属性伤害，1点削韧，0号冲击力; 持续存在3.5秒，半径1m，附带黑焰特效; 黑焰特效：1.2秒内，每0.1秒扣除敌人（最大生命值的0.010%+3）; 附魔效果：7秒内，武器附带12点火属性伤害; 黑焰效果可以多层无限叠加，每层的持续时间单独计算)",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8880300",
+      "category": "deep-inside",
+      "name": "蓄力攻击时，形成幻影进行攻击",
+      "type": "特殊效果",
+      "explanation": "使出蓄力攻击时，能形成幻影进行攻击; 幻影：造成165点基础物理伤害，8点削韧，6号冲击力",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8881000",
+      "category": "deep-inside",
+      "name": "蓄力攻击时，释放圣属性冲击波",
+      "type": "特殊效果",
+      "explanation": "蓄力使出打击攻击时，能释放黄金冲击波; 黄金冲击波：造成150点基础圣属性伤害，4点削韧，1号冲击力; 黄金冲击波会向前扩散12m; 附魔效果：20秒内，武器附带12点圣属性伤害",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8881200",
+      "category": "deep-inside",
+      "name": "蓄力攻击时，将敌人拉近自己",
+      "type": "特殊效果",
+      "explanation": "使出蓄力攻击时，能将敌人拉近自己; 拉拽：造成45点基础魔力属性伤害，3点削韧，3号冲击力; 共有3层不同的球状攻击判定，半径3.2m / 半径5.2m / 半径7m; 根据敌人的远近最多可以让3个攻击判定都命中",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8881500",
+      "category": "deep-inside",
+      "name": "蓄力攻击时，形成熔岩",
+      "type": "特殊效果",
+      "explanation": "使出蓄力攻击时，能形成熔岩; 熔岩：造成50点基础火属性伤害，5点削韧，3号冲击力; 熔岩持续存在3秒，半径2m; 每0.5秒可持续造成25点基础火属性伤害，1点削韧，0号冲击力; 附魔效果：20秒内，武器附带12点火属性伤害",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8882100",
+      "category": "deep-inside",
+      "name": "蓄力攻击时，释放雷电",
+      "type": "特殊效果",
+      "explanation": "使出蓄力攻击时，能释放雷电; 雷电：造成120点基础雷属性伤害，5点削韧，3号冲击力; 附魔效果：20秒内，武器附带12点雷属性伤害",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8882500",
+      "category": "deep-inside",
+      "name": "蓄力攻击时，形成催眠烟雾",
+      "type": "特殊效果",
+      "explanation": "使出蓄力攻击时，能形成催眠烟雾; 催眠烟雾：持续存在3秒，半径1m扩散至3m，每0.5秒可造成20点睡眠值; 附魔效果：20秒内，武器附带20点催眠值;（实际的存在时间解包看到就是3秒，比视觉上的动画特效更长）",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8883000",
+      "category": "deep-inside",
+      "name": "蓄力攻击时，形成追击魔力球",
+      "type": "弓弩专属",
+      "explanation": "使出蓄力攻击时，能形成魔力球，进行追击; 魔力球：3个魔力球，每个造成20点基础魔力属性伤害，1点削韧，3号冲击力",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8883100",
+      "category": "deep-inside",
+      "name": "精密射击时，在命中点降下落雷",
+      "type": "弓弩专属",
+      "explanation": "精密射击时，能在命中点降下落雷; 落雷：造成33%武器面板攻击力+30点基础雷属性伤害，不造成削韧，0号冲击力; 在水域可以额外形成扩散雷，造成60点基础雷属性伤害，不造成削韧，1号冲击力",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8883200",
+      "category": "deep-inside",
+      "name": "精密射击时，在命中点形成毒性烟雾",
+      "type": "弓弩专属",
+      "explanation": "精密射击时，能在命中点形成毒性烟雾; 毒性烟雾：持续存在1.8秒，半径1m扩散至3m，每0.5秒可造成11点中毒值",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8883300",
+      "category": "deep-inside",
+      "name": "精密射击时，在命中点形成腐败烟雾",
+      "type": "弓弩专属",
+      "explanation": "精密射击时，能在命中点形成腐败烟雾; 腐败烟雾：持续存在1.8秒，半径1m扩散至3m，每0.5秒可造成9点腐败值",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8883400",
+      "category": "deep-inside",
+      "name": "精密射击时，在命中点招来血蝇",
+      "type": "弓弩专属",
+      "explanation": "精密射击时，能在命中点招来血蝇; 血蝇：造成3%武器面板攻击力+1点基础物理伤害，不造成削韧，0号冲击力; 持续存在1.8秒，半径1m扩散至3m，每0.5秒可造成7点出血值",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8884200",
+      "category": "deep-inside",
+      "name": "持盾维持防御时，发动圣域",
+      "type": "盾牌专属",
+      "explanation": "持盾维持防御时，能缓慢恢复血量并展开圣域，提升减伤率; 持盾维持防御超过2.5秒后展开圣域，内置3秒冷却时间; 圣域：附近的友方单位，受到的伤害-15%，每1.5秒回复7点生命值，持续35秒; 弱化版圣域，和战技/其他词条引发的圣域数值不同",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8884300",
+      "category": "deep-inside",
+      "name": "失去平衡时，发动忍耐",
+      "type": "盾牌专属",
+      "explanation": "防御时失去平衡，或是被敌人格挡时能发动忍耐，提升强韧度与减伤率; 被破盾或者被弹反后，3.5秒内，受到的伤害-30%，免疫冲击力",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8885000",
+      "category": "deep-inside",
+      "name": "使用圣杯瓶时，也恢复专注值",
+      "type": "特殊效果",
+      "explanation": "使用圣杯瓶时，也会恢复专注值; 使用圣杯瓶时，可以额外回复20%专注值",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8885100",
+      "category": "deep-inside",
+      "name": "专注值不够时，施展魔法、祈祷恢复专注值",
+      "type": "法术触媒专属",
+      "explanation": "专注值不够时，咏唱失败动作会转为恢复专注值; 咏唱失败的动作会被替换，并恢复13%专注值",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    },
+    {
+      "id": "8885200",
+      "category": "deep-inside",
+      "name": "维持防御时，强化魔法、祷告",
+      "type": "法术触媒专属",
+      "explanation": "维持防御时，能提升魔法、祷告的攻击力与缩短咏唱时间; 双手共持法术触媒时，按照维持防御的时间触发增益buff，最多3层; 3层buff可互相叠加，但buff结束时间独立计算; 每2.5秒触发一层持续时间为25秒的增益; 法术伤害+10%，获得相当于30点灵巧所带来的施法速度",
+      "stackability": "相同词条不可叠加",
+      "buffType": ""
+    }
+  ]
+}

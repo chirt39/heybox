@@ -1,0 +1,7 @@
+{"case_id":"enemy-damage-weakness","question":"掳人少女人偶 44700010a 的弱点伤害倍率是多少？","expected_record_ids":["enemy:44700010a"]}
+{"case_id":"boss-encounter-scale","question":"黑夜之爵艾德雷作为第三夜 Boss 的敌人倍率资料是什么？","expected_record_ids":["enemy-scale:1"]}
+{"case_id":"character-tracker","question":"追踪者的角色资料和基础能力有哪些？","expected_record_ids":["character:追跡者"]}
+{"case_id":"effect-health-cap","question":"普通局外遗物词条‘提升血量上限’的资料是什么？","expected_record_ids":["effect-glossary:normal-outside:7000090"]}
+{"case_id":"item-sovereign-sigil","question":"Sovereign Sigil 是什么物品？","expected_record_ids":["item:11"]}
+{"case_id":"relic-tracker-earring","question":"追踪者的耳环遗物有什么资料？","expected_record_ids":["relic:theWyldersEarring"]}
+{"case_id":"vessel-tracker-urn","question":"追踪者器皿的普通和深夜槽位颜色是什么？","expected_record_ids":["vessel:追跡者:urn"]}

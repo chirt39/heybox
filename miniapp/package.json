@@ -1,0 +1,48 @@
+{
+  "name": "nightreign-heybox-miniapp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "heybox": {
+    "miniProgramId": "01a175d3-179d-747c-b9ac-62a7a7486105",
+    "name": "渡夜图鉴",
+    "desc": "面向《艾尔登法环 黑夜君临》玩家的非官方图鉴、遗物存档只读解析与配装工具。",
+    "category": "tool",
+    "bindAppIds": [
+      "2622380"
+    ],
+    "icon": "assets/heybox-icon.png",
+    "coverImages": [
+      "assets/heybox-cover.png"
+    ],
+    "platforms": [
+      "android",
+      "ios",
+      "windows"
+    ],
+    "permissions": {
+      "filesystem": {
+        "enabled": true
+      },
+      "network": {
+        "enabled": true
+      }
+    }
+  },
+  "scripts": {
+    "hb-sdk": "hb-sdk",
+    "predev": "node scripts/prepare.mjs",
+    "dev": "hb-sdk dev",
+    "prebuild": "node scripts/prepare.mjs",
+    "build": "hb-sdk build",
+    "deploy": "hb-sdk remote deploy"
+  },
+  "dependencies": {
+    "@heybox/hb-sdk": "^0.9.3",
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.10",
+    "vite": "^8.0.12"
+  }
+}

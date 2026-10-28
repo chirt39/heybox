@@ -1,0 +1,25 @@
+# 本地存档与私人解析结果不得进入公开仓库
+*.sl2
+*.sl2.bak
+*.sl2.tmp
+samples/private/
+local-data/
+
+# 凭据与临时构建产物
+.env
+.env.*
+!.env.example
+*.tar.gz
+tmp/
+tmpdist/
+node_modules/
+miniapp/.generated-src/
+miniapp/.generated-public/
+miniapp/dist/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Vercel 本地关联信息
+.vercel/

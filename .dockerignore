@@ -1,0 +1,21 @@
+.git
+.env
+.env.*
+!.env.example
+node_modules
+dist
+tmp
+tmpdist
+samples/private
+local-data
+*.sl2
+*.sl2.bak
+*.sl2.tmp
+__pycache__
+*.pyc
+
+# The backend uses game JSON and hand-written game knowledge only.
+public/*
+!public/*.json
+docs/*
+!docs/NIGHTREIGN_KNOWLEDGE.md
