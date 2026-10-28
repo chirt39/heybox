@@ -11,7 +11,6 @@
     "api": {
       "root": ".",
       "framework": "fastapi",
-      "installCommand": "python -m pip install -r backend/requirements.txt",
       "entrypoint": "backend.main:app"
     }
   },

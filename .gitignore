@@ -16,6 +16,7 @@ node_modules/
 miniapp/.generated-src/
 miniapp/.generated-public/
 miniapp/dist/
+dist/
 __pycache__/
 *.py[cod]
 .DS_Store
